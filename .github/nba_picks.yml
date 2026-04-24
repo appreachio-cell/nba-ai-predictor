@@ -1,0 +1,56 @@
+name: NBA Daily Picks
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # 11 AM ET (15:00 UTC) every day
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  run-picks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history so picks_history is preserved
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Write config with secrets
+        run: |
+          sed -i "s|ODDS_KEY.*=.*\".*\"|ODDS_KEY      = \"${{ secrets.ODDS_KEY }}\"|" config.py
+          sed -i "s|ANTHROPIC_KEY.*=.*\".*\"|ANTHROPIC_KEY = \"${{ secrets.ANTHROPIC_KEY }}\"|" config.py
+
+      - name: Write API keys into files
+        run: |
+          sed -i "s|OPENROUTER_KEY = \".*\"|OPENROUTER_KEY = \"${{ secrets.OPENROUTER_KEY }}\"|" groq_ai.py
+          sed -i "s|TAVILY_KEY = \".*\"|TAVILY_KEY = \"${{ secrets.TAVILY_KEY }}\"|" prop_search.py
+
+      - name: Clear cache
+        run: rm -rf cache_nba __pycache__
+
+      - name: Run picks
+        run: python nba_picks.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add app.html picks_history/ record_nba.json history_*.html picks_nba.json
+          git diff --staged --quiet || git commit -m "picks: $(date +'%Y-%m-%d')"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
+          include_files: app.html
