@@ -36,6 +36,9 @@ jobs:
       - name: Clear cache
         run: rm -rf cache_nba __pycache__
 
+      - name: Rebuild record
+        run: python rebuild_record.py
+
       - name: Run picks
         run: python nba_picks.py
 
