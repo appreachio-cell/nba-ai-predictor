@@ -2,7 +2,7 @@ name: NBA Daily Picks
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # 11 AM ET (15:00 UTC) every day
+    - cron: '0 16 * * *'  # 8 AM PST / 11 AM ET
   workflow_dispatch:        # Allow manual trigger from GitHub UI
 
 jobs:
