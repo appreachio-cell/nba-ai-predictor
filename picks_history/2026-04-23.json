@@ -1,0 +1,144 @@
+{
+  "date": "2026-04-23",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401869398",
+      "homeAbbr": "MIN",
+      "awayAbbr": "DEN",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "Denver Nuggets",
+      "homeRec": {
+        "wins": 49,
+        "losses": 33,
+        "pct": 0.5975609756097561,
+        "summary": "49-33"
+      },
+      "awayRec": {
+        "wins": 54,
+        "losses": 28,
+        "pct": 0.6585365853658537,
+        "summary": "54-28"
+      },
+      "startTime": "9:30 PM ET",
+      "pred": {
+        "h_prob": 0.9146,
+        "a_prob": 0.0854,
+        "h_odds": -1200,
+        "a_odds": 1060,
+        "h_ev": -0.9,
+        "a_ev": -0.9,
+        "h_proj": 125,
+        "a_proj": 106,
+        "total_line": 231.5,
+        "over_odds": -110,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "away",
+        "pick_team": "Denver Nuggets",
+        "my_prob": 0.45,
+        "confidence": 55,
+        "reasoning": "Despite the odds, Denver has a strong playoff pedigree and has proven they can win on the road. Minnesota's injuries, particularly to Shannon Jr., could impact their depth and offensive firepower. Denver's experience in high-pressure situations gives them a slight edge in this matchup, even if it's an uphill battle.",
+        "total_lean": "OVER",
+        "total_confidence": 60,
+        "total_reason": "Both teams have potent offenses capable of scoring. While Minnesota's defense can be stifling, Denver's offensive efficiency, especially with Jokic, can push the pace and lead to more scoring opportunities. The absence of Gordon for Denver might slightly impact their defense, but their offensive capabilities remain high.",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Anthony Edwards",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": 130,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": 130,
+          "ev": 7.5
+        },
+        {
+          "player": "Naz Reid",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 140,
+          "UNDER": -115,
+          "dir": "OVER",
+          "odds": 140,
+          "ev": 5.1
+        },
+        {
+          "player": "Rudy Gobert",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -160,
+          "UNDER": 182,
+          "dir": "OVER",
+          "odds": -160,
+          "ev": 3.1
+        },
+        {
+          "player": "Bruce Brown",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 135,
+          "UNDER": -125,
+          "dir": "OVER",
+          "odds": 135,
+          "ev": 1.9
+        },
+        {
+          "player": "Jaden McDaniels",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 124,
+          "UNDER": -128,
+          "dir": "OVER",
+          "odds": 124,
+          "ev": -0.8
+        },
+        {
+          "player": "Jaden McDaniels",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": 124,
+          "UNDER": -130,
+          "dir": "OVER",
+          "odds": 124,
+          "ev": -1.2
+        },
+        {
+          "player": "Christian Braun",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -115,
+          "UNDER": 108,
+          "dir": "OVER",
+          "odds": -115,
+          "ev": -1.5
+        },
+        {
+          "player": "Anthony Edwards",
+          "stat": "Assists",
+          "line": 5.5,
+          "OVER": 140,
+          "UNDER": -152,
+          "dir": "OVER",
+          "odds": 140,
+          "ev": -1.9
+        }
+      ],
+      "injuries": [
+        "MIN: Terrence Shannon Jr. Out",
+        "MIN: Jaylen Clark Out",
+        "DEN: Aaron Gordon Out",
+        "DEN: Peyton Watson Out - Strain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}

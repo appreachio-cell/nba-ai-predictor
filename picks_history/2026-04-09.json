@@ -1,0 +1,353 @@
+{
+  "date": "2026-04-09",
+  "graded": true,
+  "games": [
+    {
+      "espn_id": "401811020",
+      "homeAbbr": "TOR",
+      "awayAbbr": "MIA",
+      "homeTeam": "Toronto Raptors",
+      "awayTeam": "Miami Heat",
+      "homeRec": {
+        "wins": 44,
+        "losses": 35,
+        "pct": 0.5569620253164557,
+        "summary": "44-35"
+      },
+      "awayRec": {
+        "wins": 41,
+        "losses": 38,
+        "pct": 0.5189873417721519,
+        "summary": "41-38"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5912,
+        "a_prob": 0.4088,
+        "h_odds": -160,
+        "a_odds": 135,
+        "h_ev": -3.9,
+        "a_ev": -3.9,
+        "h_proj": 120,
+        "a_proj": 116,
+        "total_line": 236.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Toronto Raptors",
+        "my_prob": 0.62,
+        "confidence": 65,
+        "reasoning": "Search results confirm Toronto has ZERO players on their injury report today \u2014 the ESPN-listed absences appear cleared or negligible \u2014 while Miami carries one listed player (Jovic out). Toronto's home-court edge and a healthier roster at 44-35 vs. MIA's 41-38 justifies backing the favorite at -160.",
+        "total_lean": "OVER",
+        "total_reason": "Miami scores at the 2nd-highest rate in the NBA (120.4 PPG) and Toronto is relatively healthy; both offenses should be near full strength, pushing toward the 236.5 total.",
+        "edge_found": true
+      },
+      "props": [],
+      "injuries": [
+        "TOR: Trayce Jackson-Davis Out - Not Specified",
+        "TOR: Chucky Hepburn Out - Surgery",
+        "MIA: Dru Smith Out - Soreness",
+        "MIA: Nikola Jovic Out - Sprain",
+        "MIA: Terry Rozier Out - Not Specified"
+      ],
+      "result": "W",
+      "result_score": "MIA 114\u2013128 TOR",
+      "tot_result": "W"
+    },
+    {
+      "espn_id": "401811021",
+      "homeAbbr": "WSH",
+      "awayAbbr": "CHI",
+      "homeTeam": "Washington Wizards",
+      "awayTeam": "Chicago Bulls",
+      "homeRec": {
+        "wins": 17,
+        "losses": 62,
+        "pct": 0.21518987341772153,
+        "summary": "17-62"
+      },
+      "awayRec": {
+        "wins": 30,
+        "losses": 49,
+        "pct": 0.379746835443038,
+        "summary": "30-49"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.3077,
+        "a_prob": 0.6923,
+        "h_odds": 215,
+        "a_odds": -250,
+        "h_ev": -3.1,
+        "a_ev": -3.1,
+        "h_proj": 120,
+        "a_proj": 130,
+        "total_line": 249.5,
+        "over_odds": -110,
+        "under_odds": -118,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "away",
+        "pick_team": "Chicago Bulls",
+        "my_prob": 0.74,
+        "confidence": 72,
+        "reasoning": "Washington has 12 players on the injury report today and is being outscored by 11.8 PPG on the season (worst differential in the league); the four key ESPN-listed absences (Sarr, Hardy, Coulibaly, Johnson) gut their already-depleted roster. Chicago at -250 is justified and possibly still has value given Washington's catastrophic injury situation.",
+        "total_lean": "UNDER",
+        "total_reason": "Washington allows 124.7 PPG defensively but with 12 players out their offense (112.9 PPG, 25th in NBA) will be severely limited, and a short-handed roster often leads to slower pace and lower scoring.",
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "WSH: Alex Sarr Out - Inflammation",
+        "WSH: Jaden Hardy Out - Spasms",
+        "WSH: Bilal Coulibaly Out - Inflammation",
+        "WSH: Tre Johnson Out - Sprain",
+        "WSH: Tristan Vukcevic Out - Bruise",
+        "CHI: Isaac Okoro Out - Bruise",
+        "CHI: Matas Buzelis Out - Not Specified",
+        "CHI: Josh Giddey Out - Not Specified",
+        "CHI: Nick Richards Out - Sprain",
+        "CHI: Anfernee Simons Out - Fracture"
+      ],
+      "result": "W",
+      "result_score": "CHI 119\u2013108 WSH",
+      "tot_result": "W"
+    },
+    {
+      "espn_id": "401811022",
+      "homeAbbr": "BKN",
+      "awayAbbr": "IND",
+      "homeTeam": "Brooklyn Nets",
+      "awayTeam": "Indiana Pacers",
+      "homeRec": {
+        "wins": 20,
+        "losses": 59,
+        "pct": 0.25316455696202533,
+        "summary": "20-59"
+      },
+      "awayRec": {
+        "wins": 18,
+        "losses": 61,
+        "pct": 0.22784810126582278,
+        "summary": "18-61"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.4152,
+        "a_prob": 0.5848,
+        "h_odds": 136,
+        "a_odds": -148,
+        "h_ev": -2.0,
+        "a_ev": -2.0,
+        "h_proj": 110,
+        "a_proj": 114,
+        "total_line": 224.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "away",
+        "pick_team": "Indiana Pacers",
+        "my_prob": 0.6,
+        "confidence": 58,
+        "reasoning": "Brooklyn is missing four rotation players (Minott, Traore, Mann, Williams) and at 20-59 is one of the league's worst teams; Indiana at 18-61 is nearly as bad but is a moderate favorite at -148, and the line suggests oddsmakers see them as clearly better on the night with BKN's absences.",
+        "total_lean": "UNDER",
+        "total_reason": "Both teams rank among the NBA's lowest-scoring offenses and Brooklyn's four outs strip their already thin depth, pointing toward a low-scoring game well under 224.5.",
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "BKN: Josh Minott Out - Soreness",
+        "BKN: Nolan Traore Out - Not Specified",
+        "BKN: Terance Mann Out - Tendinitis",
+        "BKN: Ziaire Williams Out - Inflammation",
+        "BKN: Noah Clowney Out - Not Specified",
+        "IND: Kobe Brown Out - Sprain",
+        "IND: Ben Sheppard Out - Strain",
+        "IND: Tyrese Haliburton Out - Surgery",
+        "IND: Jarace Walker Day-To-Day",
+        "IND: T.J. McConnell Out - Not Specified"
+      ],
+      "result": "W",
+      "result_score": "IND 123\u201394 BKN",
+      "tot_result": "W"
+    },
+    {
+      "espn_id": "401811023",
+      "homeAbbr": "NY",
+      "awayAbbr": "BOS",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Boston Celtics",
+      "homeRec": {
+        "wins": 51,
+        "losses": 28,
+        "pct": 0.6455696202531646,
+        "summary": "51-28"
+      },
+      "awayRec": {
+        "wins": 54,
+        "losses": 25,
+        "pct": 0.6835443037974683,
+        "summary": "54-25"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.6105,
+        "a_prob": 0.3895,
+        "h_odds": -168,
+        "a_odds": 150,
+        "h_ev": -2.6,
+        "a_ev": -2.6,
+        "h_proj": 109,
+        "a_proj": 104,
+        "total_line": 212.5,
+        "over_odds": -108,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 4,
+        "pick": "home",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.63,
+        "confidence": 66,
+        "reasoning": "Jaylen Brown (Out, tendinitis) is Boston's second-best player and his absence significantly hampers a Celtics offense \u2014 backing the Knicks at -168 is reasonable given the injury edge; Boston loses a top-2 scorer/creator while New York only loses backup PG Tyler Kolek.",
+        "total_lean": "UNDER",
+        "total_reason": "The total of 212.5 is already the lowest on the slate reflecting two elite defenses; losing Brown further reduces Boston's offensive ceiling, leaning UNDER.",
+        "edge_found": true
+      },
+      "props": [],
+      "injuries": [
+        "NY: Tyler Kolek Out - Strain",
+        "BOS: Jaylen Brown Out - Tendinitis"
+      ],
+      "result": "W",
+      "result_score": "BOS 106\u2013112 NY",
+      "tot_result": "L"
+    },
+    {
+      "espn_id": "401811024",
+      "homeAbbr": "HOU",
+      "awayAbbr": "PHI",
+      "homeTeam": "Houston Rockets",
+      "awayTeam": "Philadelphia 76ers",
+      "homeRec": {
+        "wins": 50,
+        "losses": 29,
+        "pct": 0.6329113924050633,
+        "summary": "50-29"
+      },
+      "awayRec": {
+        "wins": 43,
+        "losses": 36,
+        "pct": 0.5443037974683544,
+        "summary": "43-36"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6786,
+        "a_prob": 0.3214,
+        "h_odds": -225,
+        "a_odds": 205,
+        "h_ev": -2.0,
+        "a_ev": -2.0,
+        "h_proj": 117,
+        "a_proj": 110,
+        "total_line": 226.5,
+        "over_odds": -108,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 5,
+        "pick": "home",
+        "pick_team": "Houston Rockets",
+        "my_prob": 0.7,
+        "confidence": 70,
+        "reasoning": "Joel Embiid is confirmed out (surgery) for Philadelphia, gutting their primary scorer and defensive anchor; Houston at 50-29 is one of the league's best teams at home and -225 is justified \u2014 Tyrese Maxey (28.4 PPG) alone cannot overcome Embiid's absence against a top-tier Rockets squad.",
+        "total_lean": "UNDER",
+        "total_reason": "Embiid's absence eliminates Philly's dominant post scorer, and both VanVleet (HOU) and Adams (HOU) are also out; reduced star power on both sides points UNDER 226.5.",
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "HOU: Steven Adams Out - Surgery",
+        "HOU: Fred VanVleet Out - Surgery",
+        "PHI: Joel Embiid Out - Surgery",
+        "PHI: Johni Broome Out - Surgery",
+        "PHI: Cameron Payne Out - Strain"
+      ],
+      "result": "W",
+      "result_score": "PHI 102\u2013113 HOU",
+      "tot_result": "W"
+    },
+    {
+      "espn_id": "401811025",
+      "homeAbbr": "GS",
+      "awayAbbr": "LAL",
+      "homeTeam": "Golden State Warriors",
+      "awayTeam": "Los Angeles Lakers",
+      "homeRec": {
+        "wins": 37,
+        "losses": 42,
+        "pct": 0.46835443037974683,
+        "summary": "37-42"
+      },
+      "awayRec": {
+        "wins": 50,
+        "losses": 29,
+        "pct": 0.6329113924050633,
+        "summary": "50-29"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.5606,
+        "a_prob": 0.4394,
+        "h_odds": -138,
+        "a_odds": 120,
+        "h_ev": -3.3,
+        "a_ev": -3.3,
+        "h_proj": 112,
+        "a_proj": 110,
+        "total_line": 221.5,
+        "over_odds": -110,
+        "under_odds": -108,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 6,
+        "pick": "away",
+        "pick_team": "Los Angeles Lakers",
+        "my_prob": 0.54,
+        "confidence": 60,
+        "reasoning": "Stephen Curry (Out) is Golden State's engine at 27.0 PPG and without him GS loses its entire offensive identity; critically, search results also reveal LeBron James is on the Lakers' injury report today (status uncertain), which creates two-way risk \u2014 but Curry's absence is the bigger confirmed star loss and the line at -138 GS now looks inflated.",
+        "total_lean": "UNDER",
+        "total_reason": "Curry's absence alone removes Golden State's primary scoring and pace-setter; if LeBron is also limited, both offenses are compromised, making UNDER 221.5 the lean.",
+        "edge_found": true
+      },
+      "props": [],
+      "injuries": [
+        "GS: Stephen Curry Out - Not Specified",
+        "GS: Charles Bassey Day-To-Day - Sprain",
+        "GS: Will Richard Out - Strain",
+        "GS: Gui Santos Day-To-Day - Bruise",
+        "GS: LJ Cryer Day-To-Day - Not Specified",
+        "LAL: Marcus Smart Out - Bruise",
+        "LAL: Jaxson Hayes Out - Soreness",
+        "LAL: Luka Doncic Out - Strain",
+        "LAL: Austin Reaves Out - Strain"
+      ],
+      "result": "W",
+      "result_score": "LAL 119\u2013103 GS",
+      "tot_result": "L"
+    }
+  ]
+}

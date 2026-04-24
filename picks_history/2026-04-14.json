@@ -1,0 +1,198 @@
+{
+  "date": "2026-04-14",
+  "graded": true,
+  "games": [
+    {
+      "espn_id": "401866755",
+      "homeAbbr": "CHA",
+      "awayAbbr": "MIA",
+      "homeTeam": "Charlotte Hornets",
+      "awayTeam": "Miami Heat",
+      "homeRec": {
+        "wins": 44,
+        "losses": 38,
+        "pct": 0.5365853658536586,
+        "summary": "44-38"
+      },
+      "awayRec": {
+        "wins": 43,
+        "losses": 39,
+        "pct": 0.524390243902439,
+        "summary": "43-39"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.6818,
+        "a_prob": 0.3182,
+        "h_odds": -250,
+        "a_odds": 200,
+        "h_ev": -4.5,
+        "a_ev": -4.5,
+        "h_proj": 118,
+        "a_proj": 110,
+        "total_line": 228.5,
+        "over_odds": -120,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Charlotte Hornets",
+        "my_prob": 0.66,
+        "confidence": 66,
+        "reasoning": "Charlotte is essentially fully healthy (only PJ Hall out for season) while Miami is without Jovic (Out), Dru Smith (Out 5 straight games), and Larsson (Questionable). The Hornets have home court, a motivated young core, and a healthier roster. Miami's 3-1 season-series edge is real but came with a healthier squad \u2014 the cumulative injury attrition tips this toward CHA. Implied odds already favor Charlotte at 68%; we sit roughly in line at 66%, so no strong value edge but slight lean to home.",
+        "total_lean": "UNDER",
+        "total_reason": "Miami missing multiple rotation players (Jovic, Smith, Larsson potentially) reduces offensive output; Play-In elimination-game pressure typically slows pace and scoring, leaning the total under 228.5.",
+        "edge_found": false,
+        "prop_picks": [
+          {
+            "player": "LaMelo Ball",
+            "stat": "Threes Made",
+            "line": 3.5,
+            "dir": "OVER",
+            "confidence": 65,
+            "reasoning": "Ball has a high-volume three-point diet and with Charlotte at home in a high-stakes Play-In game and a depleted Miami defense, hitting 4+ threes is a realistic outcome per multiple sources.",
+            "odds": -188
+          },
+          {
+            "player": "Tyler Herro",
+            "stat": "Points",
+            "line": 19.5,
+            "dir": "OVER",
+            "confidence": 62,
+            "reasoning": "With Jovic and Smith out and Larsson questionable, Herro carries a heavy offensive load for Miami and will need to shoulder usage \u2014 line feels a touch low given the circumstances.",
+            "odds": -154
+          }
+        ]
+      },
+      "props": [],
+      "injuries": [
+        "MIA: Dru Smith Out - Soreness",
+        "MIA: Nikola Jovic Out - Sprain"
+      ],
+      "prop_picks": [
+        {
+          "player": "LaMelo Ball",
+          "stat": "Threes Made",
+          "line": 3.5,
+          "dir": "OVER",
+          "confidence": 65,
+          "reasoning": "Ball has a high-volume three-point diet and with Charlotte at home in a high-stakes Play-In game and a depleted Miami defense, hitting 4+ threes is a realistic outcome per multiple sources.",
+          "odds": -188
+        },
+        {
+          "player": "Tyler Herro",
+          "stat": "Points",
+          "line": 19.5,
+          "dir": "OVER",
+          "confidence": 62,
+          "reasoning": "With Jovic and Smith out and Larsson questionable, Herro carries a heavy offensive load for Miami and will need to shoulder usage \u2014 line feels a touch low given the circumstances.",
+          "odds": -154,
+          "prop_result": "W",
+          "actual": 23.0
+        }
+      ],
+      "result": "W",
+      "result_score": "MIA 126\u2013127 CHA",
+      "tot_result": "L"
+    },
+    {
+      "espn_id": "401866754",
+      "homeAbbr": "PHX",
+      "awayAbbr": "POR",
+      "homeTeam": "Phoenix Suns",
+      "awayTeam": "Portland Trail Blazers",
+      "homeRec": {
+        "wins": 45,
+        "losses": 37,
+        "pct": 0.5487804878048781,
+        "summary": "45-37"
+      },
+      "awayRec": {
+        "wins": 42,
+        "losses": 40,
+        "pct": 0.5121951219512195,
+        "summary": "42-40"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.5744,
+        "a_prob": 0.4256,
+        "h_odds": -142,
+        "a_odds": 130,
+        "h_ev": -2.1,
+        "a_ev": -2.1,
+        "h_proj": 110,
+        "a_proj": 106,
+        "total_line": 216.5,
+        "over_odds": -106,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Phoenix Suns",
+        "my_prob": 0.6,
+        "confidence": 60,
+        "reasoning": "Jalen Green is confirmed active and healthy for Phoenix despite recent knee concerns, and the Suns have home court with a superior record (45-37). Portland's Jerami Grant is OUT (Strain), removing a key two-way player averaging significant minutes. Grayson Allen is Day-To-Day for PHX (Soreness) but his absence would be a minor setback, not a star-level impact loss. Net injury edge leans Phoenix. Implied odds at 57% are close to our 60% read \u2014 slight value on PHX.",
+        "total_lean": "UNDER",
+        "total_reason": "With Jerami Grant out for Portland and the potential loss of Allen for Phoenix, both teams' offenses are mildly compromised; Play-In defensive intensity and a 216.5 total that already feels lean supports a cautious UNDER lean.",
+        "edge_found": true,
+        "prop_picks": [
+          {
+            "player": "Devin Booker",
+            "stat": "Points",
+            "line": 27.5,
+            "dir": "OVER",
+            "confidence": 63,
+            "reasoning": "Booker is the clear #1 option on Phoenix in a must-win Play-In home game, and with Grayson Allen potentially limited, Booker's usage and shot volume should be elevated.",
+            "odds": -115
+          },
+          {
+            "player": "Jerami Grant",
+            "stat": "Points",
+            "line": 18.5,
+            "dir": "UNDER",
+            "confidence": 90,
+            "reasoning": "Grant is officially OUT with a strain per the ESPN injury report, so he will score 0 points \u2014 this is as close to a lock as props get.",
+            "odds": -400
+          }
+        ]
+      },
+      "props": [],
+      "injuries": [
+        "PHX: Grayson Allen Day-To-Day - Soreness",
+        "POR: Jerami Grant Out - Strain"
+      ],
+      "prop_picks": [
+        {
+          "player": "Devin Booker",
+          "stat": "Points",
+          "line": 27.5,
+          "dir": "OVER",
+          "confidence": 63,
+          "reasoning": "Booker is the clear #1 option on Phoenix in a must-win Play-In home game, and with Grayson Allen potentially limited, Booker's usage and shot volume should be elevated.",
+          "odds": -115,
+          "prop_result": "L",
+          "actual": 22.0
+        },
+        {
+          "player": "Jerami Grant",
+          "stat": "Points",
+          "line": 18.5,
+          "dir": "UNDER",
+          "confidence": 90,
+          "reasoning": "Grant is officially OUT with a strain per the ESPN injury report, so he will score 0 points \u2014 this is as close to a lock as props get.",
+          "odds": -400,
+          "prop_result": "W",
+          "actual": 16.0
+        }
+      ],
+      "result": "L",
+      "result_score": "POR 114\u2013110 PHX",
+      "tot_result": "L"
+    }
+  ]
+}

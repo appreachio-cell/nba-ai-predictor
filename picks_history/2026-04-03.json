@@ -1,0 +1,515 @@
+{
+  "date": "2026-04-03",
+  "graded": true,
+  "games": [
+    {
+      "espn_id": "401810975",
+      "homeAbbr": "CHA",
+      "awayAbbr": "IND",
+      "homeTeam": "Charlotte Hornets",
+      "awayTeam": "Indiana Pacers",
+      "homeRec": {
+        "wins": 41,
+        "losses": 36,
+        "pct": 0.5324675324675324,
+        "summary": "41-36"
+      },
+      "awayRec": {
+        "wins": 18,
+        "losses": 58,
+        "pct": 0.23684210526315788,
+        "summary": "18-58"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.9036,
+        "a_prob": 0.0964,
+        "h_odds": -1500,
+        "a_odds": 900,
+        "h_ev": -3.6,
+        "a_ev": -3.6,
+        "h_proj": 126,
+        "a_proj": 108,
+        "total_line": 233.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "home",
+        "pick_team": "Charlotte Hornets",
+        "my_prob": 0.9036,
+        "confidence": 90,
+        "reasoning": "Model pick based on odds/records.",
+        "total_lean": null,
+        "total_reason": null,
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "CHA: Moussa Diabate Out",
+        "CHA: PJ Hall Out - Soreness",
+        "CHA: Grant Williams Out - Not Specified",
+        "IND: Andrew Nembhard Out - Soreness",
+        "IND: Jarace Walker Out - Bruise",
+        "IND: Obi Toppin Day-To-Day - Not Specified",
+        "IND: Aaron Nesmith Out - Strain",
+        "IND: T.J. McConnell Out - Soreness"
+      ],
+      "result": "W",
+      "result_score": "IND 108\u2013129 CHA",
+      "tot_result": null
+    },
+    {
+      "espn_id": "401810976",
+      "homeAbbr": "PHI",
+      "awayAbbr": "MIN",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeRec": {
+        "wins": 42,
+        "losses": 34,
+        "pct": 0.5526315789473685,
+        "summary": "42-34"
+      },
+      "awayRec": {
+        "wins": 46,
+        "losses": 30,
+        "pct": 0.6052631578947368,
+        "summary": "46-30"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.6016,
+        "a_prob": 0.3984,
+        "h_odds": -166,
+        "a_odds": 142,
+        "h_ev": -3.6,
+        "a_ev": -3.6,
+        "h_proj": 119,
+        "a_proj": 114,
+        "total_line": 233.5,
+        "over_odds": -115,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "home",
+        "pick_team": "Philadelphia 76ers",
+        "my_prob": 0.6016,
+        "confidence": 60,
+        "reasoning": "Model pick based on odds/records.",
+        "total_lean": null,
+        "total_reason": null,
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "PHI: Joel Embiid Day-To-Day",
+        "PHI: Johni Broome Out - Surgery",
+        "MIN: Jaden McDaniels Out - Tendinitis"
+      ],
+      "result": "W",
+      "result_score": "MIN 103\u2013115 PHI",
+      "tot_result": null
+    },
+    {
+      "espn_id": "401810977",
+      "homeAbbr": "BKN",
+      "awayAbbr": "ATL",
+      "homeTeam": "Brooklyn Nets",
+      "awayTeam": "Atlanta Hawks",
+      "homeRec": {
+        "wins": 18,
+        "losses": 58,
+        "pct": 0.23684210526315788,
+        "summary": "18-58"
+      },
+      "awayRec": {
+        "wins": 44,
+        "losses": 33,
+        "pct": 0.5714285714285714,
+        "summary": "44-33"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.0847,
+        "a_prob": 0.9153,
+        "h_odds": 1040,
+        "a_odds": -1800,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 103,
+        "a_proj": 122,
+        "total_line": 225.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "away",
+        "pick_team": "Atlanta Hawks",
+        "my_prob": 0.9153,
+        "confidence": 92,
+        "reasoning": "Model pick based on odds/records.",
+        "total_lean": null,
+        "total_reason": null,
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "BKN: Michael Porter Jr. Out - Strain",
+        "BKN: Danny Wolf Out - Sprain",
+        "BKN: Egor Demin Out - Surgery",
+        "BKN: Day'Ron Sharpe Out - Surgery",
+        "ATL: Jock Landale Out - Sprain"
+      ],
+      "result": "W",
+      "result_score": "ATL 141\u2013107 BKN",
+      "tot_result": null
+    },
+    {
+      "espn_id": "401810978",
+      "homeAbbr": "NY",
+      "awayAbbr": "CHI",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Chicago Bulls",
+      "homeRec": {
+        "wins": 49,
+        "losses": 28,
+        "pct": 0.6363636363636364,
+        "summary": "49-28"
+      },
+      "awayRec": {
+        "wins": 29,
+        "losses": 47,
+        "pct": 0.3815789473684211,
+        "summary": "29-47"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.8922,
+        "a_prob": 0.1078,
+        "h_odds": -1150,
+        "a_odds": 800,
+        "h_ev": -3.0,
+        "a_ev": -3.0,
+        "h_proj": 128,
+        "a_proj": 110,
+        "total_line": 237.5,
+        "over_odds": -115,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "home",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.8922,
+        "confidence": 89,
+        "reasoning": "Model pick based on odds/records.",
+        "total_lean": null,
+        "total_reason": null,
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "NY: Karl-Anthony Towns Day-To-Day",
+        "CHI: Tre Jones Day-To-Day - Sprain",
+        "CHI: Josh Giddey Day-To-Day",
+        "CHI: Guerschon Yabusele Day-To-Day - Sprain",
+        "CHI: Lachlan Olbrich Day-To-Day - Plantar Fasciitis",
+        "CHI: Nick Richards Out - Sprain"
+      ],
+      "result": "W",
+      "result_score": "CHI 96\u2013136 NY",
+      "tot_result": null
+    },
+    {
+      "espn_id": "401810979",
+      "homeAbbr": "HOU",
+      "awayAbbr": "UTAH",
+      "homeTeam": "Houston Rockets",
+      "awayTeam": "Utah Jazz",
+      "homeRec": {
+        "wins": 47,
+        "losses": 29,
+        "pct": 0.618421052631579,
+        "summary": "47-29"
+      },
+      "awayRec": {
+        "wins": 21,
+        "losses": 56,
+        "pct": 0.2727272727272727,
+        "summary": "21-56"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.9197,
+        "a_prob": 0.0803,
+        "h_odds": -2100,
+        "a_odds": 1100,
+        "h_ev": -3.7,
+        "a_ev": -3.6,
+        "h_proj": 126,
+        "a_proj": 108,
+        "total_line": 233.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "home",
+        "pick_team": "Houston Rockets",
+        "my_prob": 0.9197,
+        "confidence": 92,
+        "reasoning": "Model pick based on odds/records.",
+        "total_lean": null,
+        "total_reason": null,
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "HOU: Steven Adams Out - Surgery",
+        "HOU: Fred VanVleet Out - Surgery",
+        "UTAH: Keyonte George Out - Strain",
+        "UTAH: Isaiah Collier Out - Strain",
+        "UTAH: Elijah Harkless Out - Strain",
+        "UTAH: Lauri Markkanen Out - Pinched Nerve",
+        "UTAH: Jusuf Nurkic Out - Surgery"
+      ],
+      "result": "W",
+      "result_score": "UTAH 106\u2013140 HOU",
+      "tot_result": null
+    },
+    {
+      "espn_id": "401810980",
+      "homeAbbr": "MEM",
+      "awayAbbr": "TOR",
+      "homeTeam": "Memphis Grizzlies",
+      "awayTeam": "Toronto Raptors",
+      "homeRec": {
+        "wins": 25,
+        "losses": 51,
+        "pct": 0.32894736842105265,
+        "summary": "25-51"
+      },
+      "awayRec": {
+        "wins": 42,
+        "losses": 34,
+        "pct": 0.5526315789473685,
+        "summary": "42-34"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.1248,
+        "a_prob": 0.8752,
+        "h_odds": 675,
+        "a_odds": -950,
+        "h_ev": -3.3,
+        "a_ev": -3.3,
+        "h_proj": 108,
+        "a_proj": 124,
+        "total_line": 232.5,
+        "over_odds": -115,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "away",
+        "pick_team": "Toronto Raptors",
+        "my_prob": 0.8752,
+        "confidence": 88,
+        "reasoning": "Model pick based on odds/records.",
+        "total_lean": null,
+        "total_reason": null,
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "MEM: Walter Clayton Jr. Day-To-Day",
+        "MEM: Taj Gibson Out - Not Specified",
+        "MEM: Ty Jerome Out - Sprain",
+        "MEM: Cam Spencer Out - Soreness",
+        "MEM: Olivier-Maxence Prosper Day-To-Day - Soreness",
+        "TOR: Chucky Hepburn Out - Surgery",
+        "TOR: Jamison Battle Out - Not Specified",
+        "TOR: Immanuel Quickley Out - Plantar Fasciitis"
+      ],
+      "result": "W",
+      "result_score": "TOR 128\u201396 MEM",
+      "tot_result": null
+    },
+    {
+      "espn_id": "401810981",
+      "homeAbbr": "MIL",
+      "awayAbbr": "BOS",
+      "homeTeam": "Milwaukee Bucks",
+      "awayTeam": "Boston Celtics",
+      "homeRec": {
+        "wins": 30,
+        "losses": 46,
+        "pct": 0.39473684210526316,
+        "summary": "30-46"
+      },
+      "awayRec": {
+        "wins": 51,
+        "losses": 25,
+        "pct": 0.6710526315789473,
+        "summary": "51-25"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.0746,
+        "a_prob": 0.9254,
+        "h_odds": 1200,
+        "a_odds": -2100,
+        "h_ev": -3.0,
+        "a_ev": -3.1,
+        "h_proj": 98,
+        "a_proj": 118,
+        "total_line": 216.5,
+        "over_odds": -110,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "away",
+        "pick_team": "Boston Celtics",
+        "my_prob": 0.9254,
+        "confidence": 93,
+        "reasoning": "Model pick based on odds/records.",
+        "total_lean": null,
+        "total_reason": null,
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "MIL: Ryan Rollins Day-To-Day - Strain",
+        "MIL: Jericho Sims Day-To-Day - Inflammation",
+        "MIL: Thanasis Antetokounmpo Out - Strain",
+        "MIL: Gary Trent Jr. Day-To-Day - Bruise",
+        "MIL: Bobby Portis Out - Sprain",
+        "BOS: Nikola Vucevic Out - Surgery"
+      ],
+      "result": "W",
+      "result_score": "BOS 133\u2013101 MIL",
+      "tot_result": null
+    },
+    {
+      "espn_id": "401810982",
+      "homeAbbr": "DAL",
+      "awayAbbr": "ORL",
+      "homeTeam": "Dallas Mavericks",
+      "awayTeam": "Orlando Magic",
+      "homeRec": {
+        "wins": 24,
+        "losses": 52,
+        "pct": 0.3157894736842105,
+        "summary": "24-52"
+      },
+      "awayRec": {
+        "wins": 40,
+        "losses": 36,
+        "pct": 0.5263157894736842,
+        "summary": "40-36"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.3043,
+        "a_prob": 0.6957,
+        "h_odds": 220,
+        "a_odds": -250,
+        "h_ev": -2.6,
+        "a_ev": -2.6,
+        "h_proj": 115,
+        "a_proj": 124,
+        "total_line": 239.5,
+        "over_odds": -105,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "away",
+        "pick_team": "Orlando Magic",
+        "my_prob": 0.6957,
+        "confidence": 70,
+        "reasoning": "Model pick based on odds/records.",
+        "total_lean": null,
+        "total_reason": null,
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "DAL: Marvin Bagley III Day-To-Day - Pinched Nerve",
+        "DAL: Caleb Martin Out - Strain",
+        "DAL: P.J. Washington Day-To-Day - Not Specified",
+        "DAL: Kyrie Irving Out - Surgery",
+        "DAL: Dereck Lively II Out - Surgery",
+        "ORL: Jonathan Isaac Out - Sprain",
+        "ORL: Anthony Black Out - Strain"
+      ],
+      "result": "W",
+      "result_score": "ORL 138\u2013127 DAL",
+      "tot_result": null
+    },
+    {
+      "espn_id": "401810983",
+      "homeAbbr": "SAC",
+      "awayAbbr": "NO",
+      "homeTeam": "Sacramento Kings",
+      "awayTeam": "New Orleans Pelicans",
+      "homeRec": {
+        "wins": 20,
+        "losses": 57,
+        "pct": 0.2597402597402597,
+        "summary": "20-57"
+      },
+      "awayRec": {
+        "wins": 25,
+        "losses": 52,
+        "pct": 0.3246753246753247,
+        "summary": "25-52"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.3347,
+        "a_prob": 0.6653,
+        "h_odds": 190,
+        "a_odds": -218,
+        "h_ev": -2.9,
+        "a_ev": -3.0,
+        "h_proj": 112,
+        "a_proj": 120,
+        "total_line": 232.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "away",
+        "pick_team": "New Orleans Pelicans",
+        "my_prob": 0.63,
+        "confidence": 60,
+        "reasoning": "Sacramento's injury carnage (Sabonis, LaVine, Hunter all out for season; Westbrook and Murray out; Monk day-to-day) leaves them with an extremely depleted roster led only by DeRozan. The Pelicans' Murphy III and Dejounte Murray are both injury risks for tonight on the second night of a back-to-back, but NO still fields a more functional lineup. Sacramento is historically bad this season (-10.2 pt/game differential, 28th in scoring) and the Pelicans' record advantage (25-52 vs 20-57) reflects a meaningfully better team.",
+        "total_lean": "UNDER",
+        "total_reason": "Both teams are shorthanded and offensively limited; SAC scores just 110.9 PPG (28th) and without Murphy/Murray the Pelicans' offense collapses to a ~105.5 offensive rating \u2014 a depleted, low-motivation late-season game favors the Under.",
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "SAC: Malik Monk Out",
+        "SAC: Keegan Murray Out - Sprain",
+        "SAC: Russell Westbrook Out - Not Specified",
+        "SAC: Isaiah Stevens Out - Soreness",
+        "SAC: Drew Eubanks Out - Surgery",
+        "NO: Bryce McGowens Out - Fracture",
+        "NO: Trey Murphy III Day-To-Day",
+        "NO: Karlo Matkovic Day-To-Day - Spasms",
+        "NO: Dejounte Murray Out - Not Specified"
+      ],
+      "result": "L",
+      "result_score": "NO 113\u2013117 SAC",
+      "tot_result": "W"
+    }
+  ]
+}

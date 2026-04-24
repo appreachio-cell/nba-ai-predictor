@@ -1,0 +1,62 @@
+{
+  "date": "2026-04-15",
+  "graded": true,
+  "games": [
+    {
+      "espn_id": "401866756",
+      "homeAbbr": "LAC",
+      "awayAbbr": "GS",
+      "homeTeam": "LA Clippers",
+      "awayTeam": "Golden State Warriors",
+      "homeRec": {
+        "wins": 42,
+        "losses": 40,
+        "pct": 0.5121951219512195,
+        "summary": "42-40"
+      },
+      "awayRec": {
+        "wins": 37,
+        "losses": 45,
+        "pct": 0.45121951219512196,
+        "summary": "37-45"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.5645195805692275,
+        "a_prob": 0.43548041943077254,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 112,
+        "a_proj": 108,
+        "total_line": 220.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "pick": "home",
+        "pick_team": "LA Clippers",
+        "my_prob": 0.5645195805692275,
+        "confidence": 56,
+        "reasoning": "Model pick (Groq unavailable).",
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": null,
+        "edge_found": false,
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "GS: Stephen Curry Day-To-Day",
+        "GS: Quinten Post Out - Not Specified",
+        "GS: LJ Cryer Out - Sprain"
+      ],
+      "prop_picks": [],
+      "result": "L",
+      "result_score": "GS 126\u2013121 LAC",
+      "tot_result": null
+    }
+  ]
+}
