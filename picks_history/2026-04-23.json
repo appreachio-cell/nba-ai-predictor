@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401869398",
@@ -136,9 +136,9 @@
         "DEN: Peyton Watson Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
-      "tot_result": null
+      "result": "L",
+      "result_score": "DEN 96\u2013113 MIN",
+      "tot_result": "L"
     }
   ]
 }
