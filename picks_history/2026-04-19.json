@@ -1,0 +1,61 @@
+{
+  "date": "2026-04-19",
+  "graded": true,
+  "games": [
+    {
+      "espn_id": "401869194",
+      "homeAbbr": "SA",
+      "awayAbbr": "POR",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Portland Trail Blazers",
+      "homeRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "awayRec": {
+        "wins": 42,
+        "losses": 40,
+        "pct": 0.5121951219512195,
+        "summary": "42-40"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.9712,
+        "a_prob": 0.0288,
+        "h_odds": -10000,
+        "a_odds": 3300,
+        "h_ev": -1.9,
+        "a_ev": -2.1,
+        "h_proj": 122,
+        "a_proj": 100,
+        "total_line": 222.5,
+        "over_odds": -102,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.98,
+        "confidence": 95,
+        "reasoning": "Spurs are the vastly superior team, playing at home, and the Blazers are overmatched. The Spurs have a massive talent advantage and home court.",
+        "edge_found": true,
+        "total_lean": "UNDER",
+        "total_confidence": 70,
+        "total_reason": "Spurs' defense is elite, and they will likely control the pace. Blazers' offense has struggled.",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "SA: Jordan McLaughlin Out"
+      ],
+      "prop_picks": [],
+      "result": "W",
+      "result_score": "POR 98\u2013111 SA",
+      "tot_result": "W"
+    }
+  ]
+}

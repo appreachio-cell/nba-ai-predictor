@@ -1,0 +1,118 @@
+{
+  "date": "2026-04-18",
+  "graded": true,
+  "games": [
+    {
+      "espn_id": "401869189",
+      "homeAbbr": "NY",
+      "awayAbbr": "ATL",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Atlanta Hawks",
+      "homeRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "awayRec": {
+        "wins": 46,
+        "losses": 36,
+        "pct": 0.5609756097560976,
+        "summary": "46-36"
+      },
+      "startTime": "6:00 PM ET",
+      "pred": {
+        "h_prob": 0.6386,
+        "a_prob": 0.3614,
+        "h_odds": -200,
+        "a_odds": 165,
+        "h_ev": -4.2,
+        "a_ev": -4.2,
+        "h_proj": 112,
+        "a_proj": 106,
+        "total_line": 217.5,
+        "over_odds": -110,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.6386,
+        "confidence": 64,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "ATL: Jock Landale Out - Sprain"
+      ],
+      "prop_picks": [],
+      "result": "W",
+      "result_score": "ATL 102\u2013113 NY",
+      "tot_result": null
+    },
+    {
+      "espn_id": "401869190",
+      "homeAbbr": "LAL",
+      "awayAbbr": "HOU",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Houston Rockets",
+      "homeRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "awayRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.347,
+        "a_prob": 0.653,
+        "h_odds": 180,
+        "a_odds": -205,
+        "h_ev": -2.8,
+        "a_ev": -2.8,
+        "h_proj": 101,
+        "a_proj": 108,
+        "total_line": 209.5,
+        "over_odds": -106,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "away",
+        "pick_team": "Houston Rockets",
+        "my_prob": 0.653,
+        "confidence": 65,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "LAL: Austin Reaves Out - Strain",
+        "LAL: Luka Doncic Out - Strain",
+        "HOU: Kevin Durant Out - Bruise"
+      ],
+      "prop_picks": [],
+      "result": "L",
+      "result_score": "HOU 98\u2013107 LAL",
+      "tot_result": null
+    }
+  ]
+}

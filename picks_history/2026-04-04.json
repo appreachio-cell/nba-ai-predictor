@@ -1,0 +1,177 @@
+{
+  "date": "2026-04-04",
+  "graded": true,
+  "games": [
+    {
+      "espn_id": "401810984",
+      "homeAbbr": "MIA",
+      "awayAbbr": "WSH",
+      "homeTeam": "Miami Heat",
+      "awayTeam": "Washington Wizards",
+      "homeRec": {
+        "wins": 40,
+        "losses": 37,
+        "pct": 0.5194805194805194,
+        "summary": "40-37"
+      },
+      "awayRec": {
+        "wins": 17,
+        "losses": 59,
+        "pct": 0.2236842105263158,
+        "summary": "17-59"
+      },
+      "startTime": "3:00 PM ET",
+      "pred": {
+        "h_prob": 0.9307,
+        "a_prob": 0.0693,
+        "h_odds": -2400,
+        "a_odds": 1300,
+        "h_ev": -3.1,
+        "a_ev": -3.0,
+        "h_proj": 133,
+        "a_proj": 112,
+        "total_line": 245.5,
+        "over_odds": -110,
+        "under_odds": -106,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "home",
+        "pick_team": "Miami Heat",
+        "my_prob": 0.91,
+        "confidence": 88,
+        "reasoning": "The full injury report confirms Washington is decimated: Trae Young, Alex Sarr, Kyshawn George, Anthony Davis, D'Angelo Russell, Bilal Coulibaly, and Cam Whitmore are all out or day-to-day, essentially fielding a G-League roster. Miami loses Norman Powell (out) and Terry Rozier (out), but Tyler Herro is probable (foot soreness) and the rest of the core is available. Miami (40-37, 2nd in scoring at 120.4 PPG) is a massive talent mismatch at home against a 17-59 Washington squad missing virtually all its starters.",
+        "total_lean": "OVER",
+        "total_reason": "Miami averages 120.4 PPG (2nd in NBA) and Washington allows 124.3 PPG (29th), and with both depleted rosters leading to pace-and-garbage-time scoring, the Over on 245.5 looks viable.",
+        "edge_found": false
+      },
+      "props": [],
+      "injuries": [
+        "MIA: Tyler Herro Day-To-Day - Soreness",
+        "MIA: Norman Powell Out - Not Specified",
+        "MIA: Terry Rozier Out - Not Specified",
+        "WSH: Justin Champagnie Day-To-Day - Bruise",
+        "WSH: Trae Young Out - Bruise",
+        "WSH: Alex Sarr Out - Inflammation",
+        "WSH: Bilal Coulibaly Day-To-Day - Soreness",
+        "WSH: Tristan Vukcevic Day-To-Day - Bruise"
+      ],
+      "result": "W",
+      "result_score": "WSH 136\u2013152 MIA",
+      "tot_result": "W"
+    },
+    {
+      "espn_id": "401810985",
+      "homeAbbr": "DEN",
+      "awayAbbr": "SA",
+      "homeTeam": "Denver Nuggets",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 49,
+        "losses": 28,
+        "pct": 0.6363636363636364,
+        "summary": "49-28"
+      },
+      "awayRec": {
+        "wins": 59,
+        "losses": 18,
+        "pct": 0.7662337662337663,
+        "summary": "59-18"
+      },
+      "startTime": "3:00 PM ET",
+      "pred": {
+        "h_prob": 0.4549,
+        "a_prob": 0.5451,
+        "h_odds": 112,
+        "a_odds": -130,
+        "h_ev": -3.6,
+        "a_ev": -3.6,
+        "h_proj": 120,
+        "a_proj": 122,
+        "total_line": 242.5,
+        "over_odds": -110,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "away",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.6,
+        "confidence": 68,
+        "reasoning": "The Spurs enter on an 11-game win streak with their full rotation available including Wembanyama, Fox, and Castle. Denver is without Peyton Watson (hamstring, week-to-week), Spencer Jones (hamstring, out), and Zeke Nnaji (hip, out), with Tim Hardaway Jr. only probable (knee). San Antonio's superior net rating (+8.5 vs DEN's +4.8) and nearly complete health give them a meaningful edge over a shorthanded Nuggets squad even at altitude.",
+        "total_lean": "OVER",
+        "total_reason": "Both teams rank top-3 in scoring (DEN 1st at 121.4 PPG, SA 3rd at 119.6 PPG) and their two prior meetings went for 275 and 267 points respectively, both well over 242.5.",
+        "edge_found": true
+      },
+      "props": [],
+      "injuries": [
+        "DEN: Zeke Nnaji Out - Sprain",
+        "DEN: Tim Hardaway Jr. Day-To-Day - Soreness",
+        "DEN: Spencer Jones Out - Strain",
+        "DEN: Peyton Watson Out - Strain",
+        "SA: Emanuel Miller Out - Not Specified",
+        "SA: David Jones Garcia Out - Surgery"
+      ],
+      "result": "L",
+      "result_score": "SA 134\u2013136 DEN",
+      "tot_result": "W"
+    },
+    {
+      "espn_id": "401810986",
+      "homeAbbr": "PHI",
+      "awayAbbr": "DET",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "Detroit Pistons",
+      "homeRec": {
+        "wins": 43,
+        "losses": 34,
+        "pct": 0.5584415584415584,
+        "summary": "43-34"
+      },
+      "awayRec": {
+        "wins": 56,
+        "losses": 21,
+        "pct": 0.7272727272727273,
+        "summary": "56-21"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.4176,
+        "a_prob": 0.5824,
+        "h_odds": 130,
+        "a_odds": -154,
+        "h_ev": -4.0,
+        "a_ev": -3.9,
+        "h_proj": 111,
+        "a_proj": 116,
+        "total_line": 226.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "pick": "away",
+        "pick_team": "Detroit Pistons",
+        "my_prob": 0.63,
+        "confidence": 68,
+        "reasoning": "PHI is on the second night of a back-to-back after playing the Timberwolves on Apr 3, and Embiid logged 34 minutes last night making his availability tonight very unlikely per multiple reports; without Embiid (oblique/illness history), Johni Broome (out-surgery), and Paul George (day-to-day), Philadelphia's offensive ceiling collapses. Detroit, despite missing Cade Cunningham (collapsed lung) and Isaiah Stewart (calf strain), has gone 7-2 without Cunningham and owns the 3-0 season series vs. PHI; Tobias Harris is questionable (knee contusion) and Marcus Sasser is probable (hip strain), but the Pistons' defensive identity and depth remain intact as they chase the 1-seed.",
+        "total_lean": "UNDER",
+        "total_reason": "PHI's likely Embiid absence on a back-to-back second night, combined with Detroit's elite defense, should keep scoring well below the 226.5 total.",
+        "edge_found": true
+      },
+      "props": [],
+      "injuries": [
+        "PHI: Paul George Day-To-Day - Not Specified",
+        "PHI: Joel Embiid Day-To-Day - Not Specified",
+        "PHI: Johni Broome Out - Surgery",
+        "DET: Marcus Sasser Day-To-Day - Strain",
+        "DET: Isaiah Stewart Out - Strain",
+        "DET: Tobias Harris Day-To-Day - Bruise",
+        "DET: Cade Cunningham Out - Not Specified"
+      ],
+      "result": "W",
+      "result_score": "DET 116\u201393 PHI",
+      "tot_result": "W"
+    }
+  ]
+}

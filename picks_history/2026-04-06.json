@@ -1,0 +1,63 @@
+{
+  "date": "2026-04-06",
+  "graded": true,
+  "games": [
+    {
+      "espn_id": "401811002",
+      "homeAbbr": "DEN",
+      "awayAbbr": "POR",
+      "homeTeam": "Denver Nuggets",
+      "awayTeam": "Portland Trail Blazers",
+      "homeRec": {
+        "wins": 50,
+        "losses": 28,
+        "pct": 0.6410256410256411,
+        "summary": "50-28"
+      },
+      "awayRec": {
+        "wins": 40,
+        "losses": 38,
+        "pct": 0.5128205128205128,
+        "summary": "40-38"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.8452,
+        "a_prob": 0.1548,
+        "h_odds": -215,
+        "a_odds": 700,
+        "h_ev": 23.8,
+        "a_ev": 23.8,
+        "h_proj": 126,
+        "a_proj": 110,
+        "total_line": 235.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Denver Nuggets",
+        "my_prob": 0.76,
+        "confidence": 72,
+        "reasoning": "Denver is on an 8-game winning streak with the NBA's top-ranked offense at 121.6 PPG and Jokic dominating; Portland loses Shaedon Sharpe (fracture) \u2014 a key wing scorer \u2014 while Denver's own absentees (Jones, Watson) are fringe rotation players with minimal impact on their core unit.",
+        "total_lean": "OVER",
+        "total_reason": "Both teams play at a fast pace and score heavily; Denver's elite offense (1st in NBA) combined with Portland still pushing 115+ PPG even short-handed tilts toward the 235.5 going over.",
+        "edge_found": true
+      },
+      "props": [],
+      "injuries": [
+        "DEN: Spencer Jones Out - Strain",
+        "DEN: Peyton Watson Out - Strain",
+        "POR: Shaedon Sharpe Out - Fracture",
+        "POR: Vit Krejci Out - Bruise",
+        "POR: Jerami Grant Out - Strain",
+        "POR: Damian Lillard Out - Surgery"
+      ],
+      "result": "W",
+      "result_score": "POR 132\u2013137 DEN",
+      "tot_result": "W"
+    }
+  ]
+}

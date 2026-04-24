@@ -1,0 +1,459 @@
+{
+  "date": "2026-04-20",
+  "graded": true,
+  "games": [
+    {
+      "espn_id": "401869369",
+      "homeAbbr": "CLE",
+      "awayAbbr": "TOR",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Toronto Raptors",
+      "homeRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "awayRec": {
+        "wins": 46,
+        "losses": 36,
+        "pct": 0.5609756097560976,
+        "summary": "46-36"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.8154,
+        "a_prob": 0.1846,
+        "h_odds": -500,
+        "a_odds": 430,
+        "h_ev": -2.2,
+        "a_ev": -2.2,
+        "h_proj": 118,
+        "a_proj": 104,
+        "total_line": 221.5,
+        "over_odds": -110,
+        "under_odds": -118,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Cleveland Cavaliers",
+        "my_prob": 0.78,
+        "confidence": 75,
+        "reasoning": "Cleveland is a strong home team, and Toronto is dealing with the absence of Immanuel Quickley, which impacts their offensive depth. The Cavaliers have a significant advantage in this matchup, especially at home.",
+        "edge_found": true,
+        "total_lean": "UNDER",
+        "total_confidence": 65,
+        "total_reason": "Both teams tend to play at a slower pace, focusing on half-court execution. With key players out or potentially limited, scoring could be more challenging, leaning towards a lower-scoring game.",
+        "prop_picks": [
+          {
+            "player": "Scottie Barnes",
+            "prop": "OVER 6.5 Rebounds",
+            "odds": "-104"
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 124,
+          "UNDER": 130,
+          "dir": "OVER",
+          "odds": 124,
+          "ev": 13.5
+        },
+        {
+          "player": "Evan Mobley",
+          "stat": "Rebounds",
+          "line": 8.5,
+          "OVER": 110,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": 110,
+          "ev": 1.2
+        },
+        {
+          "player": "Sam Merrill",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": 148,
+          "UNDER": -160,
+          "dir": "OVER",
+          "odds": 148,
+          "ev": -1.8
+        },
+        {
+          "player": "Scottie Barnes",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": -104,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -2.2
+        },
+        {
+          "player": "James Harden",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 130,
+          "UNDER": -145,
+          "dir": "OVER",
+          "odds": 130,
+          "ev": -2.6
+        },
+        {
+          "player": "Sam Merrill",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": 102,
+          "UNDER": -115,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -2.9
+        },
+        {
+          "player": "Collin Murray-Boyles",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 102,
+          "UNDER": -120,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -3.9
+        },
+        {
+          "player": "Jamal Shead",
+          "stat": "Assists",
+          "line": 5.5,
+          "OVER": -125,
+          "UNDER": 105,
+          "dir": "OVER",
+          "odds": -125,
+          "ev": -4.2
+        }
+      ],
+      "injuries": [
+        "CLE: Thomas Bryant Out - Strain",
+        "TOR: Immanuel Quickley Out - Soreness"
+      ],
+      "prop_picks": [
+        {
+          "player": "Scottie Barnes",
+          "prop": "OVER 6.5 Rebounds",
+          "odds": "-104"
+        }
+      ],
+      "result": "W",
+      "result_score": "TOR 105\u2013115 CLE",
+      "tot_result": "W"
+    },
+    {
+      "espn_id": "401869387",
+      "homeAbbr": "NY",
+      "awayAbbr": "ATL",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Atlanta Hawks",
+      "homeRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "awayRec": {
+        "wins": 46,
+        "losses": 36,
+        "pct": 0.5609756097560976,
+        "summary": "46-36"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6854,
+        "a_prob": 0.3146,
+        "h_odds": -250,
+        "a_odds": 205,
+        "h_ev": -4.0,
+        "a_ev": -4.0,
+        "h_proj": 113,
+        "a_proj": 104,
+        "total_line": 217.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.72,
+        "confidence": 70,
+        "reasoning": "The Knicks are a formidable home team, and while the Hawks are capable, New York's defensive intensity and offensive consistency at home give them an edge. Atlanta's injury to Jock Landale also slightly weakens their frontcourt.",
+        "edge_found": true,
+        "total_lean": "UNDER",
+        "total_confidence": 60,
+        "total_reason": "The Knicks' defense can stifle opponents, and while the Hawks can score, this game projects to be a grind. Both teams have shown the ability to play solid defense, which could limit scoring opportunities.",
+        "prop_picks": [
+          {
+            "player": "Jalen Brunson",
+            "prop": "OVER 26.5 Points",
+            "odds": -115,
+            "stat": "Points",
+            "line": 29.5
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Nickeil Alexander-Walker",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 130,
+          "UNDER": -129,
+          "dir": "OVER",
+          "odds": 130,
+          "ev": 0.2
+        },
+        {
+          "player": "Jalen Brunson",
+          "stat": "Points",
+          "line": 26.5,
+          "OVER": -102,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -1.7
+        },
+        {
+          "player": "Landry Shamet",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -106,
+          "UNDER": -103,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -2.1
+        },
+        {
+          "player": "Jalen Johnson",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": 102,
+          "UNDER": -115,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -2.9
+        },
+        {
+          "player": "Jalen Johnson",
+          "stat": "Points",
+          "line": 21.5,
+          "OVER": 100,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.0
+        },
+        {
+          "player": "Dyson Daniels",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": 102,
+          "UNDER": -116,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -3.1
+        },
+        {
+          "player": "Karl-Anthony Towns",
+          "stat": "Rebounds",
+          "line": 11.5,
+          "OVER": -123,
+          "UNDER": 108,
+          "dir": "OVER",
+          "odds": -123,
+          "ev": -3.1
+        },
+        {
+          "player": "Dyson Daniels",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": -128,
+          "UNDER": 111,
+          "dir": "OVER",
+          "odds": -128,
+          "ev": -3.4
+        }
+      ],
+      "injuries": [
+        "ATL: Jock Landale Out - Sprain"
+      ],
+      "prop_picks": [
+        {
+          "player": "Jalen Brunson",
+          "prop": "OVER 26.5 Points",
+          "odds": -115,
+          "stat": "Points",
+          "line": 29.5
+        }
+      ],
+      "result": "L",
+      "result_score": "ATL 107\u2013106 NY",
+      "tot_result": "W"
+    },
+    {
+      "espn_id": "401869395",
+      "homeAbbr": "DEN",
+      "awayAbbr": "MIN",
+      "homeTeam": "Denver Nuggets",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeRec": {
+        "wins": 54,
+        "losses": 28,
+        "pct": 0.6585365853658537,
+        "summary": "54-28"
+      },
+      "awayRec": {
+        "wins": 49,
+        "losses": 33,
+        "pct": 0.5975609756097561,
+        "summary": "49-33"
+      },
+      "startTime": "10:30 PM ET",
+      "pred": {
+        "h_prob": 0.7238,
+        "a_prob": 0.2762,
+        "h_odds": -298,
+        "a_odds": 250,
+        "h_ev": -3.3,
+        "a_ev": -3.3,
+        "h_proj": 121,
+        "a_proj": 110,
+        "total_line": 231.5,
+        "over_odds": -106,
+        "under_odds": -114,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Denver Nuggets",
+        "my_prob": 0.75,
+        "confidence": 78,
+        "reasoning": "Denver is a powerhouse at home, and while Minnesota is a strong team, the Nuggets' championship pedigree and home-court advantage are significant factors. The Nuggets have the offensive firepower and defensive capability to handle the Timberwolves.",
+        "edge_found": true,
+        "total_lean": "OVER",
+        "total_confidence": 70,
+        "total_reason": "Both teams possess high-powered offenses and are capable of scoring in bunches. The Nuggets' offense, in particular, can be explosive at home, and Minnesota has the offensive talent to keep pace, suggesting a higher-scoring affair.",
+        "prop_picks": [
+          {
+            "player": "Aaron Gordon",
+            "prop": "OVER 2.5 Assists",
+            "odds": -115,
+            "stat": "Points",
+            "line": 16.5
+          }
+        ]
+      },
+      "props": [
+        {
+          "player": "Aaron Gordon",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 100,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -1.0
+        },
+        {
+          "player": "Julius Randle",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": -115,
+          "UNDER": 108,
+          "dir": "OVER",
+          "odds": -115,
+          "ev": -1.5
+        },
+        {
+          "player": "Donte DiVincenzo",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 114,
+          "UNDER": -125,
+          "dir": "OVER",
+          "odds": 114,
+          "ev": -2.2
+        },
+        {
+          "player": "Christian Braun",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": -108,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -2.8
+        },
+        {
+          "player": "Bruce Brown",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -122,
+          "UNDER": 108,
+          "dir": "OVER",
+          "odds": -122,
+          "ev": -2.9
+        },
+        {
+          "player": "Julius Randle",
+          "stat": "Points",
+          "line": 18.5,
+          "OVER": -109,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -109,
+          "ev": -3.0
+        },
+        {
+          "player": "Donte DiVincenzo",
+          "stat": "Points",
+          "line": 10.5,
+          "OVER": 106,
+          "UNDER": -121,
+          "dir": "OVER",
+          "odds": 106,
+          "ev": -3.2
+        },
+        {
+          "player": "Jamal Murray",
+          "stat": "Points",
+          "line": 26.5,
+          "OVER": 100,
+          "UNDER": -116,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.6
+        }
+      ],
+      "injuries": [
+        "DEN: Peyton Watson Out - Strain"
+      ],
+      "prop_picks": [
+        {
+          "player": "Aaron Gordon",
+          "prop": "OVER 2.5 Assists",
+          "odds": -115,
+          "stat": "Points",
+          "line": 16.5
+        }
+      ],
+      "result": "L",
+      "result_score": "MIN 119\u2013114 DEN",
+      "tot_result": "W"
+    }
+  ]
+}
