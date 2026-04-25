@@ -9,6 +9,35 @@ from datetime import date as _date
 
 from utils import today_str, fmt_odds
 
+TAVILY_KEY = "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"
+
+def _get_series_context(home_team, away_team):
+    """Search for current playoff series score and context."""
+    try:
+        import urllib.request as _ur, json as _json
+        query = f"{away_team} vs {home_team} NBA playoff series 2026 score wins"
+        body = _json.dumps({
+            "api_key": TAVILY_KEY,
+            "query": query,
+            "max_results": 2,
+            "search_depth": "basic",
+            "include_answer": True,
+        }).encode()
+        req = _ur.Request(
+            "https://api.tavily.com/search",
+            data=body,
+            headers={"Content-Type": "application/json"}
+        )
+        with _ur.urlopen(req, timeout=8) as r:
+            data = _json.loads(r.read())
+        answer = data.get("answer", "")
+        if answer:
+            return answer[:200]
+        snippets = [res.get("content","")[:100] for res in data.get("results",[])[:2]]
+        return " ".join(snippets)[:200]
+    except:
+        return ""
+
 OPENROUTER_KEY = "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"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_MODEL = "openrouter/auto"
@@ -44,6 +73,11 @@ def groq_analyze_all(games_info):
         if g.get("away_b2b"): b2b_notes.append(f"{g['awayAbbr']} B2B")
         b2b_str = " | ⚠ " + ", ".join(b2b_notes) if b2b_notes else ""
 
+        # Rest days
+        h_rest = g.get("home_rest_days", 1 if g.get("home_b2b") else 2)
+        a_rest = g.get("away_rest_days", 1 if g.get("away_b2b") else 2)
+        rest_str = f" | Rest: {g['homeAbbr']} {h_rest}d, {g['awayAbbr']} {a_rest}d"
+
         # Use PrizePicks props for prompt (guaranteed to exist in PP for backfill)
         props_list = gi.get("pp_props") or gi.get("props", [])
         props_list = props_list[:4]
@@ -65,16 +99,27 @@ def groq_analyze_all(games_info):
 
         prop_ctx = gi.get("prop_ctx", "")
 
+        # Get playoff series context
+        series_ctx = ""
+        if is_playoffs:
+            series_ctx = _get_series_context(g["homeTeam"], g["awayTeam"])
+            if series_ctx:
+                print(f"    📊 Series context: {series_ctx[:80]}...")
+                series_ctx = f" | SERIES: {series_ctx}"
+
         game_lines.append(
             f"GAME {i+1}: {g['awayTeam']} ({a_rec['summary']}) @ "
             f"{g['homeTeam']} ({h_rec['summary']}) | "
             f"{odds_str} | total line: {pred['total_line']} | "
-            f"injuries: {inj}{b2b_str}{props_ctx}{prop_ctx}"
+            f"injuries: {inj}{b2b_str}{rest_str}{series_ctx}{props_ctx}{prop_ctx}"
         )
 
     playoff_notes = (
-        "These are playoff games. Weight series momentum, home court (59% win rate), "
-        "rest days, and elimination game motivation.\n\n"
+        "These are playoff games. Use the SERIES context provided per game to weight:\n"
+        "- Series score (team up 2-0 is heavily favored, team down 0-2 is desperate)\n"
+        "- Home court advantage (59% win rate in playoffs)\n"
+        "- Elimination game motivation (team facing elimination covers ~57%)\n"
+        "- Rest days between games\n\n"
     ) if is_playoffs else ""
 
     prompt = (

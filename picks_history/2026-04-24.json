@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401869404",
@@ -132,8 +132,8 @@
       ],
       "injuries": [],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 108\u2013100 PHI",
       "tot_result": null
     },
     {
@@ -270,8 +270,8 @@
         "LAL: Luka Doncic Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "LAL 112\u2013108 HOU",
       "tot_result": null
     },
     {
@@ -407,8 +407,8 @@
         "SA: Victor Wembanyama Day-To-Day - Concussion"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 120\u2013108 POR",
       "tot_result": null
     }
   ]
