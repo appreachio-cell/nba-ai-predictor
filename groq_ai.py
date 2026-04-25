@@ -73,6 +73,11 @@ def groq_analyze_all(games_info):
         if g.get("away_b2b"): b2b_notes.append(f"{g['awayAbbr']} B2B")
         b2b_str = " | ⚠ " + ", ".join(b2b_notes) if b2b_notes else ""
 
+        # Rest days
+        h_rest = g.get("home_rest_days", 1 if g.get("home_b2b") else 2)
+        a_rest = g.get("away_rest_days", 1 if g.get("away_b2b") else 2)
+        rest_str = f" | Rest: {g['homeAbbr']} {h_rest}d, {g['awayAbbr']} {a_rest}d"
+
         # Use PrizePicks props for prompt (guaranteed to exist in PP for backfill)
         props_list = gi.get("pp_props") or gi.get("props", [])
         props_list = props_list[:4]
@@ -106,7 +111,7 @@ def groq_analyze_all(games_info):
             f"GAME {i+1}: {g['awayTeam']} ({a_rec['summary']}) @ "
             f"{g['homeTeam']} ({h_rec['summary']}) | "
             f"{odds_str} | total line: {pred['total_line']} | "
-            f"injuries: {inj}{b2b_str}{series_ctx}{props_ctx}{prop_ctx}"
+            f"injuries: {inj}{b2b_str}{rest_str}{series_ctx}{props_ctx}{prop_ctx}"
         )
 
     playoff_notes = (

@@ -17,22 +17,34 @@ def espn_schedule(date_str):
         events = data.get("events", [])
         print(f"    ESPN: {len(events)} games on {date_str}")
 
-        # ── Back-to-back detection ─────────────────────────────────────────
-        # Fetch yesterday's games and collect which teams played
+        # ── Rest days detection ───────────────────────────────────────────
+        # Find how many days since each team last played (up to 7 days back)
+        team_last_played = {}
         try:
-            yd_str  = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
-            yd_d    = yd_str.replace("-", "")
-            yd_data = fetch(f"{ESPN_BASE}/scoreboard?dates={yd_d}&limit=20", cache_mins=360)
-            yd_teams = set()
-            for ev in yd_data.get("events", []):
+            base_dt = datetime.strptime(date_str, "%Y-%m-%d")
+            for days_back in range(1, 8):
+                check_dt  = base_dt - timedelta(days=days_back)
+                check_str = check_dt.strftime("%Y-%m-%d").replace("-", "")
                 try:
-                    comp = ev["competitions"][0]
-                    for t in comp["competitors"]:
-                        yd_teams.add(t["team"]["abbreviation"])
+                    past_data = fetch(f"{ESPN_BASE}/scoreboard?dates={check_str}&limit=20", cache_mins=360)
+                    for ev in past_data.get("events", []):
+                        try:
+                            comp = ev["competitions"][0]
+                            stat = comp.get("status", {}).get("type", {}).get("name", "")
+                            if stat != "STATUS_FINAL":
+                                continue
+                            for t in comp["competitors"]:
+                                abbr = t["team"]["abbreviation"]
+                                if abbr not in team_last_played:
+                                    team_last_played[abbr] = days_back
+                        except:
+                            continue
                 except:
                     continue
         except:
-            yd_teams = set()
+            pass
+
+        yd_teams = {abbr for abbr, days in team_last_played.items() if days == 1}
 
         games = []
 
@@ -92,8 +104,10 @@ def espn_schedule(date_str):
                     "homeWon":   hs > as_ if done else None,
                     "completed": done,
                     "startTime": ts,
-                    "home_b2b":  home_b2b,
-                    "away_b2b":  away_b2b,
+                    "home_b2b":       home_b2b,
+                    "away_b2b":       away_b2b,
+                    "home_rest_days": team_last_played.get(home_abbr, 3),
+                    "away_rest_days": team_last_played.get(away_abbr, 3),
                 })
 
                 if home_b2b or away_b2b:
@@ -113,50 +127,23 @@ def espn_schedule(date_str):
         return []
 
 
-def espn_game_detail(espn_id, home_abbr=None, away_abbr=None):
+def espn_game_detail(espn_id):
     """Return injuries list and total line for a single game."""
     url = f"{ESPN_BASE}/summary?event={espn_id}"
-
-    # Keywords that indicate a season-long or already-priced-in injury
-    SEASON_LONG_KEYWORDS = {
-        "surgery", "season", "acl", "achilles", "torn", "rupture",
-        "out for season", "out indefinitely", "out - surgery"
-    }
-
     try:
         data     = fetch(url, cache_mins=30)
         injuries = []
 
-        # Build set of valid team abbrs for this game
-        valid_teams = set()
-        if home_abbr:
-            valid_teams.add(home_abbr.upper())
-        if away_abbr:
-            valid_teams.add(away_abbr.upper())
-
         for inj in data.get("injuries", []):
-            team = inj.get("team", {}).get("abbreviation", "").upper()
-
-            # Skip if player's team isn't in this game (e.g. traded players)
-            if valid_teams and team not in valid_teams:
-                continue
-
+            team = inj.get("team", {}).get("abbreviation", "")
             for p in inj.get("injuries", []):
                 name   = p.get("athlete", {}).get("displayName", "")
                 status = p.get("status", "")
                 detail = p.get("details", {}).get("detail", "")
-
-                if not name or not status:
-                    continue
-
-                # Skip season-long injuries — already fully priced into the line
-                combined = (status + " " + detail).lower()
-                if any(kw in combined for kw in SEASON_LONG_KEYWORDS):
-                    continue
-
-                injuries.append(
-                    f"{team}: {name} {status}{' - ' + detail if detail else ''}"
-                )
+                if name and status:
+                    injuries.append(
+                        f"{team}: {name} {status}{' - ' + detail if detail else ''}"
+                    )
 
         total_line = None
         for item in data.get("pickcenter", []):
