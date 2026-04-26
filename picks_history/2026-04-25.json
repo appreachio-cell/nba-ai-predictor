@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401869414",
@@ -134,8 +134,8 @@
         "ORL: Jonathan Isaac Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DET 105\u2013113 ORL",
       "tot_result": null
     },
     {
@@ -275,8 +275,8 @@
         "OKC: Thomas Sorber Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "OKC 121\u2013109 PHX",
       "tot_result": null
     },
     {
@@ -412,8 +412,8 @@
         "ATL: Jock Landale Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NY 114\u201398 ATL",
       "tot_result": null
     },
     {
@@ -549,8 +549,8 @@
         "DEN: Aaron Gordon Day-To-Day - Soreness"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DEN 96\u2013112 MIN",
       "tot_result": null
     }
   ]
