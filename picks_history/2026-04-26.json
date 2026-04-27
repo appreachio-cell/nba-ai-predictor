@@ -1,6 +1,6 @@
 {
   "date": "2026-04-26",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401869377",
@@ -135,8 +135,8 @@
         "TOR: Chucky Hepburn Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "CLE 89\u201393 TOR",
       "tot_result": null
     },
     {
@@ -274,8 +274,8 @@
         "SA: David Jones Garcia Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 114\u201393 POR",
       "tot_result": null
     },
     {
@@ -411,8 +411,8 @@
         "PHI: Kelly Oubre Jr. Day-To-Day - Soreness"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 128\u201396 PHI",
       "tot_result": null
     },
     {
@@ -551,8 +551,8 @@
         "LAL: Luka Doncic Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAL 96\u2013115 HOU",
       "tot_result": null
     }
   ]
