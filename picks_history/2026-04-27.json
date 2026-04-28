@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401869415",
@@ -135,8 +135,8 @@
         "DET: Kevin Huerter Day-To-Day - Soreness"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DET 88\u201394 ORL",
       "tot_result": null
     },
     {
@@ -274,8 +274,8 @@
         "OKC: Thomas Sorber Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "OKC 131\u2013122 PHX",
       "tot_result": null
     },
     {
@@ -413,8 +413,8 @@
         "MIN: Anthony Edwards Out - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIN 113\u2013125 DEN",
       "tot_result": null
     }
   ]
