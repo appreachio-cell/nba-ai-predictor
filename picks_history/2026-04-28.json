@@ -1,6 +1,6 @@
 {
   "date": "2026-04-28",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401869408",
@@ -134,8 +134,8 @@
         "PHI: Joel Embiid Day-To-Day - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "PHI 113\u201397 BOS",
       "tot_result": null
     },
     {
@@ -271,8 +271,8 @@
         "ATL: Jock Landale Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ATL 97\u2013126 NY",
       "tot_result": null
     },
     {
@@ -408,8 +408,8 @@
         "POR: Damian Lillard Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "POR 95\u2013114 SA",
       "tot_result": null
     }
   ]

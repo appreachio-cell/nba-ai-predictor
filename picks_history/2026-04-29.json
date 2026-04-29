@@ -1,0 +1,421 @@
+{
+  "date": "2026-04-29",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401869416",
+      "homeAbbr": "DET",
+      "awayAbbr": "ORL",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Orlando Magic",
+      "homeRec": {
+        "wins": 60,
+        "losses": 22,
+        "pct": 0.7317073170731707,
+        "summary": "60-22"
+      },
+      "awayRec": {
+        "wins": 45,
+        "losses": 37,
+        "pct": 0.5487804878048781,
+        "summary": "45-37"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.7654,
+        "a_prob": 0.2346,
+        "h_odds": -390,
+        "a_odds": 310,
+        "h_ev": -3.8,
+        "a_ev": -3.8,
+        "h_proj": 112,
+        "a_proj": 100,
+        "total_line": 211.5,
+        "over_odds": -108,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Detroit Pistons",
+        "my_prob": 0.7654,
+        "confidence": 77,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Paolo Banchero",
+          "stat": "Rebounds",
+          "line": 7.5,
+          "OVER": -128,
+          "UNDER": 112,
+          "dir": "OVER",
+          "odds": -128,
+          "ev": -3.2
+        },
+        {
+          "player": "Paolo Banchero",
+          "stat": "Points",
+          "line": 21.5,
+          "OVER": -114,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -4.1
+        },
+        {
+          "player": "Jalen Duren",
+          "stat": "Points",
+          "line": 14.5,
+          "OVER": -114,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -4.1
+        },
+        {
+          "player": "Javonte Green",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -106,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -4.1
+        },
+        {
+          "player": "Desmond Bane",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 122,
+          "UNDER": -146,
+          "dir": "OVER",
+          "odds": 122,
+          "ev": -4.2
+        },
+        {
+          "player": "Cade Cunningham",
+          "stat": "Assists",
+          "line": 9.5,
+          "OVER": 107,
+          "UNDER": -132,
+          "dir": "OVER",
+          "odds": 107,
+          "ev": -4.9
+        },
+        {
+          "player": "Duncan Robinson",
+          "stat": "Points",
+          "line": 9.5,
+          "OVER": -125,
+          "UNDER": 101,
+          "dir": "OVER",
+          "odds": -125,
+          "ev": -5.0
+        },
+        {
+          "player": "Cade Cunningham",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -121,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -121,
+          "ev": -5.0
+        }
+      ],
+      "injuries": [
+        "DET: Kevin Huerter Day-To-Day - Strain",
+        "ORL: Franz Wagner Day-To-Day - Soreness",
+        "ORL: Jonathan Isaac Out - Sprain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401869380",
+      "homeAbbr": "CLE",
+      "awayAbbr": "TOR",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Toronto Raptors",
+      "homeRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "awayRec": {
+        "wins": 46,
+        "losses": 36,
+        "pct": 0.5609756097560976,
+        "summary": "46-36"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.7681,
+        "a_prob": 0.2319,
+        "h_odds": -395,
+        "a_odds": 315,
+        "h_ev": -3.7,
+        "a_ev": -3.8,
+        "h_proj": 115,
+        "a_proj": 104,
+        "total_line": 218.5,
+        "over_odds": -110,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Cleveland Cavaliers",
+        "my_prob": 0.7681,
+        "confidence": 77,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Jaylon Tyson",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -104,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -2.4
+        },
+        {
+          "player": "Ja'Kobe Walter",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -102,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -2.8
+        },
+        {
+          "player": "Evan Mobley",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 116,
+          "UNDER": -131,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -2.9
+        },
+        {
+          "player": "Scottie Barnes",
+          "stat": "Points",
+          "line": 19.5,
+          "OVER": -106,
+          "UNDER": -109,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.5
+        },
+        {
+          "player": "Brandon Ingram",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 122,
+          "UNDER": -143,
+          "dir": "OVER",
+          "odds": 122,
+          "ev": -3.7
+        },
+        {
+          "player": "Jarrett Allen",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": -112,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -112,
+          "ev": -4.1
+        },
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": -106,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -4.3
+        },
+        {
+          "player": "Jamal Shead",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": -130,
+          "UNDER": 107,
+          "dir": "OVER",
+          "odds": -130,
+          "ev": -4.6
+        }
+      ],
+      "injuries": [
+        "TOR: Immanuel Quickley Out - Strain",
+        "TOR: Chucky Hepburn Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401869407",
+      "homeAbbr": "LAL",
+      "awayAbbr": "HOU",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Houston Rockets",
+      "homeRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "awayRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.6192,
+        "a_prob": 0.3808,
+        "h_odds": -178,
+        "a_odds": 154,
+        "h_ev": -3.3,
+        "a_ev": -3.3,
+        "h_proj": 107,
+        "a_proj": 102,
+        "total_line": 208.5,
+        "over_odds": -110,
+        "under_odds": -108,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Los Angeles Lakers",
+        "my_prob": 0.6192,
+        "confidence": 62,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Josh Okogie",
+          "stat": "Points",
+          "line": 3.5,
+          "OVER": -108,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -2.4
+        },
+        {
+          "player": "Dorian Finney-Smith",
+          "stat": "Points",
+          "line": 2.5,
+          "OVER": 102,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -2.7
+        },
+        {
+          "player": "Rui Hachimura",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": -110,
+          "UNDER": -103,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -3.0
+        },
+        {
+          "player": "Austin Reaves",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -150,
+          "UNDER": 128,
+          "dir": "OVER",
+          "odds": -150,
+          "ev": -3.7
+        },
+        {
+          "player": "Amen Thompson",
+          "stat": "Points",
+          "line": 18.5,
+          "OVER": -112,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -112,
+          "ev": -3.9
+        },
+        {
+          "player": "Luke Kennard",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -112,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -112,
+          "ev": -4.1
+        },
+        {
+          "player": "Jaxson Hayes",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 116,
+          "UNDER": -138,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -4.1
+        },
+        {
+          "player": "Dorian Finney-Smith",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": 154,
+          "UNDER": -186,
+          "dir": "OVER",
+          "odds": 154,
+          "ev": -4.2
+        }
+      ],
+      "injuries": [
+        "LAL: Luka Doncic Out - Strain",
+        "LAL: Austin Reaves Out - Strain",
+        "HOU: Kevin Durant Out - Sprain",
+        "HOU: Steven Adams Out - Surgery",
+        "HOU: Fred VanVleet Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
