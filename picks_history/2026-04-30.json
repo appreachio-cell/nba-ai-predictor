@@ -1,0 +1,420 @@
+{
+  "date": "2026-04-30",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401869393",
+      "homeAbbr": "ATL",
+      "awayAbbr": "NY",
+      "homeTeam": "Atlanta Hawks",
+      "awayTeam": "New York Knicks",
+      "homeRec": {
+        "wins": 46,
+        "losses": 36,
+        "pct": 0.5609756097560976,
+        "summary": "46-36"
+      },
+      "awayRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.4202,
+        "a_prob": 0.5798,
+        "h_odds": 130,
+        "a_odds": -150,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 105,
+        "a_proj": 108,
+        "total_line": 213.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "away",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.5798,
+        "confidence": 58,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "C.J. McCollum",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 116,
+          "UNDER": -125,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -1.8
+        },
+        {
+          "player": "OG Anunoby",
+          "stat": "Points",
+          "line": 16.5,
+          "OVER": 100,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.0
+        },
+        {
+          "player": "Josh Hart",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": -114,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -3.2
+        },
+        {
+          "player": "Mitchell Robinson",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -135,
+          "UNDER": 118,
+          "dir": "OVER",
+          "odds": -135,
+          "ev": -3.2
+        },
+        {
+          "player": "Jalen Brunson",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": -106,
+          "UNDER": -108,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.3
+        },
+        {
+          "player": "Josh Hart",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": 100,
+          "UNDER": -119,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -4.2
+        },
+        {
+          "player": "Nickeil Alexander-Walker",
+          "stat": "Points",
+          "line": 16.5,
+          "OVER": -119,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -119,
+          "ev": -4.2
+        },
+        {
+          "player": "Nickeil Alexander-Walker",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -156,
+          "UNDER": 130,
+          "dir": "OVER",
+          "odds": -156,
+          "ev": -4.2
+        }
+      ],
+      "injuries": [
+        "ATL: Keshon Gilbert Out - Surgery",
+        "ATL: Jock Landale Out - Sprain",
+        "NY: Josh Hart Day-To-Day - Bruise"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401869410",
+      "homeAbbr": "PHI",
+      "awayAbbr": "BOS",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "Boston Celtics",
+      "homeRec": {
+        "wins": 45,
+        "losses": 37,
+        "pct": 0.5487804878048781,
+        "summary": "45-37"
+      },
+      "awayRec": {
+        "wins": 56,
+        "losses": 26,
+        "pct": 0.6829268292682927,
+        "summary": "56-26"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.3272,
+        "a_prob": 0.6728,
+        "h_odds": 195,
+        "a_odds": -230,
+        "h_ev": -3.5,
+        "a_ev": -3.5,
+        "h_proj": 102,
+        "a_proj": 110,
+        "total_line": 212.5,
+        "over_odds": -110,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "away",
+        "pick_team": "Boston Celtics",
+        "my_prob": 0.6728,
+        "confidence": 67,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Neemias Queta",
+          "stat": "Rebounds",
+          "line": 7.5,
+          "OVER": 114,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": 114,
+          "ev": 0.0
+        },
+        {
+          "player": "Nikola Vucevic",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 103,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": 103,
+          "ev": -0.7
+        },
+        {
+          "player": "Jaylen Brown",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": 116,
+          "UNDER": -123,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -1.4
+        },
+        {
+          "player": "Quentin Grimes",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": 100,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -1.4
+        },
+        {
+          "player": "Sam Hauser",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -113,
+          "UNDER": 104,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -2.0
+        },
+        {
+          "player": "Jayson Tatum",
+          "stat": "Points",
+          "line": 24.5,
+          "OVER": -110,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -2.8
+        },
+        {
+          "player": "Nikola Vucevic",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -119,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -119,
+          "ev": -3.7
+        },
+        {
+          "player": "Jayson Tatum",
+          "stat": "Rebounds",
+          "line": 10.5,
+          "OVER": 107,
+          "UNDER": -125,
+          "dir": "OVER",
+          "odds": 107,
+          "ev": -3.7
+        }
+      ],
+      "injuries": [
+        "PHI: Joel Embiid Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401869402",
+      "homeAbbr": "MIN",
+      "awayAbbr": "DEN",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "Denver Nuggets",
+      "homeRec": {
+        "wins": 49,
+        "losses": 33,
+        "pct": 0.5975609756097561,
+        "summary": "49-33"
+      },
+      "awayRec": {
+        "wins": 54,
+        "losses": 28,
+        "pct": 0.6585365853658537,
+        "summary": "54-28"
+      },
+      "startTime": "9:30 PM ET",
+      "pred": {
+        "h_prob": 0.3111,
+        "a_prob": 0.6889,
+        "h_odds": 210,
+        "a_odds": -250,
+        "h_ev": -3.6,
+        "a_ev": -3.6,
+        "h_proj": 108,
+        "a_proj": 116,
+        "total_line": 224.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "away",
+        "pick_team": "Denver Nuggets",
+        "my_prob": 0.6889,
+        "confidence": 69,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Rudy Gobert",
+          "stat": "Points",
+          "line": 9.5,
+          "OVER": 102,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -1.9
+        },
+        {
+          "player": "Cameron Johnson",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 142,
+          "UNDER": -154,
+          "dir": "OVER",
+          "odds": 142,
+          "ev": -1.9
+        },
+        {
+          "player": "Julius Randle",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": -113,
+          "UNDER": 104,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -2.0
+        },
+        {
+          "player": "Jamal Murray",
+          "stat": "Points",
+          "line": 26.5,
+          "OVER": -102,
+          "UNDER": -108,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -2.4
+        },
+        {
+          "player": "Mike Conley",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -144,
+          "UNDER": 128,
+          "dir": "OVER",
+          "odds": -144,
+          "ev": -2.8
+        },
+        {
+          "player": "Bruce Brown",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 122,
+          "UNDER": -138,
+          "dir": "OVER",
+          "odds": 122,
+          "ev": -2.9
+        },
+        {
+          "player": "Bruce Brown",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -104,
+          "UNDER": -109,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -3.0
+        },
+        {
+          "player": "Cameron Johnson",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 154,
+          "UNDER": -178,
+          "dir": "OVER",
+          "odds": 154,
+          "ev": -3.3
+        }
+      ],
+      "injuries": [
+        "MIN: Ayo Dosunmu Day-To-Day - Soreness",
+        "MIN: Donte DiVincenzo Out - Surgery",
+        "MIN: Anthony Edwards Out - Bruise",
+        "DEN: Peyton Watson Out - Strain",
+        "DEN: Aaron Gordon Day-To-Day - Soreness"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
