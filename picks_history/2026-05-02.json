@@ -1,0 +1,142 @@
+{
+  "date": "2026-05-02",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401869412",
+      "homeAbbr": "BOS",
+      "awayAbbr": "PHI",
+      "homeTeam": "Boston Celtics",
+      "awayTeam": "Philadelphia 76ers",
+      "homeRec": {
+        "wins": 56,
+        "losses": 26,
+        "pct": 0.6829268292682927,
+        "summary": "56-26"
+      },
+      "awayRec": {
+        "wins": 45,
+        "losses": 37,
+        "pct": 0.5487804878048781,
+        "summary": "45-37"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.7157,
+        "a_prob": 0.2843,
+        "h_odds": -285,
+        "a_odds": 240,
+        "h_ev": -3.3,
+        "a_ev": -3.3,
+        "h_proj": 108,
+        "a_proj": 98,
+        "total_line": 205.5,
+        "over_odds": -108,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Boston Celtics",
+        "my_prob": 0.7157,
+        "confidence": 72,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Derrick White",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 100,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -2.5
+        },
+        {
+          "player": "Jaylen Brown",
+          "stat": "Points",
+          "line": 25.5,
+          "OVER": -110,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -3.3
+        },
+        {
+          "player": "Nikola Vucevic",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -119,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -119,
+          "ev": -3.7
+        },
+        {
+          "player": "Derrick White",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 109,
+          "UNDER": -128,
+          "dir": "OVER",
+          "odds": 109,
+          "ev": -3.8
+        },
+        {
+          "player": "Neemias Queta",
+          "stat": "Rebounds",
+          "line": 7.5,
+          "OVER": -104,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -3.9
+        },
+        {
+          "player": "Payton Pritchard",
+          "stat": "Points",
+          "line": 13.5,
+          "OVER": -110,
+          "UNDER": -108,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -4.1
+        },
+        {
+          "player": "Sam Hauser",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": 110,
+          "UNDER": -132,
+          "dir": "OVER",
+          "odds": 110,
+          "ev": -4.3
+        },
+        {
+          "player": "Paul George",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 110,
+          "UNDER": -135,
+          "dir": "OVER",
+          "odds": 110,
+          "ev": -4.8
+        }
+      ],
+      "injuries": [
+        "PHI: Joel Embiid Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
