@@ -38,7 +38,7 @@ from espn import espn_schedule, espn_game_detail
 from odds import odds_today, odds_props, parse_game_odds, parse_props, match_odds_event
 from prizepicks import fetch_prizepicks_props, filter_props_for_game
 from prop_context import build_prop_context, get_team_stats
-from prop_search import enrich_props_with_context
+from nba_stats import enrich_props_with_nba_stats
 from predictor import predict
 from groq_ai import groq_analyze_all as claude_analyze_all
 from history import save_history, load_history, grade_day, grade_yesterday
@@ -181,7 +181,7 @@ def run_for_date(target_date):
         # Enrich PrizePicks props with Tavily search context
         if pp_filtered:
             try:
-                pp_filtered = enrich_props_with_context(
+                pp_filtered = enrich_props_with_nba_stats(
                     pp_filtered, g["homeAbbr"], g["awayAbbr"], g["homeTeam"], g["awayTeam"]
                 )
             except Exception as e:

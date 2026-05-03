@@ -1,6 +1,6 @@
 {
   "date": "2026-05-02",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401869412",
@@ -134,8 +134,8 @@
         "PHI: Joel Embiid Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "PHI 109\u2013100 BOS",
       "tot_result": null
     }
   ]
