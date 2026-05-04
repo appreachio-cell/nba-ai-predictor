@@ -1,6 +1,6 @@
 {
   "date": "2026-05-03",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401869418",
@@ -136,8 +136,8 @@
         "ORL: Franz Wagner Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ORL 94\u2013116 DET",
       "tot_result": null
     },
     {
@@ -274,8 +274,8 @@
         "TOR: Chucky Hepburn Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "TOR 102\u2013114 CLE",
       "tot_result": null
     }
   ]

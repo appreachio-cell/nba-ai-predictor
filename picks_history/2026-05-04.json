@@ -1,0 +1,283 @@
+{
+  "date": "2026-05-04",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401871159",
+      "homeAbbr": "NY",
+      "awayAbbr": "PHI",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Philadelphia 76ers",
+      "homeRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "awayRec": {
+        "wins": 45,
+        "losses": 37,
+        "pct": 0.5487804878048781,
+        "summary": "45-37"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.7107,
+        "a_prob": 0.2893,
+        "h_odds": -275,
+        "a_odds": 235,
+        "h_ev": -3.1,
+        "a_ev": -3.1,
+        "h_proj": 112,
+        "a_proj": 102,
+        "total_line": 213.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.7107,
+        "confidence": 71,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Karl-Anthony Towns",
+          "stat": "Points",
+          "line": 19.5,
+          "OVER": -102,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.0
+        },
+        {
+          "player": "Quentin Grimes",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -106,
+          "UNDER": -107,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.1
+        },
+        {
+          "player": "Quentin Grimes",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": 106,
+          "UNDER": -122,
+          "dir": "OVER",
+          "odds": 106,
+          "ev": -3.4
+        },
+        {
+          "player": "Karl-Anthony Towns",
+          "stat": "Rebounds",
+          "line": 11.5,
+          "OVER": -116,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -116,
+          "ev": -4.0
+        },
+        {
+          "player": "Jordan Clarkson",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -121,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -121,
+          "ev": -4.1
+        },
+        {
+          "player": "Andre Drummond",
+          "stat": "Points",
+          "line": 2.5,
+          "OVER": 106,
+          "UNDER": -126,
+          "dir": "OVER",
+          "odds": 106,
+          "ev": -4.1
+        },
+        {
+          "player": "OG Anunoby",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": -104,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -4.1
+        },
+        {
+          "player": "Mikal Bridges",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -133,
+          "UNDER": 112,
+          "dir": "OVER",
+          "odds": -133,
+          "ev": -4.1
+        }
+      ],
+      "injuries": [
+        "NY: Jeremy Sochan Day-To-Day - Not Specified",
+        "PHI: Joel Embiid Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401871152",
+      "homeAbbr": "SA",
+      "awayAbbr": "MIN",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "awayRec": {
+        "wins": 49,
+        "losses": 33,
+        "pct": 0.5975609756097561,
+        "summary": "49-33"
+      },
+      "startTime": "9:30 PM ET",
+      "pred": {
+        "h_prob": 0.8095,
+        "a_prob": 0.1905,
+        "h_odds": -500,
+        "a_odds": 410,
+        "h_ev": -2.9,
+        "a_ev": -2.8,
+        "h_proj": 116,
+        "a_proj": 102,
+        "total_line": 218.5,
+        "over_odds": -106,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.8095,
+        "confidence": 81,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Dylan Harper",
+          "stat": "Points",
+          "line": 9.5,
+          "OVER": -102,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -1.7
+        },
+        {
+          "player": "Luke Kornet",
+          "stat": "Points",
+          "line": 3.5,
+          "OVER": -130,
+          "UNDER": 120,
+          "dir": "OVER",
+          "odds": -130,
+          "ev": -1.9
+        },
+        {
+          "player": "Naz Reid",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -117,
+          "UNDER": 104,
+          "dir": "OVER",
+          "odds": -117,
+          "ev": -2.9
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -115,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -115,
+          "ev": -2.9
+        },
+        {
+          "player": "Victor Wembanyama",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 142,
+          "UNDER": -163,
+          "dir": "OVER",
+          "odds": 142,
+          "ev": -3.2
+        },
+        {
+          "player": "Julian Champagnie",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -135,
+          "UNDER": 118,
+          "dir": "OVER",
+          "odds": -135,
+          "ev": -3.2
+        },
+        {
+          "player": "Anthony Edwards",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -104,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -3.5
+        },
+        {
+          "player": "Julius Randle",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": 116,
+          "UNDER": -135,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -3.6
+        }
+      ],
+      "injuries": [
+        "SA: Carter Bryant Day-To-Day - Sprain",
+        "SA: David Jones Garcia Out - Surgery",
+        "MIN: Anthony Edwards Out - Bruise",
+        "MIN: Ayo Dosunmu Day-To-Day - Soreness",
+        "MIN: Donte DiVincenzo Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
