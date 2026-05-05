@@ -1,0 +1,280 @@
+{
+  "date": "2026-05-05",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401871333",
+      "homeAbbr": "DET",
+      "awayAbbr": "CLE",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeRec": {
+        "wins": 60,
+        "losses": 22,
+        "pct": 0.7317073170731707,
+        "summary": "60-22"
+      },
+      "awayRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5718,
+        "a_prob": 0.4282,
+        "h_odds": -146,
+        "a_odds": 125,
+        "h_ev": -3.7,
+        "a_ev": -3.7,
+        "h_proj": 109,
+        "a_proj": 106,
+        "total_line": 215.5,
+        "over_odds": -108,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Detroit Pistons",
+        "my_prob": 0.5718,
+        "confidence": 57,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Evan Mobley",
+          "stat": "Rebounds",
+          "line": 8.5,
+          "OVER": -102,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.0
+        },
+        {
+          "player": "Tobias Harris",
+          "stat": "Points",
+          "line": 16.5,
+          "OVER": -106,
+          "UNDER": -108,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.3
+        },
+        {
+          "player": "Cade Cunningham",
+          "stat": "Points",
+          "line": 27.5,
+          "OVER": -102,
+          "UNDER": -115,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.8
+        },
+        {
+          "player": "Sam Merrill",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": 102,
+          "UNDER": -120,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -3.9
+        },
+        {
+          "player": "Jarrett Allen",
+          "stat": "Rebounds",
+          "line": 7.5,
+          "OVER": -114,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -4.3
+        },
+        {
+          "player": "Javonte Green",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": 130,
+          "UNDER": -158,
+          "dir": "OVER",
+          "odds": 130,
+          "ev": -4.5
+        },
+        {
+          "player": "Dean Wade",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -114,
+          "UNDER": -107,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -4.7
+        },
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 128,
+          "UNDER": -157,
+          "dir": "OVER",
+          "odds": 128,
+          "ev": -4.7
+        }
+      ],
+      "injuries": [
+        "DET: Kevin Huerter Out - Strain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401871326",
+      "homeAbbr": "OKC",
+      "awayAbbr": "LAL",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "Los Angeles Lakers",
+      "homeRec": {
+        "wins": 64,
+        "losses": 18,
+        "pct": 0.7804878048780488,
+        "summary": "64-18"
+      },
+      "awayRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.8724,
+        "a_prob": 0.1276,
+        "h_odds": -900,
+        "a_odds": 660,
+        "h_ev": -3.1,
+        "a_ev": -3.0,
+        "h_proj": 115,
+        "a_proj": 98,
+        "total_line": 213.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Oklahoma City Thunder",
+        "my_prob": 0.8724,
+        "confidence": 87,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Alex Caruso",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -104,
+          "UNDER": -108,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -2.8
+        },
+        {
+          "player": "Deandre Ayton",
+          "stat": "Points",
+          "line": 9.5,
+          "OVER": -118,
+          "UNDER": 103,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -3.3
+        },
+        {
+          "player": "Jake LaRavia",
+          "stat": "Points",
+          "line": 3.5,
+          "OVER": -110,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -3.3
+        },
+        {
+          "player": "Cason Wallace",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -122,
+          "UNDER": 105,
+          "dir": "OVER",
+          "odds": -122,
+          "ev": -3.6
+        },
+        {
+          "player": "Isaiah Hartenstein",
+          "stat": "Rebounds",
+          "line": 8.5,
+          "OVER": 108,
+          "UNDER": -126,
+          "dir": "OVER",
+          "odds": 108,
+          "ev": -3.7
+        },
+        {
+          "player": "Marcus Smart",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -132,
+          "UNDER": 113,
+          "dir": "OVER",
+          "odds": -132,
+          "ev": -3.7
+        },
+        {
+          "player": "Jake LaRavia",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -102,
+          "UNDER": -115,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.8
+        },
+        {
+          "player": "Luke Kennard",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -118,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -4.0
+        }
+      ],
+      "injuries": [
+        "OKC: Jalen Williams Out - Strain",
+        "OKC: Thomas Sorber Out - Surgery",
+        "LAL: Luka Doncic Out - Strain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}

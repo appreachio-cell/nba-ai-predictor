@@ -1,6 +1,6 @@
 {
   "date": "2026-05-04",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401871159",
@@ -135,8 +135,8 @@
         "PHI: Joel Embiid Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHI 98\u2013137 NY",
       "tot_result": null
     },
     {
@@ -275,8 +275,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIN 104\u2013102 SA",
       "tot_result": null
     }
   ]
