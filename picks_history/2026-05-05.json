@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401871333",
@@ -134,8 +134,8 @@
         "DET: Kevin Huerter Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CLE 101\u2013111 DET",
       "tot_result": null
     },
     {
@@ -272,8 +272,8 @@
         "LAL: Luka Doncic Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAL 90\u2013108 OKC",
       "tot_result": null
     }
   ]
