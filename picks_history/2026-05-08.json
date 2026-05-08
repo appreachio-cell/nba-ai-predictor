@@ -1,0 +1,284 @@
+{
+  "date": "2026-05-08",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401871161",
+      "homeAbbr": "PHI",
+      "awayAbbr": "NY",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "New York Knicks",
+      "homeRec": {
+        "wins": 45,
+        "losses": 37,
+        "pct": 0.5487804878048781,
+        "summary": "45-37"
+      },
+      "awayRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5272,
+        "a_prob": 0.4728,
+        "h_odds": -118,
+        "a_odds": 106,
+        "h_ev": -2.6,
+        "a_ev": -2.6,
+        "h_proj": 108,
+        "a_proj": 106,
+        "total_line": 214.5,
+        "over_odds": -108,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Philadelphia 76ers",
+        "my_prob": 0.5272,
+        "confidence": 53,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Mitchell Robinson",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": -126,
+          "UNDER": 114,
+          "dir": "OVER",
+          "odds": -126,
+          "ev": -2.4
+        },
+        {
+          "player": "Joel Embiid",
+          "stat": "Rebounds",
+          "line": 8.5,
+          "OVER": 116,
+          "UNDER": -131,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -2.9
+        },
+        {
+          "player": "Joel Embiid",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": -110,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -3.3
+        },
+        {
+          "player": "Mikal Bridges",
+          "stat": "Points",
+          "line": 14.5,
+          "OVER": -103,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": -103,
+          "ev": -3.4
+        },
+        {
+          "player": "Kelly Oubre Jr",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": -102,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.4
+        },
+        {
+          "player": "Miles McBride",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": 106,
+          "UNDER": -122,
+          "dir": "OVER",
+          "odds": 106,
+          "ev": -3.4
+        },
+        {
+          "player": "Tyrese Maxey",
+          "stat": "Points",
+          "line": 25.5,
+          "OVER": -106,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.7
+        },
+        {
+          "player": "Jalen Brunson",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 142,
+          "UNDER": -167,
+          "dir": "OVER",
+          "odds": 142,
+          "ev": -3.7
+        }
+      ],
+      "injuries": [
+        "PHI: Joel Embiid Day-To-Day - Sprain",
+        "NY: Josh Hart Day-To-Day - Sprain",
+        "NY: Mitchell Robinson Day-To-Day - Not Specified",
+        "NY: OG Anunoby Day-To-Day - Strain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401871154",
+      "homeAbbr": "MIN",
+      "awayAbbr": "SA",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 49,
+        "losses": 33,
+        "pct": 0.5975609756097561,
+        "summary": "49-33"
+      },
+      "awayRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "startTime": "9:30 PM ET",
+      "pred": {
+        "h_prob": 0.3536,
+        "a_prob": 0.6464,
+        "h_odds": 172,
+        "a_odds": -205,
+        "h_ev": -3.8,
+        "a_ev": -3.8,
+        "h_proj": 105,
+        "a_proj": 112,
+        "total_line": 216.5,
+        "over_odds": -108,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "away",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.6464,
+        "confidence": 65,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Luke Kornet",
+          "stat": "Points",
+          "line": 3.5,
+          "OVER": -108,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -1.4
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": 100,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -2.3
+        },
+        {
+          "player": "Terrence Shannon Jr.",
+          "stat": "Points",
+          "line": 10.5,
+          "OVER": -106,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -2.4
+        },
+        {
+          "player": "Julian Champagnie",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": -112,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -112,
+          "ev": -2.8
+        },
+        {
+          "player": "Anthony Edwards",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -125,
+          "UNDER": 110,
+          "dir": "OVER",
+          "odds": -125,
+          "ev": -3.1
+        },
+        {
+          "player": "De'Aaron Fox",
+          "stat": "Assists",
+          "line": 5.5,
+          "OVER": -102,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.2
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 128,
+          "UNDER": -150,
+          "dir": "OVER",
+          "odds": 128,
+          "ev": -3.7
+        },
+        {
+          "player": "Mike Conley",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 110,
+          "UNDER": -129,
+          "dir": "OVER",
+          "odds": 110,
+          "ev": -3.8
+        }
+      ],
+      "injuries": [
+        "MIN: Ayo Dosunmu Day-To-Day - Soreness",
+        "MIN: Anthony Edwards Day-To-Day - Bruise",
+        "MIN: Donte DiVincenzo Out - Surgery",
+        "SA: David Jones Garcia Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
