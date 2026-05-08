@@ -1,6 +1,6 @@
 {
   "date": "2026-05-07",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401871334",
@@ -135,8 +135,8 @@
         "CLE: Sam Merrill Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CLE 97\u2013107 DET",
       "tot_result": null
     },
     {
@@ -275,8 +275,8 @@
         "LAL: Luka Doncic Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAL 107\u2013125 OKC",
       "tot_result": null
     }
   ]
