@@ -1,6 +1,6 @@
 {
   "date": "2026-05-08",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401871161",
@@ -137,8 +137,8 @@
         "NY: OG Anunoby Day-To-Day - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "NY 108\u201394 PHI",
       "tot_result": null
     },
     {
@@ -276,8 +276,8 @@
         "SA: David Jones Garcia Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 115\u2013108 MIN",
       "tot_result": null
     }
   ]
