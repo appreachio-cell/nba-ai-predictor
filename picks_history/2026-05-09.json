@@ -1,6 +1,6 @@
 {
   "date": "2026-05-09",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401871335",
@@ -135,8 +135,8 @@
         "DET: Kevin Huerter Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DET 109\u2013116 CLE",
       "tot_result": null
     },
     {
@@ -274,8 +274,8 @@
         "OKC: Thomas Sorber Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "OKC 131\u2013108 LAL",
       "tot_result": null
     }
   ]
