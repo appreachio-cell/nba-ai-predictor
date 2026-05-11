@@ -1,0 +1,282 @@
+{
+  "date": "2026-05-11",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401871336",
+      "homeAbbr": "CLE",
+      "awayAbbr": "DET",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Detroit Pistons",
+      "homeRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "awayRec": {
+        "wins": 60,
+        "losses": 22,
+        "pct": 0.7317073170731707,
+        "summary": "60-22"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6016,
+        "a_prob": 0.3984,
+        "h_odds": -166,
+        "a_odds": 142,
+        "h_ev": -3.6,
+        "a_ev": -3.6,
+        "h_proj": 109,
+        "a_proj": 104,
+        "total_line": 213.5,
+        "over_odds": -115,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Cleveland Cavaliers",
+        "my_prob": 0.6016,
+        "confidence": 60,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Jaylon Tyson",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -102,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.0
+        },
+        {
+          "player": "Daniss Jenkins",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": 116,
+          "UNDER": -136,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -3.8
+        },
+        {
+          "player": "James Harden",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -141,
+          "UNDER": 118,
+          "dir": "OVER",
+          "odds": -141,
+          "ev": -4.2
+        },
+        {
+          "player": "Jarrett Allen",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": -110,
+          "UNDER": -109,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -4.3
+        },
+        {
+          "player": "Cade Cunningham",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 104,
+          "UNDER": -125,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -4.4
+        },
+        {
+          "player": "Duncan Robinson",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": -114,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -4.5
+        },
+        {
+          "player": "Sam Merrill",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -121,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -121,
+          "ev": -4.5
+        },
+        {
+          "player": "Dennis Schroder",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -124,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -124,
+          "ev": -4.6
+        }
+      ],
+      "injuries": [
+        "CLE: Thomas Bryant Day-To-Day",
+        "DET: Kevin Huerter Out - Strain",
+        "DET: Caris LeVert Day-To-Day - Bruise"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401871329",
+      "homeAbbr": "LAL",
+      "awayAbbr": "OKC",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "awayRec": {
+        "wins": 64,
+        "losses": 18,
+        "pct": 0.7804878048780488,
+        "summary": "64-18"
+      },
+      "startTime": "10:30 PM ET",
+      "pred": {
+        "h_prob": 0.1765,
+        "a_prob": 0.8235,
+        "h_odds": 450,
+        "a_odds": -560,
+        "h_ev": -2.9,
+        "a_ev": -2.9,
+        "h_proj": 100,
+        "a_proj": 114,
+        "total_line": 214.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "away",
+        "pick_team": "Oklahoma City Thunder",
+        "my_prob": 0.8235,
+        "confidence": 82,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Isaiah Hartenstein",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -120,
+          "UNDER": 110,
+          "dir": "OVER",
+          "odds": -120,
+          "ev": -2.1
+        },
+        {
+          "player": "Luguentz Dort",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -136,
+          "UNDER": 122,
+          "dir": "OVER",
+          "odds": -136,
+          "ev": -2.6
+        },
+        {
+          "player": "Chet Holmgren",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": -114,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -3.2
+        },
+        {
+          "player": "Jaylin Williams",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": -101,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -101,
+          "ev": -3.4
+        },
+        {
+          "player": "Rui Hachimura",
+          "stat": "Points",
+          "line": 14.5,
+          "OVER": -106,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.7
+        },
+        {
+          "player": "Luke Kennard",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -120,
+          "UNDER": 103,
+          "dir": "OVER",
+          "odds": -120,
+          "ev": -3.7
+        },
+        {
+          "player": "Austin Reaves",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 116,
+          "UNDER": -138,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -4.1
+        },
+        {
+          "player": "Chet Holmgren",
+          "stat": "Points",
+          "line": 17.5,
+          "OVER": -115,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -115,
+          "ev": -4.3
+        }
+      ],
+      "injuries": [
+        "LAL: Luka Doncic Out - Strain",
+        "OKC: Jalen Williams Out - Strain",
+        "OKC: Thomas Sorber Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
