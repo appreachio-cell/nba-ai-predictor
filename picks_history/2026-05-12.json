@@ -1,0 +1,145 @@
+{
+  "date": "2026-05-12",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401871156",
+      "homeAbbr": "SA",
+      "awayAbbr": "MIN",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "awayRec": {
+        "wins": 49,
+        "losses": 33,
+        "pct": 0.5975609756097561,
+        "summary": "49-33"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.7662,
+        "a_prob": 0.2338,
+        "h_odds": -375,
+        "a_odds": 315,
+        "h_ev": -2.9,
+        "a_ev": -3.0,
+        "h_proj": 115,
+        "a_proj": 104,
+        "total_line": 218.5,
+        "over_odds": -108,
+        "under_odds": -108,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.7662,
+        "confidence": 77,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Ayo Dosunmu",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": 104,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -2.0
+        },
+        {
+          "player": "Ayo Dosunmu",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 100,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -2.3
+        },
+        {
+          "player": "Rudy Gobert",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -112,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -112,
+          "ev": -2.3
+        },
+        {
+          "player": "Mike Conley",
+          "stat": "Points",
+          "line": 2.5,
+          "OVER": 108,
+          "UNDER": -119,
+          "dir": "OVER",
+          "odds": 108,
+          "ev": -2.4
+        },
+        {
+          "player": "Keldon Johnson",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -114,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -2.7
+        },
+        {
+          "player": "Naz Reid",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 158,
+          "UNDER": -179,
+          "dir": "OVER",
+          "odds": 158,
+          "ev": -2.8
+        },
+        {
+          "player": "Jaden McDaniels",
+          "stat": "Points",
+          "line": 15.5,
+          "OVER": -108,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -2.8
+        },
+        {
+          "player": "Rudy Gobert",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": -138,
+          "UNDER": 121,
+          "dir": "OVER",
+          "odds": -138,
+          "ev": -3.1
+        }
+      ],
+      "injuries": [
+        "SA: Dylan Harper Day-To-Day",
+        "SA: De'Aaron Fox Day-To-Day - Soreness",
+        "SA: David Jones Garcia Out - Surgery",
+        "MIN: Donte DiVincenzo Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
