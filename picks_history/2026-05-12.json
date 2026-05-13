@@ -1,6 +1,6 @@
 {
   "date": "2026-05-12",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401871156",
@@ -137,8 +137,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIN 97\u2013126 SA",
       "tot_result": null
     }
   ]

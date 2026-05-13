@@ -1,0 +1,144 @@
+{
+  "date": "2026-05-13",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401871337",
+      "homeAbbr": "DET",
+      "awayAbbr": "CLE",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeRec": {
+        "wins": 60,
+        "losses": 22,
+        "pct": 0.7317073170731707,
+        "summary": "60-22"
+      },
+      "awayRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6135,
+        "a_prob": 0.3865,
+        "h_odds": -174,
+        "a_odds": 150,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 108,
+        "a_proj": 104,
+        "total_line": 211.5,
+        "over_odds": -110,
+        "under_odds": -106,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Detroit Pistons",
+        "my_prob": 0.6135,
+        "confidence": 61,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Sam Merrill",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -102,
+          "UNDER": -107,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -2.1
+        },
+        {
+          "player": "Max Strus",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": 102,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -2.5
+        },
+        {
+          "player": "Caris LeVert",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -106,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -2.6
+        },
+        {
+          "player": "Ausar Thompson",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": -115,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -115,
+          "ev": -3.8
+        },
+        {
+          "player": "Daniss Jenkins",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 142,
+          "UNDER": -170,
+          "dir": "OVER",
+          "odds": 142,
+          "ev": -4.1
+        },
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Points",
+          "line": 27.5,
+          "OVER": 100,
+          "UNDER": -119,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -4.2
+        },
+        {
+          "player": "Dean Wade",
+          "stat": "Points",
+          "line": 3.5,
+          "OVER": 104,
+          "UNDER": -124,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -4.2
+        },
+        {
+          "player": "Cade Cunningham",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 114,
+          "UNDER": -136,
+          "dir": "OVER",
+          "odds": 114,
+          "ev": -4.2
+        }
+      ],
+      "injuries": [
+        "DET: Kevin Huerter Out - Strain",
+        "DET: Caris LeVert Day-To-Day - Bruise",
+        "DET: Duncan Robinson Day-To-Day - Soreness"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
