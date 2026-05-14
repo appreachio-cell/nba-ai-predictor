@@ -1,6 +1,6 @@
 {
   "date": "2026-05-13",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401871337",
@@ -136,8 +136,8 @@
         "DET: Duncan Robinson Day-To-Day - Soreness"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "CLE 117\u2013113 DET",
       "tot_result": null
     }
   ]
