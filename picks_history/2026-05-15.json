@@ -1,0 +1,281 @@
+{
+  "date": "2026-05-15",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401871338",
+      "homeAbbr": "CLE",
+      "awayAbbr": "DET",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Detroit Pistons",
+      "homeRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "awayRec": {
+        "wins": 60,
+        "losses": 22,
+        "pct": 0.7317073170731707,
+        "summary": "60-22"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.6097,
+        "a_prob": 0.3903,
+        "h_odds": -174,
+        "a_odds": 146,
+        "h_ev": -4.0,
+        "a_ev": -4.0,
+        "h_proj": 108,
+        "a_proj": 102,
+        "total_line": 210.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Cleveland Cavaliers",
+        "my_prob": 0.6097,
+        "confidence": 61,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Dennis Schroder",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -118,
+          "UNDER": 118,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -0.0
+        },
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -104,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -2.4
+        },
+        {
+          "player": "Jarrett Allen",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": -104,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -2.4
+        },
+        {
+          "player": "Tobias Harris",
+          "stat": "Points",
+          "line": 17.5,
+          "OVER": -110,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -2.8
+        },
+        {
+          "player": "James Harden",
+          "stat": "Points",
+          "line": 19.5,
+          "OVER": -108,
+          "UNDER": -107,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -3.5
+        },
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -106,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.7
+        },
+        {
+          "player": "Sam Merrill",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -130,
+          "UNDER": 108,
+          "dir": "OVER",
+          "odds": -130,
+          "ev": -4.4
+        },
+        {
+          "player": "Cade Cunningham",
+          "stat": "Assists",
+          "line": 8.5,
+          "OVER": -128,
+          "UNDER": 106,
+          "dir": "OVER",
+          "odds": -128,
+          "ev": -4.5
+        }
+      ],
+      "injuries": [
+        "DET: Duncan Robinson Day-To-Day - Soreness",
+        "DET: Kevin Huerter Day-To-Day - Strain",
+        "DET: Caris LeVert Day-To-Day - Bruise"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401871157",
+      "homeAbbr": "MIN",
+      "awayAbbr": "SA",
+      "homeTeam": "Minnesota Timberwolves",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 49,
+        "losses": 33,
+        "pct": 0.5975609756097561,
+        "summary": "49-33"
+      },
+      "awayRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "startTime": "9:30 PM ET",
+      "pred": {
+        "h_prob": 0.3362,
+        "a_prob": 0.6638,
+        "h_odds": 188,
+        "a_odds": -218,
+        "h_ev": -3.2,
+        "a_ev": -3.2,
+        "h_proj": 105,
+        "a_proj": 114,
+        "total_line": 218.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "away",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.6638,
+        "confidence": 66,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Jaden McDaniels",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 130,
+          "UNDER": -140,
+          "dir": "OVER",
+          "odds": 130,
+          "ev": -1.8
+        },
+        {
+          "player": "Terrence Shannon Jr.",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -106,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -2.8
+        },
+        {
+          "player": "Keldon Johnson",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 104,
+          "UNDER": -118,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -3.1
+        },
+        {
+          "player": "Rudy Gobert",
+          "stat": "Rebounds",
+          "line": 8.5,
+          "OVER": -114,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -3.2
+        },
+        {
+          "player": "Luke Kornet",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -102,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.4
+        },
+        {
+          "player": "Devin Vassell",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 134,
+          "UNDER": -156,
+          "dir": "OVER",
+          "odds": 134,
+          "ev": -3.5
+        },
+        {
+          "player": "Mike Conley",
+          "stat": "Points",
+          "line": 2.5,
+          "OVER": -125,
+          "UNDER": 107,
+          "dir": "OVER",
+          "odds": -125,
+          "ev": -3.7
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": -114,
+          "UNDER": -103,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -3.9
+        }
+      ],
+      "injuries": [
+        "MIN: Donte DiVincenzo Out - Surgery",
+        "SA: David Jones Garcia Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
