@@ -1,6 +1,6 @@
 {
   "date": "2026-05-15",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401871338",
@@ -136,8 +136,8 @@
         "DET: Caris LeVert Day-To-Day - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DET 115\u201394 CLE",
       "tot_result": null
     },
     {
@@ -273,8 +273,8 @@
         "SA: David Jones Garcia Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 139\u2013109 MIN",
       "tot_result": null
     }
   ]
