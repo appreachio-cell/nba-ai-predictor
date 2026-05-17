@@ -1,0 +1,145 @@
+{
+  "date": "2026-05-17",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401871339",
+      "homeAbbr": "DET",
+      "awayAbbr": "CLE",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeRec": {
+        "wins": 60,
+        "losses": 22,
+        "pct": 0.7317073170731707,
+        "summary": "60-22"
+      },
+      "awayRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6324,
+        "a_prob": 0.3676,
+        "h_odds": -185,
+        "a_odds": 165,
+        "h_ev": -2.6,
+        "a_ev": -2.6,
+        "h_proj": 106,
+        "a_proj": 100,
+        "total_line": 205.5,
+        "over_odds": -105,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Detroit Pistons",
+        "my_prob": 0.6324,
+        "confidence": 63,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Ausar Thompson",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 130,
+          "UNDER": -146,
+          "dir": "OVER",
+          "odds": 130,
+          "ev": -2.8
+        },
+        {
+          "player": "Jalen Duren",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": -136,
+          "UNDER": 116,
+          "dir": "OVER",
+          "odds": -136,
+          "ev": -3.8
+        },
+        {
+          "player": "Jalen Duren",
+          "stat": "Rebounds",
+          "line": 8.5,
+          "OVER": -130,
+          "UNDER": 110,
+          "dir": "OVER",
+          "odds": -130,
+          "ev": -4.0
+        },
+        {
+          "player": "Evan Mobley",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -112,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -112,
+          "ev": -4.1
+        },
+        {
+          "player": "Tobias Harris",
+          "stat": "Points",
+          "line": 16.5,
+          "OVER": -104,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -4.1
+        },
+        {
+          "player": "Daniss Jenkins",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": -105,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -105,
+          "ev": -4.3
+        },
+        {
+          "player": "James Harden",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -114,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -4.3
+        },
+        {
+          "player": "Cade Cunningham",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 104,
+          "UNDER": -125,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -4.4
+        }
+      ],
+      "injuries": [
+        "DET: Kevin Huerter Day-To-Day",
+        "DET: Duncan Robinson Day-To-Day - Soreness",
+        "DET: Caris LeVert Day-To-Day",
+        "CLE: Larry Nance Jr. Day-To-Day - Not Specified"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
