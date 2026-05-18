@@ -1,0 +1,145 @@
+{
+  "date": "2026-05-18",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401873197",
+      "homeAbbr": "OKC",
+      "awayAbbr": "SA",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 64,
+        "losses": 18,
+        "pct": 0.7804878048780488,
+        "summary": "64-18"
+      },
+      "awayRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.6779,
+        "a_prob": 0.3221,
+        "h_odds": -235,
+        "a_odds": 200,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 115,
+        "a_proj": 106,
+        "total_line": 221.5,
+        "over_odds": -105,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Oklahoma City Thunder",
+        "my_prob": 0.6779,
+        "confidence": 68,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Chet Holmgren",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": 108,
+          "UNDER": -122,
+          "dir": "OVER",
+          "odds": 108,
+          "ev": -2.9
+        },
+        {
+          "player": "Cason Wallace",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -114,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -3.2
+        },
+        {
+          "player": "Jalen Williams",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -147,
+          "UNDER": 128,
+          "dir": "OVER",
+          "odds": -147,
+          "ev": -3.3
+        },
+        {
+          "player": "Luke Kornet",
+          "stat": "Points",
+          "line": 2.5,
+          "OVER": -118,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -3.5
+        },
+        {
+          "player": "Isaiah Hartenstein",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -102,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.6
+        },
+        {
+          "player": "Victor Wembanyama",
+          "stat": "Rebounds",
+          "line": 12.5,
+          "OVER": -118,
+          "UNDER": 101,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -3.7
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": 116,
+          "UNDER": -136,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -3.8
+        },
+        {
+          "player": "Jalen Williams",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": 100,
+          "UNDER": -118,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -4.0
+        }
+      ],
+      "injuries": [
+        "OKC: Thomas Sorber Out - Surgery",
+        "SA: Luke Kornet Day-To-Day - Soreness",
+        "SA: De'Aaron Fox Day-To-Day - Soreness",
+        "SA: David Jones Garcia Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
