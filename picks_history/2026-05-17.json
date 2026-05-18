@@ -1,6 +1,6 @@
 {
   "date": "2026-05-17",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401871339",
@@ -137,8 +137,8 @@
         "CLE: Larry Nance Jr. Day-To-Day - Not Specified"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "CLE 125\u201394 DET",
       "tot_result": null
     }
   ]
