@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-19",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401873341",
+      "homeAbbr": "NY",
+      "awayAbbr": "CLE",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "awayRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6923,
+        "a_prob": 0.3077,
+        "h_odds": -250,
+        "a_odds": 215,
+        "h_ev": -3.1,
+        "a_ev": -3.1,
+        "h_proj": 113,
+        "a_proj": 104,
+        "total_line": 217.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.6923,
+        "confidence": 69,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Evan Mobley",
+          "stat": "Points",
+          "line": 15.5,
+          "OVER": -104,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -1.9
+        },
+        {
+          "player": "Miles McBride",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": 102,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -2.7
+        },
+        {
+          "player": "Jalen Brunson",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": 112,
+          "UNDER": -129,
+          "dir": "OVER",
+          "odds": 112,
+          "ev": -3.4
+        },
+        {
+          "player": "Josh Hart",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": -114,
+          "UNDER": -101,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -3.4
+        },
+        {
+          "player": "Dennis Schroder",
+          "stat": "Rebounds",
+          "line": 1.5,
+          "OVER": 106,
+          "UNDER": -125,
+          "dir": "OVER",
+          "odds": 106,
+          "ev": -3.9
+        },
+        {
+          "player": "Dean Wade",
+          "stat": "Points",
+          "line": 3.5,
+          "OVER": -102,
+          "UNDER": -117,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -4.2
+        },
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 109,
+          "UNDER": -130,
+          "dir": "OVER",
+          "odds": 109,
+          "ev": -4.2
+        },
+        {
+          "player": "Landry Shamet",
+          "stat": "Points",
+          "line": 2.5,
+          "OVER": -114,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -4.5
+        }
+      ],
+      "injuries": [
+        "NY: OG Anunoby Out - Strain",
+        "CLE: Larry Nance Jr. Day-To-Day - Not Specified"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
