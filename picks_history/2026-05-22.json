@@ -1,0 +1,146 @@
+{
+  "date": "2026-05-22",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401873199",
+      "homeAbbr": "SA",
+      "awayAbbr": "OKC",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "awayRec": {
+        "wins": 64,
+        "losses": 18,
+        "pct": 0.7804878048780488,
+        "summary": "64-18"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.5339,
+        "a_prob": 0.4661,
+        "h_odds": -120,
+        "a_odds": 110,
+        "h_ev": -2.1,
+        "a_ev": -2.1,
+        "h_proj": 110,
+        "a_proj": 108,
+        "total_line": 217.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.5339,
+        "confidence": 53,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Chet Holmgren",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": 138,
+          "UNDER": -152,
+          "dir": "OVER",
+          "odds": 138,
+          "ev": -2.3
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Points",
+          "line": 18.5,
+          "OVER": -106,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -2.6
+        },
+        {
+          "player": "Devin Vassell",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 116,
+          "UNDER": -129,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -2.6
+        },
+        {
+          "player": "Shai Gilgeous-Alexander",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 128,
+          "UNDER": -147,
+          "dir": "OVER",
+          "odds": 128,
+          "ev": -3.3
+        },
+        {
+          "player": "Dylan Harper",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 102,
+          "UNDER": -118,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -3.5
+        },
+        {
+          "player": "Victor Wembanyama",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 113,
+          "UNDER": -132,
+          "dir": "OVER",
+          "odds": 113,
+          "ev": -3.7
+        },
+        {
+          "player": "Chet Holmgren",
+          "stat": "Points",
+          "line": 13.5,
+          "OVER": -110,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -3.7
+        },
+        {
+          "player": "Alex Caruso",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 140,
+          "UNDER": -166,
+          "dir": "OVER",
+          "odds": 140,
+          "ev": -3.9
+        }
+      ],
+      "injuries": [
+        "SA: Dylan Harper Day-To-Day - Not Specified",
+        "SA: De'Aaron Fox Day-To-Day - Soreness",
+        "SA: David Jones Garcia Out - Surgery",
+        "OKC: Jalen Williams Day-To-Day - Soreness",
+        "OKC: Thomas Sorber Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}

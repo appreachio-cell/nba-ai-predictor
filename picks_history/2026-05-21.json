@@ -1,6 +1,6 @@
 {
   "date": "2026-05-21",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401873342",
@@ -132,8 +132,8 @@
       ],
       "injuries": [],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CLE 93\u2013109 NY",
       "tot_result": null
     }
   ]
