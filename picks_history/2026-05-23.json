@@ -1,0 +1,140 @@
+{
+  "date": "2026-05-23",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401873343",
+      "homeAbbr": "CLE",
+      "awayAbbr": "NY",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "New York Knicks",
+      "homeRec": {
+        "wins": 52,
+        "losses": 30,
+        "pct": 0.6341463414634146,
+        "summary": "52-30"
+      },
+      "awayRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.5486,
+        "a_prob": 0.4514,
+        "h_odds": -130,
+        "a_odds": 115,
+        "h_ev": -2.9,
+        "a_ev": -2.9,
+        "h_proj": 108,
+        "a_proj": 106,
+        "total_line": 214.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Cleveland Cavaliers",
+        "my_prob": 0.5486,
+        "confidence": 55,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 102,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -2.3
+        },
+        {
+          "player": "James Harden",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -114,
+          "UNDER": 103,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -2.5
+        },
+        {
+          "player": "Mikal Bridges",
+          "stat": "Points",
+          "line": 13.5,
+          "OVER": -114,
+          "UNDER": 101,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -2.9
+        },
+        {
+          "player": "Jordan Clarkson",
+          "stat": "Points",
+          "line": 3.5,
+          "OVER": 102,
+          "UNDER": -117,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -3.3
+        },
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Points",
+          "line": 27.5,
+          "OVER": 100,
+          "UNDER": -115,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.4
+        },
+        {
+          "player": "Jarrett Allen",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": 135,
+          "UNDER": -158,
+          "dir": "OVER",
+          "odds": 135,
+          "ev": -3.7
+        },
+        {
+          "player": "Max Strus",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 122,
+          "UNDER": -143,
+          "dir": "OVER",
+          "odds": 122,
+          "ev": -3.7
+        },
+        {
+          "player": "Jarrett Allen",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": 100,
+          "UNDER": -117,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.8
+        }
+      ],
+      "injuries": [],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
