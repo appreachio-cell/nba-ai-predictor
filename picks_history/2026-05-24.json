@@ -1,0 +1,145 @@
+{
+  "date": "2026-05-24",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401873200",
+      "homeAbbr": "SA",
+      "awayAbbr": "OKC",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "awayRec": {
+        "wins": 64,
+        "losses": 18,
+        "pct": 0.7804878048780488,
+        "summary": "64-18"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.5704,
+        "a_prob": 0.4296,
+        "h_odds": -144,
+        "a_odds": 125,
+        "h_ev": -3.3,
+        "a_ev": -3.3,
+        "h_proj": 111,
+        "a_proj": 108,
+        "total_line": 219.5,
+        "over_odds": -105,
+        "under_odds": -104,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.5704,
+        "confidence": 57,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Jalen Williams",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -104,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -0.5
+        },
+        {
+          "player": "Julian Champagnie",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -118,
+          "UNDER": 112,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -1.3
+        },
+        {
+          "player": "Carter Bryant",
+          "stat": "Points",
+          "line": 2.5,
+          "OVER": -106,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -1.4
+        },
+        {
+          "player": "Dylan Harper",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -120,
+          "UNDER": 110,
+          "dir": "OVER",
+          "odds": -120,
+          "ev": -2.1
+        },
+        {
+          "player": "Chet Holmgren",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": 148,
+          "UNDER": -166,
+          "dir": "OVER",
+          "odds": 148,
+          "ev": -2.7
+        },
+        {
+          "player": "Dylan Harper",
+          "stat": "Points",
+          "line": 9.5,
+          "OVER": -108,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -2.8
+        },
+        {
+          "player": "Jared McCain",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -136,
+          "UNDER": 118,
+          "dir": "OVER",
+          "odds": -136,
+          "ev": -3.4
+        },
+        {
+          "player": "Isaiah Hartenstein",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -103,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -103,
+          "ev": -3.9
+        }
+      ],
+      "injuries": [
+        "SA: David Jones Garcia Out - Surgery",
+        "OKC: Jalen Williams Day-To-Day - Soreness",
+        "OKC: Ajay Mitchell Out - Strain",
+        "OKC: Thomas Sorber Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
