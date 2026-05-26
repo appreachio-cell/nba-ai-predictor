@@ -1,0 +1,145 @@
+{
+  "date": "2026-05-26",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401873201",
+      "homeAbbr": "OKC",
+      "awayAbbr": "SA",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 64,
+        "losses": 18,
+        "pct": 0.7804878048780488,
+        "summary": "64-18"
+      },
+      "awayRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.6057,
+        "a_prob": 0.3943,
+        "h_odds": -170,
+        "a_odds": 144,
+        "h_ev": -3.8,
+        "a_ev": -3.8,
+        "h_proj": 111,
+        "a_proj": 106,
+        "total_line": 217.5,
+        "over_odds": -108,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Oklahoma City Thunder",
+        "my_prob": 0.6057,
+        "confidence": 61,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Victor Wembanyama",
+          "stat": "Rebounds",
+          "line": 13.5,
+          "OVER": 104,
+          "UNDER": -119,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -3.2
+        },
+        {
+          "player": "Cason Wallace",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 116,
+          "UNDER": -134,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -3.4
+        },
+        {
+          "player": "Jalen Williams",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -104,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -3.7
+        },
+        {
+          "player": "Devin Vassell",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 138,
+          "UNDER": -162,
+          "dir": "OVER",
+          "odds": 138,
+          "ev": -3.7
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": -112,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -112,
+          "ev": -4.1
+        },
+        {
+          "player": "Julian Champagnie",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 110,
+          "UNDER": -131,
+          "dir": "OVER",
+          "odds": 110,
+          "ev": -4.1
+        },
+        {
+          "player": "Jalen Williams",
+          "stat": "Points",
+          "line": 14.5,
+          "OVER": 104,
+          "UNDER": -124,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -4.2
+        },
+        {
+          "player": "Alex Caruso",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": -113,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -4.3
+        }
+      ],
+      "injuries": [
+        "OKC: Jalen Williams Out - Soreness",
+        "OKC: Ajay Mitchell Out - Strain",
+        "OKC: Thomas Sorber Out - Surgery",
+        "SA: David Jones Garcia Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
