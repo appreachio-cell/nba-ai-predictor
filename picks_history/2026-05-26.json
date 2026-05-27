@@ -1,6 +1,6 @@
 {
   "date": "2026-05-26",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401873201",
@@ -137,8 +137,8 @@
         "SA: David Jones Garcia Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 114\u2013127 OKC",
       "tot_result": null
     }
   ]
