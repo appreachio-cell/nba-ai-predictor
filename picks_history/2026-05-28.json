@@ -1,0 +1,145 @@
+{
+  "date": "2026-05-28",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401873202",
+      "homeAbbr": "SA",
+      "awayAbbr": "OKC",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "awayRec": {
+        "wins": 64,
+        "losses": 18,
+        "pct": 0.7804878048780488,
+        "summary": "64-18"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.5892,
+        "a_prob": 0.4108,
+        "h_odds": -155,
+        "a_odds": 136,
+        "h_ev": -3.1,
+        "a_ev": -3.1,
+        "h_proj": 111,
+        "a_proj": 108,
+        "total_line": 218.5,
+        "over_odds": -110,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.5892,
+        "confidence": 59,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Shai Gilgeous-Alexander",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -125,
+          "UNDER": 118,
+          "dir": "OVER",
+          "odds": -125,
+          "ev": -1.4
+        },
+        {
+          "player": "De'Aaron Fox",
+          "stat": "Points",
+          "line": 15.5,
+          "OVER": -114,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -3.6
+        },
+        {
+          "player": "Cason Wallace",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": -106,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.9
+        },
+        {
+          "player": "Keldon Johnson",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -102,
+          "UNDER": -117,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -4.2
+        },
+        {
+          "player": "Chet Holmgren",
+          "stat": "Points",
+          "line": 13.5,
+          "OVER": -108,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -4.3
+        },
+        {
+          "player": "Devin Vassell",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 140,
+          "UNDER": -171,
+          "dir": "OVER",
+          "odds": 140,
+          "ev": -4.5
+        },
+        {
+          "player": "Jalen Williams",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -106,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -4.5
+        },
+        {
+          "player": "Dylan Harper",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -130,
+          "UNDER": 107,
+          "dir": "OVER",
+          "odds": -130,
+          "ev": -4.6
+        }
+      ],
+      "injuries": [
+        "SA: David Jones Garcia Out - Surgery",
+        "OKC: Jalen Williams Out - Soreness",
+        "OKC: Ajay Mitchell Out - Strain",
+        "OKC: Thomas Sorber Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
