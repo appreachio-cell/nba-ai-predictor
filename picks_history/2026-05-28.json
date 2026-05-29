@@ -1,6 +1,6 @@
 {
   "date": "2026-05-28",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401873202",
@@ -137,8 +137,8 @@
         "OKC: Thomas Sorber Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "OKC 91\u2013118 SA",
       "tot_result": null
     }
   ]
