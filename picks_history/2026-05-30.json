@@ -1,0 +1,145 @@
+{
+  "date": "2026-05-30",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401873203",
+      "homeAbbr": "OKC",
+      "awayAbbr": "SA",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 64,
+        "losses": 18,
+        "pct": 0.7804878048780488,
+        "summary": "64-18"
+      },
+      "awayRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.5798,
+        "a_prob": 0.4202,
+        "h_odds": -150,
+        "a_odds": 130,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 108,
+        "a_proj": 104,
+        "total_line": 212.5,
+        "over_odds": -105,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Oklahoma City Thunder",
+        "my_prob": 0.5798,
+        "confidence": 58,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Chet Holmgren",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": 162,
+          "UNDER": -175,
+          "dir": "OVER",
+          "odds": 162,
+          "ev": -1.8
+        },
+        {
+          "player": "Luke Kornet",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": 120,
+          "UNDER": -130,
+          "dir": "OVER",
+          "odds": 120,
+          "ev": -1.9
+        },
+        {
+          "player": "Shai Gilgeous-Alexander",
+          "stat": "Assists",
+          "line": 7.5,
+          "OVER": -113,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -3.0
+        },
+        {
+          "player": "Devin Vassell",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 132,
+          "UNDER": -150,
+          "dir": "OVER",
+          "odds": 132,
+          "ev": -3.0
+        },
+        {
+          "player": "Alex Caruso",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 110,
+          "UNDER": -126,
+          "dir": "OVER",
+          "odds": 110,
+          "ev": -3.3
+        },
+        {
+          "player": "Alex Caruso",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -101,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -101,
+          "ev": -3.4
+        },
+        {
+          "player": "Kenrich Williams",
+          "stat": "Rebounds",
+          "line": 1.5,
+          "OVER": -146,
+          "UNDER": 125,
+          "dir": "OVER",
+          "odds": -146,
+          "ev": -3.7
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": -136,
+          "UNDER": 114,
+          "dir": "OVER",
+          "odds": -136,
+          "ev": -4.2
+        }
+      ],
+      "injuries": [
+        "OKC: Jalen Williams Out",
+        "OKC: Ajay Mitchell Out - Strain",
+        "OKC: Thomas Sorber Out - Surgery",
+        "SA: David Jones Garcia Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
