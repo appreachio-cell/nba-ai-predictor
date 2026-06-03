@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-03",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401859963",
+      "homeAbbr": "SA",
+      "awayAbbr": "NY",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "New York Knicks",
+      "homeRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "awayRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.622,
+        "a_prob": 0.378,
+        "h_odds": -184,
+        "a_odds": 154,
+        "h_ev": -4.0,
+        "a_ev": -4.0,
+        "h_proj": 112,
+        "a_proj": 106,
+        "total_line": 217.5,
+        "over_odds": -106,
+        "under_odds": -114,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.622,
+        "confidence": 62,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Dylan Harper",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -114,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -6.1
+        },
+        {
+          "player": "Karl-Anthony Towns",
+          "stat": "Points",
+          "line": 16.5,
+          "OVER": -114,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -6.1
+        },
+        {
+          "player": "Victor Wembanyama",
+          "stat": "Rebounds",
+          "line": 11.5,
+          "OVER": -114,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -6.1
+        },
+        {
+          "player": "Mikal Bridges",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -162,
+          "UNDER": 122,
+          "dir": "OVER",
+          "odds": -162,
+          "ev": -6.4
+        },
+        {
+          "player": "Mikal Bridges",
+          "stat": "Points",
+          "line": 13.5,
+          "OVER": -122,
+          "UNDER": -108,
+          "dir": "OVER",
+          "odds": -122,
+          "ev": -6.4
+        },
+        {
+          "player": "Jalen Brunson",
+          "stat": "Points",
+          "line": 25.5,
+          "OVER": -108,
+          "UNDER": -122,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -6.4
+        },
+        {
+          "player": "Devin Vassell",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 122,
+          "UNDER": -162,
+          "dir": "OVER",
+          "odds": 122,
+          "ev": -6.4
+        },
+        {
+          "player": "Josh Hart",
+          "stat": "Rebounds",
+          "line": 8.5,
+          "OVER": 112,
+          "UNDER": -148,
+          "dir": "OVER",
+          "odds": 112,
+          "ev": -6.4
+        }
+      ],
+      "injuries": [
+        "SA: David Jones Garcia Out - Surgery",
+        "NY: Mitchell Robinson Day-To-Day - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
