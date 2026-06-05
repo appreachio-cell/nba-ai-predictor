@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-05",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401859964",
+      "homeAbbr": "SA",
+      "awayAbbr": "NY",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "New York Knicks",
+      "homeRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "awayRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.666,
+        "a_prob": 0.334,
+        "h_odds": -220,
+        "a_odds": 190,
+        "h_ev": -3.1,
+        "a_ev": -3.1,
+        "h_proj": 112,
+        "a_proj": 104,
+        "total_line": 216.5,
+        "over_odds": -110,
+        "under_odds": -108,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.666,
+        "confidence": 67,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "De'Aaron Fox",
+          "stat": "Assists",
+          "line": 5.5,
+          "OVER": -118,
+          "UNDER": 108,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -2.2
+        },
+        {
+          "player": "Landry Shamet",
+          "stat": "Rebounds",
+          "line": 1.5,
+          "OVER": 108,
+          "UNDER": -122,
+          "dir": "OVER",
+          "odds": 108,
+          "ev": -2.9
+        },
+        {
+          "player": "Jalen Brunson",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": 116,
+          "UNDER": -132,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -3.1
+        },
+        {
+          "player": "Julian Champagnie",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -123,
+          "UNDER": 108,
+          "dir": "OVER",
+          "odds": -123,
+          "ev": -3.1
+        },
+        {
+          "player": "Mikal Bridges",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 142,
+          "UNDER": -163,
+          "dir": "OVER",
+          "odds": 142,
+          "ev": -3.2
+        },
+        {
+          "player": "Devin Vassell",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": -114,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -3.6
+        },
+        {
+          "player": "Mikal Bridges",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -108,
+          "UNDER": -108,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -3.7
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": 100,
+          "UNDER": -118,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -4.0
+        }
+      ],
+      "injuries": [
+        "SA: David Jones Garcia Out - Surgery",
+        "NY: Mitchell Robinson Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
