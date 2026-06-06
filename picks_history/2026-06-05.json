@@ -1,6 +1,6 @@
 {
   "date": "2026-06-05",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401859964",
@@ -135,8 +135,8 @@
         "NY: Mitchell Robinson Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "NY 105\u2013104 SA",
       "tot_result": null
     }
   ]
