@@ -1,0 +1,142 @@
+{
+  "date": "2026-06-08",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401859965",
+      "homeAbbr": "NY",
+      "awayAbbr": "SA",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "awayRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.5451,
+        "a_prob": 0.4549,
+        "h_odds": -130,
+        "a_odds": 112,
+        "h_ev": -3.6,
+        "a_ev": -3.6,
+        "h_proj": 109,
+        "a_proj": 108,
+        "total_line": 216.5,
+        "over_odds": -105,
+        "under_odds": -108,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.5451,
+        "confidence": 55,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Dylan Harper",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 142,
+          "UNDER": -158,
+          "dir": "OVER",
+          "odds": 142,
+          "ev": -2.5
+        },
+        {
+          "player": "Mikal Bridges",
+          "stat": "Points",
+          "line": 13.5,
+          "OVER": -110,
+          "UNDER": -103,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -3.0
+        },
+        {
+          "player": "Jose Alvarado",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": 148,
+          "UNDER": -172,
+          "dir": "OVER",
+          "odds": 148,
+          "ev": -3.4
+        },
+        {
+          "player": "Jalen Brunson",
+          "stat": "Points",
+          "line": 26.5,
+          "OVER": -108,
+          "UNDER": -107,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -3.5
+        },
+        {
+          "player": "Julian Champagnie",
+          "stat": "Points",
+          "line": 10.5,
+          "OVER": 100,
+          "UNDER": -116,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.6
+        },
+        {
+          "player": "Landry Shamet",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": -110,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -3.7
+        },
+        {
+          "player": "Mitchell Robinson",
+          "stat": "Points",
+          "line": 3.5,
+          "OVER": -122,
+          "UNDER": 104,
+          "dir": "OVER",
+          "odds": -122,
+          "ev": -3.8
+        },
+        {
+          "player": "De'Aaron Fox",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 116,
+          "UNDER": -136,
+          "dir": "OVER",
+          "odds": 116,
+          "ev": -3.8
+        }
+      ],
+      "injuries": [
+        "SA: David Jones Garcia Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
