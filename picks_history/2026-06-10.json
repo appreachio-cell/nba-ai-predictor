@@ -1,0 +1,142 @@
+{
+  "date": "2026-06-10",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401859966",
+      "homeAbbr": "NY",
+      "awayAbbr": "SA",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "awayRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.5502,
+        "a_prob": 0.4498,
+        "h_odds": -132,
+        "a_odds": 115,
+        "h_ev": -3.3,
+        "a_ev": -3.3,
+        "h_proj": 109,
+        "a_proj": 108,
+        "total_line": 216.5,
+        "over_odds": -110,
+        "under_odds": -108,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.5502,
+        "confidence": 55,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "De'Aaron Fox",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 122,
+          "UNDER": -125,
+          "dir": "OVER",
+          "odds": 122,
+          "ev": -0.6
+        },
+        {
+          "player": "Julian Champagnie",
+          "stat": "Points",
+          "line": 9.5,
+          "OVER": -104,
+          "UNDER": -103,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -1.7
+        },
+        {
+          "player": "Jose Alvarado",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": 148,
+          "UNDER": -162,
+          "dir": "OVER",
+          "odds": 148,
+          "ev": -2.1
+        },
+        {
+          "player": "Landry Shamet",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": 100,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -2.5
+        },
+        {
+          "player": "Luke Kornet",
+          "stat": "Points",
+          "line": 1.5,
+          "OVER": -125,
+          "UNDER": 112,
+          "dir": "OVER",
+          "odds": -125,
+          "ev": -2.7
+        },
+        {
+          "player": "Devin Vassell",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": 100,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -2.8
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": -109,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -109,
+          "ev": -3.5
+        },
+        {
+          "player": "Julian Champagnie",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -125,
+          "UNDER": 108,
+          "dir": "OVER",
+          "odds": -125,
+          "ev": -3.5
+        }
+      ],
+      "injuries": [
+        "SA: David Jones Garcia Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
