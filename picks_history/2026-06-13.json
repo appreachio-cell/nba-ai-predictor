@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-13",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401859967",
+      "homeAbbr": "SA",
+      "awayAbbr": "NY",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "New York Knicks",
+      "homeRec": {
+        "wins": 62,
+        "losses": 20,
+        "pct": 0.7560975609756098,
+        "summary": "62-20"
+      },
+      "awayRec": {
+        "wins": 53,
+        "losses": 29,
+        "pct": 0.6463414634146342,
+        "summary": "53-29"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.6464,
+        "a_prob": 0.3536,
+        "h_odds": -205,
+        "a_odds": 172,
+        "h_ev": -3.8,
+        "a_ev": -3.8,
+        "h_proj": 111,
+        "a_proj": 104,
+        "total_line": 215.5,
+        "over_odds": -115,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.6464,
+        "confidence": 65,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Miles McBride",
+          "stat": "Points",
+          "line": 2.5,
+          "OVER": -125,
+          "UNDER": 111,
+          "dir": "OVER",
+          "odds": -125,
+          "ev": -2.9
+        },
+        {
+          "player": "Dylan Harper",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 134,
+          "UNDER": -153,
+          "dir": "OVER",
+          "odds": 134,
+          "ev": -3.1
+        },
+        {
+          "player": "Victor Wembanyama",
+          "stat": "Rebounds",
+          "line": 11.5,
+          "OVER": -102,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.2
+        },
+        {
+          "player": "Keldon Johnson",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -104,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -3.3
+        },
+        {
+          "player": "OG Anunoby",
+          "stat": "Assists",
+          "line": 1.5,
+          "OVER": 111,
+          "UNDER": -132,
+          "dir": "OVER",
+          "odds": 111,
+          "ev": -4.1
+        },
+        {
+          "player": "Keldon Johnson",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -138,
+          "UNDER": 116,
+          "dir": "OVER",
+          "odds": -138,
+          "ev": -4.1
+        },
+        {
+          "player": "Mitchell Robinson",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -104,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -4.1
+        },
+        {
+          "player": "Julian Champagnie",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -114,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -4.3
+        }
+      ],
+      "injuries": [
+        "SA: Luke Kornet Day-To-Day",
+        "SA: David Jones Garcia Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
