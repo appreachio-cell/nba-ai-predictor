@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-03",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401902644",
+      "homeAbbr": "TOR",
+      "awayAbbr": "MIA",
+      "homeTeam": "Toronto Raptors",
+      "awayTeam": "Miami Heat",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 106,
+        "a_proj": 106,
+        "total_line": 212.0,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Toronto Raptors",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "TOR: Nate Bittle Day-To-Day",
+        "TOR: Jamison Battle Day-To-Day - Not Specified",
+        "TOR: Kyle Anderson Day-To-Day - Bruise",
+        "TOR: Allen Graves Day-To-Day - Not Specified",
+        "TOR: Alijah Martin Day-To-Day - Inflammation",
+        "MIA: Keshad Johnson Out",
+        "MIA: Dru Smith Day-To-Day - Strain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
