@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401902644",
@@ -59,8 +59,8 @@
         "MIA: Dru Smith Day-To-Day - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIA 129\u2013105 TOR",
       "tot_result": null
     }
   ]
