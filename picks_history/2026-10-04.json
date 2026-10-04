@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-04",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401914127",
+      "homeAbbr": "DEN",
+      "awayAbbr": "UTAH",
+      "homeTeam": "Denver Nuggets",
+      "awayTeam": "Utah Jazz",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 106,
+        "a_proj": 106,
+        "total_line": 212.0,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Denver Nuggets",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "DEN: Spencer Jones Day-To-Day",
+        "DEN: Trevon Brazile Day-To-Day",
+        "UTAH: Trey Alexander Day-To-Day - Bruise"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401918010",
+      "homeAbbr": "LAC",
+      "awayAbbr": "GS",
+      "homeTeam": "LA Clippers",
+      "awayTeam": "Golden State Warriors",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 106,
+        "a_proj": 106,
+        "total_line": 212.0,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "LA Clippers",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "LAC: Kobe Sanders Day-To-Day",
+        "LAC: Bradley Beal Day-To-Day - Inflammation",
+        "LAC: Yanic Konan Niederhauser Out - Surgery",
+        "LAC: Brandon Ingram Out - Surgery",
+        "LAC: Jordan Miller Out - Surgery",
+        "GS: Jimmy Butler III Out - Surgery",
+        "GS: Kristaps Porzingis Day-To-Day",
+        "GS: Moses Moody Out - Surgery",
+        "GS: Alex Toohey Day-To-Day - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
