@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401914127",
@@ -55,8 +55,8 @@
         "UTAH: Trey Alexander Day-To-Day - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "UTAH 109\u201397 DEN",
       "tot_result": null
     },
     {
@@ -118,8 +118,8 @@
         "GS: Alex Toohey Day-To-Day - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "GS 101\u2013104 LAC",
       "tot_result": null
     }
   ]
