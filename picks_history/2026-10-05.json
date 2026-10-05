@@ -1,0 +1,294 @@
+{
+  "date": "2026-10-05",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401898388",
+      "homeAbbr": "ATL",
+      "awayAbbr": "MEM",
+      "homeTeam": "Atlanta Hawks",
+      "awayTeam": "Memphis Grizzlies",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 117,
+        "a_proj": 116,
+        "total_line": 232.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Atlanta Hawks",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "ATL: Luguentz Dort Day-To-Day - Bruise",
+        "ATL: CJ McCollum Day-To-Day - Bruise",
+        "ATL: Henri Veesaar Out",
+        "ATL: Mouhamed Gueye Day-To-Day - Fracture",
+        "ATL: Keshon Gilbert Day-To-Day",
+        "MEM: Zach Edey Day-To-Day - Surgery",
+        "MEM: Micah Peavy Day-To-Day",
+        "MEM: Karim Lopez Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401908947",
+      "homeAbbr": "DET",
+      "awayAbbr": "PHX",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Phoenix Suns",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 109,
+        "a_proj": 108,
+        "total_line": 216.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Detroit Pistons",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "DET: Jalen Duren Day-To-Day",
+        "PHX: Mark Williams Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401914101",
+      "homeAbbr": "PHI",
+      "awayAbbr": "NY",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "New York Knicks",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5325,
+        "a_prob": 0.4675,
+        "h_odds": -125,
+        "a_odds": 105,
+        "h_ev": -4.2,
+        "a_ev": -4.2,
+        "h_proj": 114,
+        "a_proj": 114,
+        "total_line": 227.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Philadelphia 76ers",
+        "my_prob": 0.5325,
+        "confidence": 53,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "PHI: Anfernee Simons Day-To-Day",
+        "PHI: Dominick Barlow Day-To-Day",
+        "PHI: Adem Bona Day-To-Day - Sprain",
+        "PHI: Tyrese Maxey Day-To-Day",
+        "PHI: LeBron James Day-To-Day",
+        "NY: Jose Alvarado Day-To-Day - Bruise"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401914102",
+      "homeAbbr": "MIL",
+      "awayAbbr": "MIN",
+      "homeTeam": "Milwaukee Bucks",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 115,
+        "a_proj": 114,
+        "total_line": 229.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 4,
+        "pick": "home",
+        "pick_team": "Milwaukee Bucks",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "MIN: Donte DiVincenzo Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898716",
+      "homeAbbr": "SAC",
+      "awayAbbr": "LAL",
+      "homeTeam": "Sacramento Kings",
+      "awayTeam": "Los Angeles Lakers",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 115,
+        "a_proj": 114,
+        "total_line": 229.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 5,
+        "pick": "home",
+        "pick_team": "Sacramento Kings",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "SAC: Ben Simmons Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
