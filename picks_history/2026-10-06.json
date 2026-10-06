@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-06",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401901820",
+      "homeAbbr": "CHA",
+      "awayAbbr": "BKN",
+      "homeTeam": "Charlotte Hornets",
+      "awayTeam": "Brooklyn Nets",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 107,
+        "a_proj": 106,
+        "total_line": 213.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Charlotte Hornets",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "CHA: Kylan Boswell Day-To-Day",
+        "CHA: Coby White Day-To-Day - Strain",
+        "CHA: Kon Knueppel Day-To-Day",
+        "CHA: Grant Williams Day-To-Day",
+        "CHA: PJ Hall Day-To-Day - Surgery",
+        "BKN: Joshua Jefferson Day-To-Day",
+        "BKN: Mikel Brown Jr. Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898389",
+      "homeAbbr": "OKC",
+      "awayAbbr": "NO",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "New Orleans Pelicans",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 112,
+        "a_proj": 112,
+        "total_line": 223.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Oklahoma City Thunder",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "OKC: Thomas Sorber Day-To-Day - Surgery",
+        "OKC: Nikola Topic Day-To-Day - Surgery",
+        "OKC: Cason Wallace Day-To-Day",
+        "OKC: Alex Caruso Day-To-Day",
+        "OKC: Chet Holmgren Day-To-Day",
+        "NO: Bryce McGowens Day-To-Day - Fracture"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401914128",
+      "homeAbbr": "UTAH",
+      "awayAbbr": "DEN",
+      "homeTeam": "Utah Jazz",
+      "awayTeam": "Denver Nuggets",
+      "homeRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.85,
+        "a_prob": 0.15000000000000002,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 123,
+        "a_proj": 108,
+        "total_line": 230.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Utah Jazz",
+        "my_prob": 0.85,
+        "confidence": 85,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "UTAH: Jusuf Nurkic Day-To-Day",
+        "UTAH: Kyle Filipowski Day-To-Day",
+        "UTAH: Josh Green Day-To-Day",
+        "UTAH: Brice Sensabaugh Day-To-Day",
+        "DEN: Spencer Jones Day-To-Day",
+        "DEN: Jamal Murray Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898390",
+      "homeAbbr": "GS",
+      "awayAbbr": "LAL",
+      "homeTeam": "Golden State Warriors",
+      "awayTeam": "Los Angeles Lakers",
+      "homeRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.5,
+        "a_prob": 0.5,
+        "h_odds": -110,
+        "a_odds": -110,
+        "h_ev": -4.5,
+        "a_ev": -4.5,
+        "h_proj": 110,
+        "a_proj": 110,
+        "total_line": 220.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 4,
+        "pick": "home",
+        "pick_team": "Golden State Warriors",
+        "my_prob": 0.5,
+        "confidence": 50,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "GS: Kristaps Porzingis Day-To-Day",
+        "GS: Jimmy Butler III Out - Surgery",
+        "GS: Moses Moody Out - Surgery",
+        "LAL: Arthur Kaluma Day-To-Day - Not Specified",
+        "LAL: Collin Sexton Day-To-Day",
+        "LAL: Austin Reaves Day-To-Day - Not Specified",
+        "LAL: Walker Kessler Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}

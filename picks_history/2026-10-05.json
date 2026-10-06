@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401898388",
@@ -60,8 +60,8 @@
         "MEM: Karim Lopez Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MEM 132\u2013123 ATL",
       "tot_result": null
     },
     {
@@ -116,8 +116,8 @@
         "PHX: Mark Williams Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHX 107\u2013109 DET",
       "tot_result": null
     },
     {
@@ -176,8 +176,8 @@
         "NY: Jose Alvarado Day-To-Day - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NY 97\u2013120 PHI",
       "tot_result": null
     },
     {
@@ -231,8 +231,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIN 116\u201397 MIL",
       "tot_result": null
     },
     {
@@ -286,8 +286,8 @@
         "SAC: Ben Simmons Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "LAL 127\u2013103 SAC",
       "tot_result": null
     }
   ]
