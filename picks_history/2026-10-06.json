@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401901820",
@@ -59,8 +59,8 @@
         "BKN: Mikel Brown Jr. Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "BKN 124\u201390 CHA",
       "tot_result": null
     },
     {
@@ -119,8 +119,8 @@
         "NO: Bryce McGowens Day-To-Day - Fracture"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "NO 116\u2013110 OKC",
       "tot_result": null
     },
     {
@@ -179,8 +179,8 @@
         "DEN: Jamal Murray Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DEN 117\u2013106 UTAH",
       "tot_result": null
     },
     {
@@ -240,8 +240,8 @@
         "LAL: Walker Kessler Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAL 98\u2013124 GS",
       "tot_result": null
     }
   ]

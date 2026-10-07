@@ -1,0 +1,303 @@
+{
+  "date": "2026-10-07",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401914123",
+      "homeAbbr": "IND",
+      "awayAbbr": "MIN",
+      "homeTeam": "Indiana Pacers",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.35294117647058826,
+        "a_prob": 0.6470588235294117,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 114,
+        "a_proj": 122,
+        "total_line": 235.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "away",
+        "pick_team": "Minnesota Timberwolves",
+        "my_prob": 0.6470588235294117,
+        "confidence": 65,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "IND: Quenton Jackson Day-To-Day",
+        "IND: T.J. McConnell Day-To-Day",
+        "IND: Larry Nance Jr. Day-To-Day",
+        "IND: Johnny Furphy Out - Surgery",
+        "MIN: Donte DiVincenzo Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898391",
+      "homeAbbr": "MEM",
+      "awayAbbr": "ORL",
+      "homeTeam": "Memphis Grizzlies",
+      "awayTeam": "Orlando Magic",
+      "homeRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6764705882352942,
+        "a_prob": 0.32352941176470584,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 121,
+        "a_proj": 114,
+        "total_line": 234.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Memphis Grizzlies",
+        "my_prob": 0.6764705882352942,
+        "confidence": 68,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "MEM: Micah Peavy Day-To-Day",
+        "MEM: Isaiah Stewart Day-To-Day",
+        "MEM: Zach Edey Day-To-Day - Surgery",
+        "ORL: Jalen Suggs Day-To-Day",
+        "ORL: Jonathan Isaac Day-To-Day - Sprain",
+        "ORL: Noah Penda Day-To-Day",
+        "ORL: Anthony Black Day-To-Day - Sprain",
+        "ORL: Izaiyah Nelson Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401908620",
+      "homeAbbr": "OKC",
+      "awayAbbr": "MIL",
+      "homeTeam": "Oklahoma City Thunder",
+      "awayTeam": "Milwaukee Bucks",
+      "homeRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.85,
+        "a_prob": 0.15000000000000002,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 117,
+        "a_proj": 102,
+        "total_line": 218.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Oklahoma City Thunder",
+        "my_prob": 0.85,
+        "confidence": 85,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "OKC: Jaylin Williams Day-To-Day",
+        "OKC: Thomas Sorber Day-To-Day - Surgery",
+        "OKC: Nikola Topic Day-To-Day - Surgery",
+        "OKC: Cason Wallace Day-To-Day",
+        "OKC: Alex Caruso Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401908939",
+      "homeAbbr": "CHI",
+      "awayAbbr": "PHX",
+      "homeTeam": "Chicago Bulls",
+      "awayTeam": "Phoenix Suns",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.85,
+        "a_prob": 0.15000000000000002,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 123,
+        "a_proj": 106,
+        "total_line": 229.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 4,
+        "pick": "home",
+        "pick_team": "Chicago Bulls",
+        "my_prob": 0.85,
+        "confidence": 85,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "CHI: Zach Collins Day-To-Day - Surgery",
+        "CHI: Nic Claxton Day-To-Day",
+        "PHX: Mark Williams Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401914129",
+      "homeAbbr": "POR",
+      "awayAbbr": "GS",
+      "homeTeam": "Portland Trail Blazers",
+      "awayTeam": "Golden State Warriors",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 1,
+        "pct": 0.5,
+        "summary": "1-1"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 109,
+        "a_proj": 108,
+        "total_line": 216.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 5,
+        "pick": "home",
+        "pick_team": "Portland Trail Blazers",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "POR: Shaedon Sharpe Out - Surgery",
+        "GS: Gui Santos Day-To-Day",
+        "GS: Brandin Podziemski Day-To-Day",
+        "GS: Gary Payton II Day-To-Day",
+        "GS: Georges Niang Day-To-Day",
+        "GS: De'Anthony Melton Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
