@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401914123",
@@ -57,8 +57,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIN 112\u2013123 IND",
       "tot_result": null
     },
     {
@@ -119,8 +119,8 @@
         "ORL: Izaiyah Nelson Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "ORL 122\u2013118 MEM",
       "tot_result": null
     },
     {
@@ -178,8 +178,8 @@
         "OKC: Alex Caruso Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIL 128\u2013126 OKC",
       "tot_result": null
     },
     {
@@ -235,8 +235,8 @@
         "PHX: Mark Williams Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHX 117\u2013124 CHI",
       "tot_result": null
     },
     {
@@ -295,8 +295,8 @@
         "GS: De'Anthony Melton Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "GS 118\u2013123 POR",
       "tot_result": null
     }
   ]
