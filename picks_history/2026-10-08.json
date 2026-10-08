@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-08",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401898392",
+      "homeAbbr": "CLE",
+      "awayAbbr": "BOS",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Boston Celtics",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 111,
+        "a_proj": 110,
+        "total_line": 221.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Cleveland Cavaliers",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "CLE: Peyton Watson Day-To-Day - Strain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898393",
+      "homeAbbr": "MIA",
+      "awayAbbr": "NO",
+      "homeTeam": "Miami Heat",
+      "awayTeam": "New Orleans Pelicans",
+      "homeRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.5111111111111112,
+        "a_prob": 0.4888888888888888,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 118,
+        "a_proj": 116,
+        "total_line": 234.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Miami Heat",
+        "my_prob": 0.5111111111111112,
+        "confidence": 51,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "MIA: Keshad Johnson Out",
+        "MIA: Pelle Larsson Day-To-Day",
+        "MIA: Andrew Wiggins Day-To-Day",
+        "MIA: Dru Smith Day-To-Day - Strain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401901823",
+      "homeAbbr": "BKN",
+      "awayAbbr": "PHI",
+      "homeTeam": "Brooklyn Nets",
+      "awayTeam": "Philadelphia 76ers",
+      "homeRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.5111111111111112,
+        "a_prob": 0.4888888888888888,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 110,
+        "a_proj": 110,
+        "total_line": 219.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Brooklyn Nets",
+        "my_prob": 0.5111111111111112,
+        "confidence": 51,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "BKN: Joshua Jefferson Day-To-Day",
+        "BKN: Mikel Brown Jr. Day-To-Day",
+        "BKN: Day'Ron Sharpe Day-To-Day",
+        "BKN: Michael Porter Jr. Day-To-Day",
+        "PHI: Dominick Barlow Day-To-Day",
+        "PHI: Anfernee Simons Day-To-Day",
+        "PHI: Adem Bona Day-To-Day - Sprain",
+        "PHI: Ariel Hukporti Out - Ruptured",
+        "PHI: Tacko Fall Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401906508",
+      "homeAbbr": "NY",
+      "awayAbbr": "WSH",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Washington Wizards",
+      "homeRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.2,
+        "a_prob": 0.8,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 107,
+        "a_proj": 120,
+        "total_line": 227.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 4,
+        "pick": "away",
+        "pick_team": "Washington Wizards",
+        "my_prob": 0.8,
+        "confidence": 80,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "NY: Jose Alvarado Day-To-Day - Bruise",
+        "WSH: Alex Sarr Day-To-Day - Surgery",
+        "WSH: Tristan Vukcevic Out",
+        "WSH: Jamir Watkins Out"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898394",
+      "homeAbbr": "SA",
+      "awayAbbr": "ATL",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Atlanta Hawks",
+      "homeRec": {
+        "wins": 0,
+        "losses": 0,
+        "pct": 0.5,
+        "summary": "0-0"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.85,
+        "a_prob": 0.15000000000000002,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 121,
+        "a_proj": 106,
+        "total_line": 226.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 5,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.85,
+        "confidence": 85,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "SA: Maliq Brown Day-To-Day",
+        "SA: Jayden Quaintance Out - Surgery",
+        "SA: Tobias Harris Day-To-Day - Strain",
+        "ATL: Aaron Wiggins Day-To-Day - Laceration",
+        "ATL: Luguentz Dort Day-To-Day - Bruise",
+        "ATL: CJ McCollum Day-To-Day - Bruise",
+        "ATL: Henri Veesaar Out",
+        "ATL: Mouhamed Gueye Day-To-Day - Fracture"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898717",
+      "homeAbbr": "LAL",
+      "awayAbbr": "SAC",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Sacramento Kings",
+      "homeRec": {
+        "wins": 1,
+        "losses": 1,
+        "pct": 0.5,
+        "summary": "1-1"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "startTime": "10:30 PM ET",
+      "pred": {
+        "h_prob": 0.85,
+        "a_prob": 0.15000000000000002,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 123,
+        "a_proj": 106,
+        "total_line": 229.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 6,
+        "pick": "home",
+        "pick_team": "Los Angeles Lakers",
+        "my_prob": 0.85,
+        "confidence": 85,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "LAL: Arthur Kaluma Day-To-Day - Not Specified",
+        "LAL: Collin Sexton Day-To-Day",
+        "LAL: Ziaire Williams Day-To-Day",
+        "LAL: Walker Kessler Day-To-Day",
+        "LAL: Luka Doncic Day-To-Day",
+        "SAC: Keegan Murray Day-To-Day",
+        "SAC: Malik Monk Day-To-Day",
+        "SAC: Ben Simmons Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
