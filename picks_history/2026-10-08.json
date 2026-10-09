@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401898392",
@@ -53,8 +53,8 @@
         "CLE: Peyton Watson Day-To-Day - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "BOS 124\u2013113 CLE",
       "tot_result": null
     },
     {
@@ -111,8 +111,8 @@
         "MIA: Dru Smith Day-To-Day - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NO 118\u2013128 MIA",
       "tot_result": null
     },
     {
@@ -174,8 +174,8 @@
         "PHI: Tacko Fall Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHI 108\u2013114 BKN",
       "tot_result": null
     },
     {
@@ -232,8 +232,8 @@
         "WSH: Jamir Watkins Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "WSH 111\u2013109 NY",
       "tot_result": null
     },
     {
@@ -294,8 +294,8 @@
         "ATL: Mouhamed Gueye Day-To-Day - Fracture"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "ATL 123\u2013116 SA",
       "tot_result": null
     },
     {
@@ -356,8 +356,8 @@
         "SAC: Ben Simmons Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SAC 110\u2013114 LAL",
       "tot_result": null
     }
   ]
