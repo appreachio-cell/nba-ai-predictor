@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-09",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401908940",
+      "homeAbbr": "CHI",
+      "awayAbbr": "MEM",
+      "homeTeam": "Chicago Bulls",
+      "awayTeam": "Memphis Grizzlies",
+      "homeRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 1,
+        "pct": 0.5,
+        "summary": "1-1"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6764705882352942,
+        "a_prob": 0.32352941176470584,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 124,
+        "a_proj": 116,
+        "total_line": 239.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Chicago Bulls",
+        "my_prob": 0.6764705882352942,
+        "confidence": 68,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "CHI: Zach Collins Day-To-Day - Surgery",
+        "CHI: Jaylin Sellers Day-To-Day",
+        "CHI: Tre Jones Day-To-Day",
+        "CHI: Nic Claxton Day-To-Day",
+        "MEM: Isaiah Stewart Day-To-Day",
+        "MEM: Micah Peavy Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
