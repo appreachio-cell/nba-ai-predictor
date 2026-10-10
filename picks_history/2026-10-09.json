@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401908940",
@@ -58,8 +58,8 @@
         "MEM: Micah Peavy Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MEM 104\u2013100 CHI",
       "tot_result": null
     }
   ]
