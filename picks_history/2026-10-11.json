@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-11",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401898401",
+      "homeAbbr": "CLE",
+      "awayAbbr": "ORL",
+      "homeTeam": "Cleveland Cavaliers",
+      "awayTeam": "Orlando Magic",
+      "homeRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "1-0"
+      },
+      "startTime": "6:30 PM ET",
+      "pred": {
+        "h_prob": 0.2,
+        "a_prob": 0.8,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 107,
+        "a_proj": 122,
+        "total_line": 228.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "away",
+        "pick_team": "Orlando Magic",
+        "my_prob": 0.8,
+        "confidence": 80,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "CLE: Khalifa Diop Day-To-Day",
+        "CLE: Nae'Qwan Tomlin Day-To-Day",
+        "CLE: James Harden Day-To-Day - Soreness",
+        "ORL: Jalen Suggs Day-To-Day",
+        "ORL: Anthony Black Day-To-Day - Sprain",
+        "ORL: Noah Penda Day-To-Day",
+        "ORL: Jonathan Isaac Day-To-Day - Sprain",
+        "ORL: Izaiyah Nelson Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401901821",
+      "homeAbbr": "CHA",
+      "awayAbbr": "MIL",
+      "homeTeam": "Charlotte Hornets",
+      "awayTeam": "Milwaukee Bucks",
+      "homeRec": {
+        "wins": 0,
+        "losses": 1,
+        "pct": 0.0,
+        "summary": "0-1"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 1,
+        "pct": 0.5,
+        "summary": "1-1"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.2,
+        "a_prob": 0.8,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 104,
+        "a_proj": 118,
+        "total_line": 221.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "away",
+        "pick_team": "Milwaukee Bucks",
+        "my_prob": 0.8,
+        "confidence": 80,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "CHA: Brandon Miller Day-To-Day - Bruise",
+        "CHA: Christian Anderson Day-To-Day - Sprain",
+        "CHA: Kylan Boswell Day-To-Day",
+        "CHA: Coby White Day-To-Day - Strain",
+        "CHA: Kon Knueppel Day-To-Day",
+        "MIL: Nate Ament Day-To-Day - Sprain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401908941",
+      "homeAbbr": "DEN",
+      "awayAbbr": "CHI",
+      "homeTeam": "Denver Nuggets",
+      "awayTeam": "Chicago Bulls",
+      "homeRec": {
+        "wins": 1,
+        "losses": 1,
+        "pct": 0.5,
+        "summary": "1-1"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 1,
+        "pct": 0.5,
+        "summary": "1-1"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 118,
+        "a_proj": 116,
+        "total_line": 234.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Denver Nuggets",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "DEN: Spencer Jones Day-To-Day",
+        "CHI: Matas Buzelis Day-To-Day",
+        "CHI: Tre Jones Day-To-Day",
+        "CHI: Jalen Smith Day-To-Day - Soreness",
+        "CHI: Zach Collins Day-To-Day - Surgery",
+        "CHI: Jaylin Sellers Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}

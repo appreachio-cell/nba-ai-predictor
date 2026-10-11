@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401902645",
@@ -62,8 +62,8 @@
         "LAC: Brandon Ingram Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "LAC 106\u2013114 TOR",
       "tot_result": null
     },
     {
@@ -124,8 +124,8 @@
         "ATL: Mouhamed Gueye Day-To-Day - Fracture"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "ATL 119\u2013117 IND",
       "tot_result": null
     },
     {
@@ -183,8 +183,8 @@
         "DET: Jalen Duren Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DET 108\u2013114 WSH",
       "tot_result": null
     },
     {
@@ -242,8 +242,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIN 125\u2013124 MIA",
       "tot_result": null
     },
     {
@@ -306,8 +306,8 @@
         "PHI: Tacko Fall Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHI 106\u2013144 BOS",
       "tot_result": null
     },
     {
@@ -370,8 +370,8 @@
         "SAC: Ben Simmons Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SAC 106\u2013111 GS",
       "tot_result": null
     },
     {
@@ -431,8 +431,8 @@
         "SA: Tobias Harris Day-To-Day - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 98\u2013102 PHX",
       "tot_result": null
     }
   ]
