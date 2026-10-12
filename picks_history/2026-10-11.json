@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401898401",
@@ -60,8 +60,8 @@
         "ORL: Izaiyah Nelson Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "ORL 105\u2013119 CLE",
       "tot_result": null
     },
     {
@@ -120,8 +120,8 @@
         "MIL: Nate Ament Day-To-Day - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIL 90\u2013105 CHA",
       "tot_result": null
     },
     {
@@ -180,8 +180,8 @@
         "CHI: Jaylin Sellers Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHI 128\u2013133 DEN",
       "tot_result": null
     }
   ]

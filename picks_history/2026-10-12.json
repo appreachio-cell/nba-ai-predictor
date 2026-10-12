@@ -1,0 +1,253 @@
+{
+  "date": "2026-10-12",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401898402",
+      "homeAbbr": "ATL",
+      "awayAbbr": "OKC",
+      "homeTeam": "Atlanta Hawks",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeRec": {
+        "wins": 2,
+        "losses": 1,
+        "pct": 0.6666666666666666,
+        "summary": "2-1"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 2,
+        "pct": 0.0,
+        "summary": "0-2"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.85,
+        "a_prob": 0.15000000000000002,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 120,
+        "a_proj": 104,
+        "total_line": 224.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Atlanta Hawks",
+        "my_prob": 0.85,
+        "confidence": 85,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "ATL: Keshon Gilbert Day-To-Day - Tendinitis",
+        "ATL: Aaron Wiggins Day-To-Day",
+        "ATL: Onyeka Okongwu Day-To-Day",
+        "ATL: CJ McCollum Day-To-Day",
+        "ATL: Luguentz Dort Day-To-Day",
+        "OKC: Thomas Sorber Day-To-Day - Surgery",
+        "OKC: Nikola Topic Day-To-Day - Surgery",
+        "OKC: Chet Holmgren Day-To-Day",
+        "OKC: Jaylin Williams Day-To-Day",
+        "OKC: Kenrich Williams Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401901824",
+      "homeAbbr": "WSH",
+      "awayAbbr": "BKN",
+      "homeTeam": "Washington Wizards",
+      "awayTeam": "Brooklyn Nets",
+      "homeRec": {
+        "wins": 2,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "2-0"
+      },
+      "awayRec": {
+        "wins": 2,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "2-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5111111111111112,
+        "a_prob": 0.4888888888888888,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 112,
+        "a_proj": 112,
+        "total_line": 223.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Washington Wizards",
+        "my_prob": 0.5111111111111112,
+        "confidence": 51,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "WSH: Anthony Davis Day-To-Day",
+        "WSH: Khris Middleton Day-To-Day",
+        "WSH: Tre Mann Day-To-Day",
+        "WSH: Tristan Vukcevic Out",
+        "WSH: Jamir Watkins Out",
+        "BKN: Joshua Jefferson Day-To-Day",
+        "BKN: Mikel Brown Jr. Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401914124",
+      "homeAbbr": "NY",
+      "awayAbbr": "MIN",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeRec": {
+        "wins": 0,
+        "losses": 2,
+        "pct": 0.0,
+        "summary": "0-2"
+      },
+      "awayRec": {
+        "wins": 2,
+        "losses": 1,
+        "pct": 0.6666666666666666,
+        "summary": "2-1"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.2,
+        "a_prob": 0.8,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 107,
+        "a_proj": 120,
+        "total_line": 227.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "away",
+        "pick_team": "Minnesota Timberwolves",
+        "my_prob": 0.8,
+        "confidence": 80,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "MIN: Jaden McDaniels Day-To-Day",
+        "MIN: Jonathan Kuminga Day-To-Day",
+        "MIN: Ayo Dosunmu Day-To-Day",
+        "MIN: Rudy Gobert Day-To-Day",
+        "MIN: Anthony Edwards Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898721",
+      "homeAbbr": "UTAH",
+      "awayAbbr": "SA",
+      "homeTeam": "Utah Jazz",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 1,
+        "losses": 1,
+        "pct": 0.5,
+        "summary": "1-1"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 2,
+        "pct": 0.0,
+        "summary": "0-2"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.85,
+        "a_prob": 0.15000000000000002,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 121,
+        "a_proj": 106,
+        "total_line": 226.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 4,
+        "pick": "home",
+        "pick_team": "Utah Jazz",
+        "my_prob": 0.85,
+        "confidence": 85,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "UTAH: Kyle Filipowski Day-To-Day",
+        "UTAH: Jusuf Nurkic Out",
+        "UTAH: Lauri Markkanen Day-To-Day - Soreness",
+        "UTAH: Brice Sensabaugh Day-To-Day",
+        "SA: Malik Williams Day-To-Day",
+        "SA: Carter Bryant Day-To-Day",
+        "SA: Stephon Castle Day-To-Day",
+        "SA: Devin Vassell Day-To-Day",
+        "SA: De'Aaron Fox Day-To-Day - Soreness"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
