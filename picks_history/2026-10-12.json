@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401898402",
@@ -62,8 +62,8 @@
         "OKC: Kenrich Williams Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "OKC 110\u2013113 ATL",
       "tot_result": null
     },
     {
@@ -123,8 +123,8 @@
         "BKN: Mikel Brown Jr. Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "BKN 131\u2013122 WSH",
       "tot_result": null
     },
     {
@@ -182,8 +182,8 @@
         "MIN: Anthony Edwards Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIN 122\u2013104 NY",
       "tot_result": null
     },
     {
@@ -245,8 +245,8 @@
         "SA: De'Aaron Fox Day-To-Day - Soreness"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 109\u2013119 UTAH",
       "tot_result": null
     }
   ]
