@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401898403",
@@ -59,8 +59,8 @@
         "CLE: Khalifa Diop Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CLE 116\u2013132 ORL",
       "tot_result": null
     },
     {
@@ -122,8 +122,8 @@
         "NY: Jalen Brunson Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NY 98\u2013148 TOR",
       "tot_result": null
     },
     {
@@ -184,8 +184,8 @@
         "IND: Johnny Furphy Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "IND 112\u2013114 OKC",
       "tot_result": null
     },
     {
@@ -247,8 +247,8 @@
         "GS: Moses Moody Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "GS 101\u201389 LAL",
       "tot_result": null
     },
     {
@@ -307,8 +307,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "POR 110\u201398 SAC",
       "tot_result": null
     }
   ]
