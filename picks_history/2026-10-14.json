@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401898404",
@@ -58,8 +58,8 @@
         "BKN: Joshua Jefferson Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "BKN 128\u2013144 MIA",
       "tot_result": null
     },
     {
@@ -120,8 +120,8 @@
         "CHA: Kon Knueppel Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHA 93\u2013114 BOS",
       "tot_result": null
     },
     {
@@ -184,8 +184,8 @@
         "PHX: Jalen Green Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "PHX 103\u2013123 SA",
       "tot_result": null
     },
     {
@@ -243,8 +243,8 @@
         "NO: Dejounte Murray Day-To-Day - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "NO 101\u201397 DAL",
       "tot_result": null
     },
     {
@@ -305,8 +305,8 @@
         "CHI: Nic Claxton Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "CHI 125\u2013104 MIL",
       "tot_result": null
     },
     {
@@ -366,8 +366,8 @@
         "DET: Jalen Duren Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DET 128\u2013106 MIN",
       "tot_result": null
     },
     {
@@ -426,8 +426,8 @@
         "DEN: Spencer Jones Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DEN 110\u2013122 LAC",
       "tot_result": null
     }
   ]
