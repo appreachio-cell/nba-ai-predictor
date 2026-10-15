@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-15",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401908945",
+      "homeAbbr": "NY",
+      "awayAbbr": "TOR",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Toronto Raptors",
+      "homeRec": {
+        "wins": 0,
+        "losses": 4,
+        "pct": 0.0,
+        "summary": "0-4"
+      },
+      "awayRec": {
+        "wins": 2,
+        "losses": 1,
+        "pct": 0.6666666666666666,
+        "summary": "2-1"
+      },
+      "startTime": "7:30 PM ET",
+      "pred": {
+        "h_prob": 0.2,
+        "a_prob": 0.8,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 106,
+        "a_proj": 120,
+        "total_line": 226.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "away",
+        "pick_team": "Toronto Raptors",
+        "my_prob": 0.8,
+        "confidence": 80,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "NY: Karl-Anthony Towns Day-To-Day",
+        "NY: Mikal Bridges Day-To-Day",
+        "NY: Josh Hart Day-To-Day",
+        "NY: OG Anunoby Day-To-Day",
+        "NY: Jalen Brunson Day-To-Day",
+        "TOR: Nate Bittle Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401908622",
+      "homeAbbr": "HOU",
+      "awayAbbr": "OKC",
+      "homeTeam": "Houston Rockets",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeRec": {
+        "wins": 1,
+        "losses": 1,
+        "pct": 0.5,
+        "summary": "1-1"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 3,
+        "pct": 0.25,
+        "summary": "1-3"
+      },
+      "startTime": "8:30 PM ET",
+      "pred": {
+        "h_prob": 0.6857142857142857,
+        "a_prob": 0.3142857142857143,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 117,
+        "a_proj": 108,
+        "total_line": 225.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Houston Rockets",
+        "my_prob": 0.6857142857142857,
+        "confidence": 69,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "HOU: Steven Adams Day-To-Day",
+        "HOU: Alperen Sengun Day-To-Day",
+        "HOU: Fred VanVleet Day-To-Day",
+        "HOU: Kevin Durant Day-To-Day",
+        "OKC: Otega Oweh Out - Surgery",
+        "OKC: Jaylin Williams Day-To-Day",
+        "OKC: Chet Holmgren Day-To-Day - Bruise",
+        "OKC: Ajay Mitchell Day-To-Day",
+        "OKC: Thomas Sorber Day-To-Day - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
