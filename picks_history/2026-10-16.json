@@ -1,0 +1,743 @@
+{
+  "date": "2026-10-16",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401898406",
+      "homeAbbr": "ORL",
+      "awayAbbr": "MIA",
+      "homeTeam": "Orlando Magic",
+      "awayTeam": "Miami Heat",
+      "homeRec": {
+        "wins": 2,
+        "losses": 1,
+        "pct": 0.6666666666666666,
+        "summary": "2-1"
+      },
+      "awayRec": {
+        "wins": 3,
+        "losses": 1,
+        "pct": 0.75,
+        "summary": "3-1"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.4870466321243524,
+        "a_prob": 0.5129533678756476,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 117,
+        "a_proj": 118,
+        "total_line": 235.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "away",
+        "pick_team": "Miami Heat",
+        "my_prob": 0.5129533678756476,
+        "confidence": 51,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "ORL: Jonathan Isaac Day-To-Day - Sprain",
+        "ORL: Anthony Black Day-To-Day - Sprain",
+        "ORL: Nikola Vucevic Day-To-Day",
+        "ORL: Izaiyah Nelson Out - Surgery",
+        "MIA: Kylor Kelley Day-To-Day - Strain",
+        "MIA: Pelle Larsson Day-To-Day",
+        "MIA: Bam Adebayo Day-To-Day",
+        "MIA: Dru Smith Day-To-Day - Strain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898407",
+      "homeAbbr": "PHI",
+      "awayAbbr": "BOS",
+      "homeTeam": "Philadelphia 76ers",
+      "awayTeam": "Boston Celtics",
+      "homeRec": {
+        "wins": 1,
+        "losses": 2,
+        "pct": 0.3333333333333333,
+        "summary": "1-2"
+      },
+      "awayRec": {
+        "wins": 3,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "3-0"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.2747252747252747,
+        "a_prob": 0.7252747252747254,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 108,
+        "a_proj": 118,
+        "total_line": 225.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "away",
+        "pick_team": "Boston Celtics",
+        "my_prob": 0.7252747252747254,
+        "confidence": 73,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "PHI: Anfernee Simons Day-To-Day",
+        "PHI: Adem Bona Day-To-Day - Sprain",
+        "PHI: Dominick Barlow Day-To-Day",
+        "PHI: LeBron James Day-To-Day",
+        "PHI: Kentavious Caldwell-Pope Day-To-Day",
+        "BOS: Devin Carter Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401908946",
+      "homeAbbr": "DET",
+      "awayAbbr": "TOR",
+      "homeTeam": "Detroit Pistons",
+      "awayTeam": "Toronto Raptors",
+      "homeRec": {
+        "wins": 2,
+        "losses": 1,
+        "pct": 0.6666666666666666,
+        "summary": "2-1"
+      },
+      "awayRec": {
+        "wins": 2,
+        "losses": 2,
+        "pct": 0.5,
+        "summary": "2-2"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.5043,
+        "a_prob": 0.4957,
+        "h_odds": -112,
+        "a_odds": -108,
+        "h_ev": -4.5,
+        "a_ev": -4.5,
+        "h_proj": 109,
+        "a_proj": 110,
+        "total_line": 218.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Detroit Pistons",
+        "my_prob": 0.5043,
+        "confidence": 50,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "TOR: Nate Bittle Day-To-Day",
+        "TOR: Chucky Hepburn Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401914126",
+      "homeAbbr": "IND",
+      "awayAbbr": "MIL",
+      "homeTeam": "Indiana Pacers",
+      "awayTeam": "Milwaukee Bucks",
+      "homeRec": {
+        "wins": 1,
+        "losses": 2,
+        "pct": 0.3333333333333333,
+        "summary": "1-2"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 3,
+        "pct": 0.25,
+        "summary": "1-3"
+      },
+      "startTime": "7:00 PM ET",
+      "pred": {
+        "h_prob": 0.6024096385542169,
+        "a_prob": 0.3975903614457831,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 120,
+        "a_proj": 114,
+        "total_line": 234.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 4,
+        "pick": "home",
+        "pick_team": "Indiana Pacers",
+        "my_prob": 0.6024096385542169,
+        "confidence": 60,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "IND: Aaron Nesmith Day-To-Day",
+        "IND: T.J. McConnell Day-To-Day",
+        "IND: Jarace Walker Day-To-Day",
+        "IND: Andrew Nembhard Day-To-Day",
+        "IND: Johnny Furphy Out - Surgery",
+        "MIL: Kevin Porter Jr. Day-To-Day",
+        "MIL: Myles Turner Day-To-Day",
+        "MIL: AJ Green Day-To-Day",
+        "MIL: Ryan Rollins Day-To-Day",
+        "MIL: Nate Ament Day-To-Day - Sprain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898408",
+      "homeAbbr": "DAL",
+      "awayAbbr": "ATL",
+      "homeTeam": "Dallas Mavericks",
+      "awayTeam": "Atlanta Hawks",
+      "homeRec": {
+        "wins": 1,
+        "losses": 2,
+        "pct": 0.3333333333333333,
+        "summary": "1-2"
+      },
+      "awayRec": {
+        "wins": 3,
+        "losses": 1,
+        "pct": 0.75,
+        "summary": "3-1"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.33557046979865773,
+        "a_prob": 0.6644295302013423,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 113,
+        "a_proj": 122,
+        "total_line": 234.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 5,
+        "pick": "away",
+        "pick_team": "Atlanta Hawks",
+        "my_prob": 0.6644295302013423,
+        "confidence": 66,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "DAL: Moussa Cisse Day-To-Day - Sprain",
+        "DAL: Santi Aldama Day-To-Day",
+        "DAL: Marcus Sasser Day-To-Day",
+        "DAL: Jett Howard Day-To-Day",
+        "DAL: Dereck Lively II Day-To-Day - Surgery",
+        "ATL: Keshon Gilbert Day-To-Day - Tendinitis",
+        "ATL: Aaron Wiggins Day-To-Day",
+        "ATL: Onyeka Okongwu Day-To-Day",
+        "ATL: CJ McCollum Day-To-Day",
+        "ATL: Luguentz Dort Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898843",
+      "homeAbbr": "SA",
+      "awayAbbr": "SAC",
+      "homeTeam": "San Antonio Spurs",
+      "awayTeam": "Sacramento Kings",
+      "homeRec": {
+        "wins": 1,
+        "losses": 3,
+        "pct": 0.25,
+        "summary": "1-3"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 4,
+        "pct": 0.0,
+        "summary": "0-4"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.85,
+        "a_prob": 0.15000000000000002,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 123,
+        "a_proj": 108,
+        "total_line": 230.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 6,
+        "pick": "home",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.85,
+        "confidence": 85,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "SA: Luke Kornet Day-To-Day",
+        "SA: Keldon Johnson Day-To-Day",
+        "SA: Julian Champagnie Day-To-Day",
+        "SA: Jayden Quaintance Out - Surgery",
+        "SA: Tobias Harris Day-To-Day - Strain",
+        "SAC: Dylan Cardwell Out - Strain",
+        "SAC: Maxime Raynaud Out - Dislocated",
+        "SAC: Precious Achiuwa Day-To-Day - Not Specified",
+        "SAC: Ben Simmons Day-To-Day",
+        "SAC: De'Andre Hunter Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401901822",
+      "homeAbbr": "MEM",
+      "awayAbbr": "CHA",
+      "homeTeam": "Memphis Grizzlies",
+      "awayTeam": "Charlotte Hornets",
+      "homeRec": {
+        "wins": 2,
+        "losses": 1,
+        "pct": 0.6666666666666666,
+        "summary": "2-1"
+      },
+      "awayRec": {
+        "wins": 1,
+        "losses": 2,
+        "pct": 0.3333333333333333,
+        "summary": "1-2"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6811594202898551,
+        "a_prob": 0.3188405797101449,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 119,
+        "a_proj": 112,
+        "total_line": 230.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 7,
+        "pick": "home",
+        "pick_team": "Memphis Grizzlies",
+        "my_prob": 0.6811594202898551,
+        "confidence": 68,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "MEM: Micah Peavy Day-To-Day",
+        "MEM: Isaiah Stewart Out",
+        "CHA: Grayson Allen Day-To-Day - Soreness",
+        "CHA: Kylan Boswell Day-To-Day",
+        "CHA: Coby White Day-To-Day - Strain",
+        "CHA: Kon Knueppel Day-To-Day",
+        "CHA: Grant Williams Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401906509",
+      "homeAbbr": "NO",
+      "awayAbbr": "WSH",
+      "homeTeam": "New Orleans Pelicans",
+      "awayTeam": "Washington Wizards",
+      "homeRec": {
+        "wins": 2,
+        "losses": 1,
+        "pct": 0.6666666666666666,
+        "summary": "2-1"
+      },
+      "awayRec": {
+        "wins": 2,
+        "losses": 1,
+        "pct": 0.6666666666666666,
+        "summary": "2-1"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.5164835164835165,
+        "a_prob": 0.48351648351648346,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 116,
+        "a_proj": 114,
+        "total_line": 230.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 8,
+        "pick": "home",
+        "pick_team": "New Orleans Pelicans",
+        "my_prob": 0.5164835164835165,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "NO: Dejounte Murray Day-To-Day - Bruise",
+        "WSH: Khris Middleton Day-To-Day",
+        "WSH: Anthony Davis Day-To-Day",
+        "WSH: Tristan Vukcevic Out",
+        "WSH: Jamir Watkins Out"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401908943",
+      "homeAbbr": "CHI",
+      "awayAbbr": "MIN",
+      "homeTeam": "Chicago Bulls",
+      "awayTeam": "Minnesota Timberwolves",
+      "homeRec": {
+        "wins": 2,
+        "losses": 2,
+        "pct": 0.5,
+        "summary": "2-2"
+      },
+      "awayRec": {
+        "wins": 3,
+        "losses": 2,
+        "pct": 0.6,
+        "summary": "3-2"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.47619047619047616,
+        "a_prob": 0.5238095238095238,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 117,
+        "a_proj": 118,
+        "total_line": 234.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 9,
+        "pick": "away",
+        "pick_team": "Minnesota Timberwolves",
+        "my_prob": 0.5238095238095238,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "CHI: Isaac Okoro Day-To-Day",
+        "CHI: Tobe Awaka Day-To-Day",
+        "CHI: Zach Collins Day-To-Day - Surgery",
+        "CHI: Nic Claxton Day-To-Day",
+        "MIN: Ayo Dosunmu Day-To-Day",
+        "MIN: Rocco Zikarsky Day-To-Day",
+        "MIN: Enrique Freeman Day-To-Day",
+        "MIN: Donte DiVincenzo Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898409",
+      "homeAbbr": "GS",
+      "awayAbbr": "POR",
+      "homeTeam": "Golden State Warriors",
+      "awayTeam": "Portland Trail Blazers",
+      "homeRec": {
+        "wins": 3,
+        "losses": 2,
+        "pct": 0.6,
+        "summary": "3-2"
+      },
+      "awayRec": {
+        "wins": 3,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "3-0"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.3922651933701658,
+        "a_prob": 0.6077348066298343,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 110,
+        "a_proj": 116,
+        "total_line": 225.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 10,
+        "pick": "away",
+        "pick_team": "Portland Trail Blazers",
+        "my_prob": 0.6077348066298343,
+        "confidence": 61,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "GS: Moses Moody Out - Surgery",
+        "GS: Jimmy Butler III Out - Surgery",
+        "GS: Kristaps Porzingis Out",
+        "GS: Draymond Green Day-To-Day",
+        "GS: Al Horford Day-To-Day",
+        "POR: Chris Youngblood Day-To-Day - Soreness",
+        "POR: Shaedon Sharpe Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401908948",
+      "homeAbbr": "PHX",
+      "awayAbbr": "UTAH",
+      "homeTeam": "Phoenix Suns",
+      "awayTeam": "Utah Jazz",
+      "homeRec": {
+        "wins": 1,
+        "losses": 3,
+        "pct": 0.25,
+        "summary": "1-3"
+      },
+      "awayRec": {
+        "wins": 2,
+        "losses": 1,
+        "pct": 0.6666666666666666,
+        "summary": "2-1"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.30708661417322836,
+        "a_prob": 0.6929133858267716,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 108,
+        "a_proj": 118,
+        "total_line": 225.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 11,
+        "pick": "away",
+        "pick_team": "Utah Jazz",
+        "my_prob": 0.6929133858267716,
+        "confidence": 69,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "PHX: Luke Kennard Day-To-Day",
+        "PHX: Oso Ighodaro Day-To-Day",
+        "PHX: Collin Gillespie Day-To-Day",
+        "PHX: Miles Bridges Day-To-Day",
+        "PHX: Jalen Green Day-To-Day",
+        "UTAH: Blake Hinson Day-To-Day",
+        "UTAH: Kyle Filipowski Day-To-Day",
+        "UTAH: Jusuf Nurkic Out"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401898719",
+      "homeAbbr": "LAL",
+      "awayAbbr": "DEN",
+      "homeTeam": "Los Angeles Lakers",
+      "awayTeam": "Denver Nuggets",
+      "homeRec": {
+        "wins": 2,
+        "losses": 2,
+        "pct": 0.5,
+        "summary": "2-2"
+      },
+      "awayRec": {
+        "wins": 2,
+        "losses": 2,
+        "pct": 0.5,
+        "summary": "2-2"
+      },
+      "startTime": "10:30 PM ET",
+      "pred": {
+        "h_prob": 0.5217391304347826,
+        "a_prob": 0.4782608695652174,
+        "h_odds": null,
+        "a_odds": null,
+        "h_ev": null,
+        "a_ev": null,
+        "h_proj": 116,
+        "a_proj": 114,
+        "total_line": 230.5,
+        "over_odds": null,
+        "under_odds": null,
+        "prob_source": "records"
+      },
+      "ai": {
+        "game": 12,
+        "pick": "home",
+        "pick_team": "Los Angeles Lakers",
+        "my_prob": 0.5217391304347826,
+        "confidence": 52,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "LAL: Cameron Carr Day-To-Day - Bruise",
+        "LAL: Collin Sexton Day-To-Day",
+        "LAL: Ziaire Williams Day-To-Day - Bruise",
+        "LAL: Adou Thiero Day-To-Day",
+        "LAL: Luka Doncic Day-To-Day",
+        "DEN: Julian Strawther Day-To-Day",
+        "DEN: DeMar DeRozan Day-To-Day",
+        "DEN: Spencer Jones Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
