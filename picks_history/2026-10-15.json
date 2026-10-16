@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401908945",
@@ -58,8 +58,8 @@
         "TOR: Nate Bittle Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "TOR 120\u2013122 NY",
       "tot_result": null
     },
     {
@@ -121,8 +121,8 @@
         "OKC: Thomas Sorber Day-To-Day - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "OKC 89\u2013116 HOU",
       "tot_result": null
     }
   ]
