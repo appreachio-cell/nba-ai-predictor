@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401898406",
@@ -60,8 +60,8 @@
         "MIA: Dru Smith Day-To-Day - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIA 115\u2013136 ORL",
       "tot_result": null
     },
     {
@@ -120,8 +120,8 @@
         "BOS: Devin Carter Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 125\u2013120 PHI",
       "tot_result": null
     },
     {
@@ -176,8 +176,8 @@
         "TOR: Chucky Hepburn Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "TOR 125\u2013129 DET",
       "tot_result": null
     },
     {
@@ -240,8 +240,8 @@
         "MIL: Nate Ament Day-To-Day - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIL 128\u2013127 IND",
       "tot_result": null
     },
     {
@@ -304,8 +304,8 @@
         "ATL: Luguentz Dort Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ATL 135\u2013111 DAL",
       "tot_result": null
     },
     {
@@ -368,8 +368,8 @@
         "SAC: De'Andre Hunter Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SAC 97\u2013126 SA",
       "tot_result": null
     },
     {
@@ -429,8 +429,8 @@
         "CHA: Grant Williams Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHA 98\u2013117 MEM",
       "tot_result": null
     },
     {
@@ -488,8 +488,8 @@
         "WSH: Jamir Watkins Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "WSH 106\u2013107 NO",
       "tot_result": null
     },
     {
@@ -550,8 +550,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIN 116\u2013133 CHI",
       "tot_result": null
     },
     {
@@ -611,8 +611,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "POR 118\u2013128 GS",
       "tot_result": null
     },
     {
@@ -673,8 +673,8 @@
         "UTAH: Jusuf Nurkic Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "UTAH 119\u2013116 PHX",
       "tot_result": null
     },
     {
@@ -735,8 +735,8 @@
         "DEN: Spencer Jones Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DEN 121\u2013106 LAL",
       "tot_result": null
     }
   ]
