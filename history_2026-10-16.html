@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>NBA AI Predictor</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f3f4f6;color:#111;min-height:100vh}
+  .wrap{max-width:680px;margin:0 auto;padding:20px 14px 60px}
+  a{cursor:pointer}
+  @media(max-width:480px){.wrap{padding:14px 10px 40px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div style="margin-bottom:20px;">
+    <h1 style="font-size:22px;font-weight:500;">🏀 NBA AI Predictor</h1>
+    <div style="font-size:13px;color:#9ca3af;margin-top:3px;">Friday, October 16 2026 · 12 games</div>
+  </div>
+  
+<div style="background:#f9fafb;border-radius:12px;border:0.5px solid #e5e7eb;padding:16px 18px;margin-bottom:20px;">
+  <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:12px;">Model record · Moneyline</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px;">
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">All time</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">138-79</div>
+      <div style="font-size:11px;color:#d97706;">63.6%</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">This month</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">30-34</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">This week</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">—</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Yesterday</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">—</div>
+    </div>
+  </div>
+  <div style="height:5px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-bottom:4px;">
+    <div style="width:63.6%;height:100%;background:#d97706;border-radius:99px;"></div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;">
+    <span>Hit rate</span><span>Target 65% · Break-even 52.4%</span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:12px;">
+    <div style="background:#fff;border-radius:8px;padding:8px 10px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;">ML</div><div style="font-size:14px;font-weight:500;">125-74</div></div><div style="background:#fff;border-radius:8px;padding:8px 10px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;">TOTAL</div><div style="font-size:14px;font-weight:500;">13-5</div></div><div style="background:#fff;border-radius:8px;padding:8px 10px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;">PROP</div><div style="font-size:14px;font-weight:500;">0-0</div></div>
+  </div>
+  <div style="margin-top:12px;">
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:8px;">ML record by confidence</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;">
+      <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">50-59%</div><div style="font-size:13px;font-weight:500;">28-28</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">50%</div><div style="font-size:11px;font-weight:600;color:#16a34a;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: +$11.17</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">60-69%</div><div style="font-size:13px;font-weight:500;">31-29</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">52%</div><div style="font-size:11px;font-weight:600;color:#dc2626;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: -$90.31</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">70-79%</div><div style="font-size:13px;font-weight:500;">25-5</div><div style="font-size:10px;color:#16a34a;margin-top:1px;">83%</div><div style="font-size:11px;font-weight:600;color:#16a34a;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: +$26.12</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">80+%</div><div style="font-size:13px;font-weight:500;">41-12</div><div style="font-size:10px;color:#16a34a;margin-top:1px;">77%</div><div style="font-size:11px;font-weight:600;color:#dc2626;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: -$3.72</div></div>
+    </div>
+  </div>
+</div>
+  <div style="overflow-x:auto;white-space:nowrap;margin-bottom:16px;padding-bottom:4px;"><a href="app.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Today · Oct 20</a><a href="history_2026-10-16.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#111;color:#fff;border:none;">Oct 16<span style="font-size:11px;color:#aaa;"> 7-5</span></a><a href="history_2026-10-15.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 15<span style="font-size:11px;color:#dc2626;"> 1-1</span></a><a href="history_2026-10-14.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 14<span style="font-size:11px;color:#dc2626;"> 1-6</span></a><a href="history_2026-10-13.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 13<span style="font-size:11px;color:#16a34a;"> 3-2</span></a><a href="history_2026-10-12.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 12<span style="font-size:11px;color:#16a34a;"> 3-1</span></a><a href="history_2026-10-11.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 11<span style="font-size:11px;color:#dc2626;"> 1-2</span></a><a href="history_2026-10-10.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 10<span style="font-size:11px;color:#dc2626;"> 4-3</span></a><a href="history_2026-10-09.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 09<span style="font-size:11px;color:#dc2626;"> 0-1</span></a><a href="history_2026-10-08.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 08<span style="font-size:11px;color:#16a34a;"> 4-2</span></a></div>
+
+  <div style="display:flex;gap:6px;margin-bottom:16px;">
+    <button onclick="showTab('ml')" id="tab-ml"
+      style="flex:1;padding:9px 0;border-radius:10px;border:none;cursor:pointer;font-size:13px;font-weight:600;background:#111;color:#fff;">
+      📊 ML
+    </button>
+    <button onclick="showTab('ou')" id="tab-ou"
+      style="flex:1;padding:9px 0;border-radius:10px;border:none;cursor:pointer;font-size:13px;font-weight:600;background:#f3f4f6;color:#374151;">
+      📈 O/U
+    </button>
+    <button onclick="showTab('props')" id="tab-props"
+      style="flex:1;padding:9px 0;border-radius:10px;border:none;cursor:pointer;font-size:13px;font-weight:600;background:#f3f4f6;color:#374151;">
+      🎯 Props
+    </button>
+  </div>
+
+  <div id="section-ml">
+    <div style="display:flex;justify-content:flex-end;margin-bottom:12px;font-size:11px;color:#9ca3af;gap:5px;">
+      EV: <span style="color:#16a34a;">+8 excellent</span> ·
+      <span style="color:#65a30d;">+3 good</span> ·
+      <span style="color:#d97706;">marginal</span> ·
+      <span style="color:#dc2626;">neg = skip</span>
+    </div>
+    
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(0)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">7:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#6b7280;">51% confidence</span>
+        <span style="font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;background:#fef3c7;color:#92400e;margin-left:6px;">⚠️ Tight line</span>
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#fee2e2;color:#991b1b;margin-left:8px;">✗ LOSS · MIA 115–136 ORL</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Miami Heat</div>
+        <div style="font-size:11px;color:#9ca3af;">3-1 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">118</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">117</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Orlando Magic</div>
+        <div style="font-size:11px;color:#9ca3af;">2-1 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:51%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:49%;background:#6b7280;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>MIA 51%</span>
+        <span style="color:#374151;font-weight:500;">Proj: MIA wins</span>
+        <span>ORL 49%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Miami Heat</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint0">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body0" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Miami Heat</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 51% → model 51%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">MIA ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">ORL ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">ORL: Jonathan Isaac Day-To-Day - Sprain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">ORL: Anthony Black Day-To-Day - Sprain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">ORL: Nikola Vucevic Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">ORL: Izaiyah Nelson Out - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIA: Kylor Kelley Day-To-Day - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIA: Pelle Larsson Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIA: Bam Adebayo Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIA: Dru Smith Day-To-Day - Strain</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(0)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(1)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">7:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#16a34a;">73% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · BOS 125–120 PHI</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Boston Celtics</div>
+        <div style="font-size:11px;color:#9ca3af;">3-0 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">118</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">108</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Philadelphia 76ers</div>
+        <div style="font-size:11px;color:#9ca3af;">1-2 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:73%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:27%;background:#16a34a;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>BOS 73%</span>
+        <span style="color:#374151;font-weight:500;">Proj: BOS wins</span>
+        <span>PHI 27%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Boston Celtics</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint1">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body1" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Boston Celtics</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 73% → model 73%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">BOS ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">PHI ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHI: Anfernee Simons Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHI: Adem Bona Day-To-Day - Sprain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHI: Dominick Barlow Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHI: LeBron James Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHI: Kentavious Caldwell-Pope Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">BOS: Devin Carter Day-To-Day</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(1)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(2)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">7:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#6b7280;">50% confidence</span>
+        <span style="font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;background:#fef3c7;color:#92400e;margin-left:6px;">⚠️ Tight line</span>
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · TOR 125–129 DET</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Toronto Raptors</div>
+        <div style="font-size:11px;color:#9ca3af;">2-2 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-108</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">110</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">109</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Detroit Pistons</div>
+        <div style="font-size:11px;color:#9ca3af;">2-1 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-112</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:50%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:50%;background:#6b7280;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>TOR 50%</span>
+        <span style="color:#374151;font-weight:500;">Proj: TOR wins</span>
+        <span>DET 50%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">VALUE BET — UNDERDOG</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Detroit Pistons</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#fef3c7;color:#92400e;">-112</span>
+            <span style='font-size:11px;color:#d97706;'>Proj. loser — book has them too cheap</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.5</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint2">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body2" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Detroit Pistons</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">-112</span>
+      <span style="font-size:12px;color:#9ca3af;">book 50% → model 50%</span>
+      <span style="font-size:13px;font-weight:500;color:#dc2626;">EV -4.5</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">TOR ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-108</div>
+        <div style="font-size:12px;color:#dc2626;">EV -4.5</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">DET ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-112</div>
+        <div style="font-size:12px;color:#dc2626;">EV -4.5</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">TOR: Nate Bittle Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">TOR: Chucky Hepburn Day-To-Day</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(2)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(3)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">7:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#d97706;">60% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#fee2e2;color:#991b1b;margin-left:8px;">✗ LOSS · MIL 128–127 IND</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Milwaukee Bucks</div>
+        <div style="font-size:11px;color:#9ca3af;">1-3 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#bbb;">114</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#111;">120</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Indiana Pacers</div>
+        <div style="font-size:11px;color:#9ca3af;">1-2 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:40%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:60%;background:#d97706;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>MIL 40%</span>
+        <span style="color:#374151;font-weight:500;">Proj: IND wins</span>
+        <span>IND 60%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Indiana Pacers</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint3">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body3" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Indiana Pacers</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 60% → model 60%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">MIL ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">IND ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">IND: Aaron Nesmith Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">IND: T.J. McConnell Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">IND: Jarace Walker Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">IND: Andrew Nembhard Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">IND: Johnny Furphy Out - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIL: Kevin Porter Jr. Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIL: Myles Turner Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIL: AJ Green Day-To-Day</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(3)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(4)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">8:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#d97706;">66% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · ATL 135–111 DAL</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Atlanta Hawks</div>
+        <div style="font-size:11px;color:#9ca3af;">3-1 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">122</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">113</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Dallas Mavericks</div>
+        <div style="font-size:11px;color:#9ca3af;">1-2 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:66%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:34%;background:#d97706;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>ATL 66%</span>
+        <span style="color:#374151;font-weight:500;">Proj: ATL wins</span>
+        <span>DAL 34%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Atlanta Hawks</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint4">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body4" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Atlanta Hawks</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 66% → model 66%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">ATL ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">DAL ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">DAL: Moussa Cisse Day-To-Day - Sprain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">DAL: Santi Aldama Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">DAL: Marcus Sasser Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">DAL: Jett Howard Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">DAL: Dereck Lively II Day-To-Day - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">ATL: Keshon Gilbert Day-To-Day - Tendinitis</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">ATL: Aaron Wiggins Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">ATL: Onyeka Okongwu Day-To-Day</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(4)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(5)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">8:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#16a34a;">85% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · SAC 97–126 SA</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Sacramento Kings</div>
+        <div style="font-size:11px;color:#9ca3af;">0-4 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#bbb;">108</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#111;">123</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">San Antonio Spurs</div>
+        <div style="font-size:11px;color:#9ca3af;">1-3 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:15%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:85%;background:#16a34a;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>SAC 15%</span>
+        <span style="color:#374151;font-weight:500;">Proj: SA wins</span>
+        <span>SA 85%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">San Antonio Spurs</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint5">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body5" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">San Antonio Spurs</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 85% → model 85%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">SAC ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">SA ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SA: Luke Kornet Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SA: Keldon Johnson Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SA: Julian Champagnie Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SA: Jayden Quaintance Out - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SA: Tobias Harris Day-To-Day - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SAC: Dylan Cardwell Out - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SAC: Maxime Raynaud Out - Dislocated</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SAC: Precious Achiuwa Day-To-Day - Not Specified</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(5)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(6)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">8:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#d97706;">68% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · CHA 98–117 MEM</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Charlotte Hornets</div>
+        <div style="font-size:11px;color:#9ca3af;">1-2 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#bbb;">112</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#111;">119</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Memphis Grizzlies</div>
+        <div style="font-size:11px;color:#9ca3af;">2-1 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:32%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:68%;background:#d97706;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>CHA 32%</span>
+        <span style="color:#374151;font-weight:500;">Proj: MEM wins</span>
+        <span>MEM 68%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Memphis Grizzlies</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint6">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body6" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Memphis Grizzlies</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 68% → model 68%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">CHA ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">MEM ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MEM: Micah Peavy Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MEM: Isaiah Stewart Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHA: Grayson Allen Day-To-Day - Soreness</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHA: Kylan Boswell Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHA: Coby White Day-To-Day - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHA: Kon Knueppel Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHA: Grant Williams Day-To-Day</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(6)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(7)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">8:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#6b7280;">52% confidence</span>
+        <span style="font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;background:#fef3c7;color:#92400e;margin-left:6px;">⚠️ Tight line</span>
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · WSH 106–107 NO</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Washington Wizards</div>
+        <div style="font-size:11px;color:#9ca3af;">2-1 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#bbb;">114</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#111;">116</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">New Orleans Pelicans</div>
+        <div style="font-size:11px;color:#9ca3af;">2-1 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:48%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:52%;background:#6b7280;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>WSH 48%</span>
+        <span style="color:#374151;font-weight:500;">Proj: NO wins</span>
+        <span>NO 52%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">New Orleans Pelicans</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint7">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body7" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">New Orleans Pelicans</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 52% → model 52%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">WSH ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">NO ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">NO: Dejounte Murray Day-To-Day - Bruise</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">WSH: Khris Middleton Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">WSH: Anthony Davis Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">WSH: Tristan Vukcevic Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">WSH: Jamir Watkins Out</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(7)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(8)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">8:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#6b7280;">52% confidence</span>
+        <span style="font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;background:#fef3c7;color:#92400e;margin-left:6px;">⚠️ Tight line</span>
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#fee2e2;color:#991b1b;margin-left:8px;">✗ LOSS · MIN 116–133 CHI</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Minnesota Timberwolves</div>
+        <div style="font-size:11px;color:#9ca3af;">3-2 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">118</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">117</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Chicago Bulls</div>
+        <div style="font-size:11px;color:#9ca3af;">2-2 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:52%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:48%;background:#6b7280;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>MIN 52%</span>
+        <span style="color:#374151;font-weight:500;">Proj: MIN wins</span>
+        <span>CHI 48%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Minnesota Timberwolves</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint8">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body8" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Minnesota Timberwolves</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 52% → model 52%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">MIN ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">CHI ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHI: Isaac Okoro Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHI: Tobe Awaka Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHI: Zach Collins Day-To-Day - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHI: Nic Claxton Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIN: Ayo Dosunmu Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIN: Rocco Zikarsky Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIN: Enrique Freeman Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIN: Donte DiVincenzo Out - Surgery</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(8)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(9)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">10:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#d97706;">61% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#fee2e2;color:#991b1b;margin-left:8px;">✗ LOSS · POR 118–128 GS</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Portland Trail Blazers</div>
+        <div style="font-size:11px;color:#9ca3af;">3-0 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">116</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">110</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Golden State Warriors</div>
+        <div style="font-size:11px;color:#9ca3af;">3-2 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:61%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:39%;background:#d97706;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>POR 61%</span>
+        <span style="color:#374151;font-weight:500;">Proj: POR wins</span>
+        <span>GS 39%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Portland Trail Blazers</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint9">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body9" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Portland Trail Blazers</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 61% → model 61%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">POR ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">GS ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">GS: Moses Moody Out - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">GS: Jimmy Butler III Out - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">GS: Kristaps Porzingis Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">GS: Draymond Green Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">GS: Al Horford Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">POR: Chris Youngblood Day-To-Day - Soreness</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">POR: Shaedon Sharpe Out - Surgery</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(9)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(10)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">10:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#d97706;">69% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · UTAH 119–116 PHX</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Utah Jazz</div>
+        <div style="font-size:11px;color:#9ca3af;">2-1 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">118</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">108</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Phoenix Suns</div>
+        <div style="font-size:11px;color:#9ca3af;">1-3 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:69%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:31%;background:#d97706;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>UTAH 69%</span>
+        <span style="color:#374151;font-weight:500;">Proj: UTAH wins</span>
+        <span>PHX 31%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Utah Jazz</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint10">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body10" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Utah Jazz</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 69% → model 69%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">UTAH ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">PHX ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHX: Luke Kennard Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHX: Oso Ighodaro Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHX: Collin Gillespie Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHX: Miles Bridges Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHX: Jalen Green Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">UTAH: Blake Hinson Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">UTAH: Kyle Filipowski Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">UTAH: Jusuf Nurkic Out</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(10)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(11)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">10:30 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#6b7280;">52% confidence</span>
+        <span style="font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;background:#fef3c7;color:#92400e;margin-left:6px;">⚠️ Tight line</span>
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#fee2e2;color:#991b1b;margin-left:8px;">✗ LOSS · DEN 121–106 LAL</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Denver Nuggets</div>
+        <div style="font-size:11px;color:#9ca3af;">2-2 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#bbb;">114</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#111;">116</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Los Angeles Lakers</div>
+        <div style="font-size:11px;color:#9ca3af;">2-2 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">—</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:48%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:52%;background:#6b7280;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>DEN 48%</span>
+        <span style="color:#374151;font-weight:500;">Proj: LAL wins</span>
+        <span>LAL 52%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Los Angeles Lakers</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">—</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#9ca3af;">EV —</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint11">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body11" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Los Angeles Lakers</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">—</span>
+      <span style="font-size:12px;color:#9ca3af;">book 52% → model 52%</span>
+      <span style="font-size:13px;font-weight:500;color:#9ca3af;">EV —</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    <div style='font-size:11px;color:#f59e0b;margin-top:4px;'>⚠ No book odds — using team records</div>
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">DEN ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">LAL ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">—</div>
+        <div style="font-size:12px;color:#9ca3af;">EV —</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">LAL: Cameron Carr Day-To-Day - Bruise</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">LAL: Collin Sexton Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">LAL: Ziaire Williams Day-To-Day - Bruise</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">LAL: Adou Thiero Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">LAL: Luka Doncic Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">DEN: Julian Strawther Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">DEN: DeMar DeRozan Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">DEN: Spencer Jones Day-To-Day</div></div>
+    <div style="margin-top:14px;font-size:12px;color:#9ca3af;">No props available</div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(11)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div id="section-ou" style="display:none;">
+    
+<div style="background:#f9fafb;border-radius:12px;border:0.5px solid #e5e7eb;padding:16px 18px;margin-bottom:20px;">
+  <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:12px;">Model record · Over/Under</div>
+  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:14px;">
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">All time O/U</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">13-5</div>
+      <div style="font-size:11px;color:#16a34a;">72.2%</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Target</div>
+      <div style="font-size:14px;font-weight:500;color:#111;">55%+</div>
+      <div style="font-size:11px;color:#9ca3af;">Break-even 52.4%</div>
+    </div>
+  </div>
+  <div style="height:5px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-bottom:4px;">
+    <div style="width:72.2%;height:100%;background:#16a34a;border-radius:99px;"></div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-bottom:12px;">
+    <span>Hit rate</span><span>Overs vs Unders breakdown below</span>
+  </div>
+  <div style="display:flex;gap:8px;">
+    <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;flex:1;"><div style="font-size:11px;font-weight:600;color:#2563eb;margin-bottom:3px;">⬆ OVER</div><div style="font-size:20px;font-weight:500;color:#111;">5-1</div><div style="font-size:10px;color:#16a34a;margin-top:1px;">83%</div><div style="font-size:11px;font-weight:600;color:#16a34a;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: +$26.70</div></div>
+    <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;flex:1;"><div style="font-size:11px;font-weight:600;color:#7c3aed;margin-bottom:3px;">⬇ UNDER</div><div style="font-size:20px;font-weight:500;color:#111;">8-4</div><div style="font-size:10px;color:#16a34a;margin-top:1px;">67%</div><div style="font-size:11px;font-weight:600;color:#16a34a;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: +$30.70</div></div>
+  </div>
+  <div style="margin-top:12px;">
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:8px;">O/U record by confidence</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;">
+      <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">50-59%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">60-69%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">70-79%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">80+%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div>
+    </div>
+  </div>
+</div>
+    
+<div style="text-align:center;padding:60px 20px;">
+  <div style="font-size:40px;margin-bottom:12px;">🏀</div>
+  <div style="font-size:16px;font-weight:500;color:#374151;">No games for this date</div>
+</div>
+  </div>
+
+  <div id="section-props" style="display:none;">
+    
+<div style="background:#f9fafb;border-radius:12px;border:0.5px solid #e5e7eb;padding:16px 18px;margin-bottom:20px;">
+  <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:12px;">Model record · Player Props</div>
+  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:14px;">
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">All time props</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">0-0</div>
+      <div style="font-size:11px;color:#6b7280;">—</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Target</div>
+      <div style="font-size:14px;font-weight:500;color:#111;">65%+</div>
+      <div style="font-size:11px;color:#9ca3af;">Break-even 52.4%</div>
+    </div>
+  </div>
+  <div style="height:5px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-bottom:4px;">
+    <div style="width:0%;height:100%;background:#6b7280;border-radius:99px;"></div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-bottom:12px;">
+    <span>Hit rate</span><span>Sorted by confidence below</span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;">
+    <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">50-59%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">60-69%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">70-79%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">80+%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div>
+  </div>
+</div>
+    
+<div style="text-align:center;padding:60px 20px;">
+  <div style="font-size:40px;margin-bottom:12px;">🏀</div>
+  <div style="font-size:16px;font-weight:500;color:#374151;">No games for this date</div>
+</div>
+  </div>
+  <div style="margin-top:20px;padding:12px 14px;background:#fffbeb;border-radius:8px;border:0.5px solid #fde68a;">
+    <p style="font-size:11px;color:#92400e;line-height:1.6;">AI-generated picks for informational purposes only. Always gamble responsibly.</p>
+  </div>
+</div>
+<script>
+function toggle(i){
+  var b=document.getElementById('body'+i);
+  var h=document.getElementById('hint'+i);
+  var o=b.style.display!=='none';
+  b.style.display=o?'none':'block';
+  h.innerHTML=o?'tap for details &#9662;':'collapse &#9652;';
+}
+function showTab(t){
+  ['ml','ou','props'].forEach(function(id){
+    var active = t===id;
+    document.getElementById('section-'+id).style.display = active?'block':'none';
+    document.getElementById('tab-'+id).style.background  = active?'#111':'#f3f4f6';
+    document.getElementById('tab-'+id).style.color       = active?'#fff':'#374151';
+  });
+}
+</script>
+</body>
+</html>
