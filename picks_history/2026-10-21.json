@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909834",
@@ -139,8 +139,8 @@
         "ATL: Henri Veesaar Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "ATL 132\u2013125 ORL",
       "tot_result": null
     },
     {
@@ -278,8 +278,8 @@
         "MIL: Nate Ament Day-To-Day - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIL 116\u2013128 WSH",
       "tot_result": null
     },
     {
@@ -415,8 +415,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIN 131\u2013106 MIA",
       "tot_result": null
     },
     {
@@ -555,8 +555,8 @@
         "CHA: Coby White Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "CHA 110\u2013103 BKN",
       "tot_result": null
     },
     {
@@ -696,8 +696,8 @@
         "CHI: Zach Collins Day-To-Day - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHI 92\u2013135 TOR",
       "tot_result": null
     },
     {
@@ -835,8 +835,8 @@
         "UTAH: Jusuf Nurkic Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "UTAH 103\u2013123 MEM",
       "tot_result": null
     },
     {
@@ -973,8 +973,8 @@
         "IND: Johnny Furphy Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "IND 123\u2013120 NO",
       "tot_result": null
     },
     {
@@ -1115,8 +1115,8 @@
         "DAL: Santi Aldama Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DAL 110\u2013128 HOU",
       "tot_result": null
     },
     {
@@ -1258,8 +1258,8 @@
         "GS: Moses Moody Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "GS 105\u2013127 LAL",
       "tot_result": null
     },
     {
@@ -1400,8 +1400,8 @@
         "PHX: Mark Williams Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHX 83\u2013124 POR",
       "tot_result": null
     },
     {
@@ -1463,8 +1463,8 @@
         "SAC: Maxime Raynaud Out - Dislocated"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SAC 96\u2013121 LAC",
       "tot_result": null
     }
   ]
