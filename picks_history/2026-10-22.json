@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909093",
@@ -140,8 +140,8 @@
         "CLE: Nae'Qwan Tomlin Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CLE 106\u2013114 PHI",
       "tot_result": null
     },
     {
@@ -280,8 +280,8 @@
         "DEN: Julian Strawther Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DEN 84\u201396 OKC",
       "tot_result": null
     }
   ]
