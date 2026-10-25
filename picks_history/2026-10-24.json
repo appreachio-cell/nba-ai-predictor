@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909853",
@@ -139,8 +139,8 @@
         "MIA: Pelle Larsson Day-To-Day - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIA 110\u2013115 CHA",
       "tot_result": null
     },
     {
@@ -275,8 +275,8 @@
         "BKN: Tyler Bilodeau Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BKN 121\u2013125 CLE",
       "tot_result": null
     },
     {
@@ -415,8 +415,8 @@
         "PHI: Ariel Hukporti Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIL 116\u2013127 PHI",
       "tot_result": null
     },
     {
@@ -555,8 +555,8 @@
         "WSH: Jamir Watkins Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "WSH 124\u2013120 CHI",
       "tot_result": null
     },
     {
@@ -697,8 +697,8 @@
         "SA: Jayden Quaintance Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 122\u2013106 DAL",
       "tot_result": null
     },
     {
@@ -837,8 +837,8 @@
         "HOU: Fred VanVleet Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "HOU 121\u2013114 ATL",
       "tot_result": null
     },
     {
@@ -977,8 +977,8 @@
         "NO: Yves Missi Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NO 135\u2013141 DEN",
       "tot_result": null
     },
     {
@@ -1120,8 +1120,8 @@
         "GS: Moses Moody Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "GS 122\u2013131 PHX",
       "tot_result": null
     }
   ]
