@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909861",
@@ -137,8 +137,8 @@
         "LAL: Cameron Carr Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAL 132\u2013123 UTAH",
       "tot_result": null
     },
     {
@@ -278,8 +278,8 @@
         "IND: Johnny Furphy Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "IND 136\u2013109 BKN",
       "tot_result": null
     },
     {
@@ -419,8 +419,8 @@
         "ORL: Izaiyah Nelson Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "ORL 111\u2013102 NY",
       "tot_result": null
     },
     {
@@ -556,8 +556,8 @@
         "TOR: Nate Bittle Out - Fracture"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "TOR 94\u2013117 MIN",
       "tot_result": null
     },
     {
@@ -618,8 +618,8 @@
         "LAC: Jordan Miller Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAC 101\u2013108 OKC",
       "tot_result": null
     },
     {
@@ -760,8 +760,8 @@
         "DET: Jalen Duren Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DET 106\u201393 PHI",
       "tot_result": null
     },
     {
@@ -901,8 +901,8 @@
         "MEM: Zach Edey Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MEM 123\u2013112 SAC",
       "tot_result": null
     }
   ]
