@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909868",
@@ -141,8 +141,8 @@
         "WSH: Jamir Watkins Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "WSH 103\u2013110 CHA",
       "tot_result": null
     },
     {
@@ -278,8 +278,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIN 125\u2013127 CLE",
       "tot_result": null
     },
     {
@@ -417,8 +417,8 @@
         "CHI: Nic Claxton Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHI 99\u2013134 BOS",
       "tot_result": null
     },
     {
@@ -557,8 +557,8 @@
         "DAL: Santi Aldama Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DAL 113\u2013109 MIA",
       "tot_result": null
     },
     {
@@ -697,8 +697,8 @@
         "IND: Ben Sheppard Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "IND 102\u2013110 MIL",
       "tot_result": null
     },
     {
@@ -839,8 +839,8 @@
         "PHX: Mark Williams Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHX 114\u2013125 OKC",
       "tot_result": null
     },
     {
@@ -978,8 +978,8 @@
         "ATL: Henri Veesaar Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ATL 110\u2013120 HOU",
       "tot_result": null
     },
     {
@@ -1118,8 +1118,8 @@
         "MEM: Karim Lopez Day-To-Day - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MEM 110\u2013105 UTAH",
       "tot_result": null
     },
     {
@@ -1262,8 +1262,8 @@
         "GS: Moses Moody Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "GS 134\u2013114 DEN",
       "tot_result": null
     }
   ]
