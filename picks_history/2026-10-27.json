@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909877",
@@ -136,8 +136,8 @@
         "BKN: Tyler Bilodeau Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BKN 124\u2013125 BOS",
       "tot_result": null
     },
     {
@@ -275,8 +275,8 @@
         "DET: Jalen Duren Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DET 97\u2013111 NY",
       "tot_result": null
     },
     {
@@ -416,8 +416,8 @@
         "SAC: Ben Simmons Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SAC 103\u2013130 SA",
       "tot_result": null
     },
     {
@@ -555,8 +555,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "POR 136\u2013129 LAL",
       "tot_result": null
     }
   ]
