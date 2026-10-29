@@ -1,0 +1,424 @@
+{
+  "date": "2026-10-29",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401909893",
+      "homeAbbr": "ATL",
+      "awayAbbr": "CLE",
+      "homeTeam": "Atlanta Hawks",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeRec": {
+        "wins": 2,
+        "losses": 3,
+        "pct": 0.4,
+        "summary": "2-3"
+      },
+      "awayRec": {
+        "wins": 3,
+        "losses": 1,
+        "pct": 0.75,
+        "summary": "3-1"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.5113,
+        "a_prob": 0.4887,
+        "h_odds": -112,
+        "a_odds": -102,
+        "h_ev": -3.2,
+        "a_ev": -3.2,
+        "h_proj": 119,
+        "a_proj": 118,
+        "total_line": 237.5,
+        "over_odds": -110,
+        "under_odds": -108,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Atlanta Hawks",
+        "my_prob": 0.5113,
+        "confidence": 51,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Evan Mobley",
+          "stat": "Points",
+          "line": 17.5,
+          "OVER": -104,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -1.5
+        },
+        {
+          "player": "Peyton Watson",
+          "stat": "Points",
+          "line": 13.5,
+          "OVER": -110,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -1.9
+        },
+        {
+          "player": "C.J. McCollum",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": 107,
+          "UNDER": -118,
+          "dir": "OVER",
+          "odds": 107,
+          "ev": -2.4
+        },
+        {
+          "player": "Luguentz Dort",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -101,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -101,
+          "ev": -2.8
+        },
+        {
+          "player": "Evan Mobley",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -102,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.0
+        },
+        {
+          "player": "Jalen Johnson",
+          "stat": "Rebounds",
+          "line": 9.5,
+          "OVER": -113,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -3.0
+        },
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Points",
+          "line": 24.5,
+          "OVER": 102,
+          "UNDER": -119,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -3.7
+        },
+        {
+          "player": "James Harden",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 115,
+          "UNDER": -136,
+          "dir": "OVER",
+          "odds": 115,
+          "ev": -4.0
+        }
+      ],
+      "injuries": [
+        "ATL: Mouhamed Gueye Out - Fracture",
+        "ATL: Henri Veesaar Out",
+        "CLE: Meleek Thomas Day-To-Day",
+        "CLE: Jaylon Tyson Day-To-Day"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909894",
+      "homeAbbr": "NO",
+      "awayAbbr": "SAC",
+      "homeTeam": "New Orleans Pelicans",
+      "awayTeam": "Sacramento Kings",
+      "homeRec": {
+        "wins": 0,
+        "losses": 4,
+        "pct": 0.0,
+        "summary": "0-4"
+      },
+      "awayRec": {
+        "wins": 0,
+        "losses": 4,
+        "pct": 0.0,
+        "summary": "0-4"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6779,
+        "a_prob": 0.3221,
+        "h_odds": -235,
+        "a_odds": 200,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 122,
+        "a_proj": 114,
+        "total_line": 235.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "New Orleans Pelicans",
+        "my_prob": 0.6779,
+        "confidence": 68,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Jeremiah Fears",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -132,
+          "UNDER": 126,
+          "dir": "OVER",
+          "odds": -132,
+          "ev": -1.1
+        },
+        {
+          "player": "Dejounte Murray",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 113,
+          "UNDER": -122,
+          "dir": "OVER",
+          "odds": 113,
+          "ev": -1.9
+        },
+        {
+          "player": "Trey Murphy III",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -105,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -105,
+          "ev": -2.6
+        },
+        {
+          "player": "Zion Williamson",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 124,
+          "UNDER": -138,
+          "dir": "OVER",
+          "odds": 124,
+          "ev": -2.6
+        },
+        {
+          "player": "Darius Acuff Jr.",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": -140,
+          "UNDER": 122,
+          "dir": "OVER",
+          "odds": -140,
+          "ev": -3.3
+        },
+        {
+          "player": "Darius Acuff Jr.",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -157,
+          "UNDER": 134,
+          "dir": "OVER",
+          "odds": -157,
+          "ev": -3.7
+        },
+        {
+          "player": "Derik Queen",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -148,
+          "UNDER": 124,
+          "dir": "OVER",
+          "odds": -148,
+          "ev": -4.1
+        },
+        {
+          "player": "Trey Murphy III",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 129,
+          "UNDER": -154,
+          "dir": "OVER",
+          "odds": 129,
+          "ev": -4.1
+        }
+      ],
+      "injuries": [
+        "NO: Jordan Poole Day-To-Day",
+        "NO: Yves Missi Out - Bruise",
+        "SAC: Dylan Cardwell Out - Strain",
+        "SAC: Maxime Raynaud Out - Dislocated",
+        "SAC: Keegan Murray Out",
+        "SAC: Ben Simmons Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909895",
+      "homeAbbr": "POR",
+      "awayAbbr": "MEM",
+      "homeTeam": "Portland Trail Blazers",
+      "awayTeam": "Memphis Grizzlies",
+      "homeRec": {
+        "wins": 3,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "3-0"
+      },
+      "awayRec": {
+        "wins": 4,
+        "losses": 0,
+        "pct": 1.0,
+        "summary": "4-0"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.7166,
+        "a_prob": 0.2834,
+        "h_odds": -290,
+        "a_odds": 240,
+        "h_ev": -3.6,
+        "a_ev": -3.6,
+        "h_proj": 121,
+        "a_proj": 112,
+        "total_line": 232.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Portland Trail Blazers",
+        "my_prob": 0.7166,
+        "confidence": 72,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Jerami Grant",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": 125,
+          "UNDER": -138,
+          "dir": "OVER",
+          "odds": 125,
+          "ev": -2.4
+        },
+        {
+          "player": "Isaiah Stewart",
+          "stat": "Points",
+          "line": 5.5,
+          "OVER": -111,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -111,
+          "ev": -2.5
+        },
+        {
+          "player": "Zach Edey",
+          "stat": "Rebounds",
+          "line": 7.5,
+          "OVER": -104,
+          "UNDER": -108,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -2.8
+        },
+        {
+          "player": "Ty Jerome",
+          "stat": "Points",
+          "line": 24.5,
+          "OVER": 102,
+          "UNDER": -117,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -3.3
+        },
+        {
+          "player": "Ja Morant",
+          "stat": "Points",
+          "line": 18.5,
+          "OVER": 100,
+          "UNDER": -116,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.6
+        },
+        {
+          "player": "Zach Edey",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": 104,
+          "UNDER": -121,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -3.6
+        },
+        {
+          "player": "Jaylen Wells",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 146,
+          "UNDER": -171,
+          "dir": "OVER",
+          "odds": 146,
+          "ev": -3.6
+        },
+        {
+          "player": "Jrue Holiday",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": -112,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -112,
+          "ev": -3.7
+        }
+      ],
+      "injuries": [
+        "POR: Robert Williams III Day-To-Day",
+        "POR: Chris Youngblood Out - Soreness",
+        "POR: Shaedon Sharpe Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
