@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909893",
@@ -137,8 +137,8 @@
         "CLE: Jaylon Tyson Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CLE 111\u2013114 ATL",
       "tot_result": null
     },
     {
@@ -278,8 +278,8 @@
         "SAC: Ben Simmons Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SAC 120\u2013132 NO",
       "tot_result": null
     },
     {
@@ -416,8 +416,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MEM 124\u2013103 POR",
       "tot_result": null
     }
   ]
