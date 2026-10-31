@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909277",
@@ -142,8 +142,8 @@
         "CHA: Kylan Boswell Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "CHA 79\u201395 WSH",
       "tot_result": null
     },
     {
@@ -281,8 +281,8 @@
         "CHI: Nic Claxton Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHI 111\u2013125 BOS",
       "tot_result": null
     },
     {
@@ -421,8 +421,8 @@
         "DET: Jalen Duren Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DET 110\u201394 BKN",
       "tot_result": null
     },
     {
@@ -562,8 +562,8 @@
         "NY: Jose Alvarado Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "NY 93\u201398 PHI",
       "tot_result": null
     },
     {
@@ -704,8 +704,8 @@
         "ORL: Izaiyah Nelson Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "ORL 121\u2013114 TOR",
       "tot_result": null
     },
     {
@@ -845,8 +845,8 @@
         "IND: Ivica Zubac Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "IND 125\u2013145 MIA",
       "tot_result": null
     },
     {
@@ -989,8 +989,8 @@
         "HOU: Steven Adams Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "HOU 111\u2013116 DAL",
       "tot_result": null
     },
     {
@@ -1050,8 +1050,8 @@
         "LAC: Bradley Beal Out - Inflammation"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAC 101\u2013127 MIN",
       "tot_result": null
     },
     {
@@ -1191,8 +1191,8 @@
         "LAL: Ziaire Williams Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "LAL 95\u2013112 GS",
       "tot_result": null
     },
     {
@@ -1332,8 +1332,8 @@
         "DEN: Julian Strawther Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DEN 127\u2013120 PHX",
       "tot_result": null
     }
   ]
