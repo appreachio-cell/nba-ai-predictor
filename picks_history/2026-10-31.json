@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909896",
@@ -138,8 +138,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "POR 112\u201390 UTAH",
       "tot_result": null
     },
     {
@@ -282,8 +282,8 @@
         "PHI: Jaylen Brown Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHI 109\u2013104 CHA",
       "tot_result": null
     },
     {
@@ -421,8 +421,8 @@
         "ATL: Henri Veesaar Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "ATL 99\u2013121 NO",
       "tot_result": null
     },
     {
@@ -563,8 +563,8 @@
         "SAC: Ben Simmons Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SAC 105\u2013136 MEM",
       "tot_result": null
     },
     {
@@ -700,8 +700,8 @@
         "CLE: Jaylon Tyson Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CLE 136\u2013111 MIL",
       "tot_result": null
     },
     {
@@ -841,8 +841,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIN 111\u2013121 SA",
       "tot_result": null
     },
     {
@@ -984,8 +984,8 @@
         "OKC: Thomas Sorber Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "OKC 98\u2013119 HOU",
       "tot_result": null
     }
   ]

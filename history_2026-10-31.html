@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>NBA AI Predictor</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f3f4f6;color:#111;min-height:100vh}
+  .wrap{max-width:680px;margin:0 auto;padding:20px 14px 60px}
+  a{cursor:pointer}
+  @media(max-width:480px){.wrap{padding:14px 10px 40px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div style="margin-bottom:20px;">
+    <h1 style="font-size:22px;font-weight:500;">🏀 NBA AI Predictor</h1>
+    <div style="font-size:13px;color:#9ca3af;margin-top:3px;">Saturday, October 31 2026 · 7 games</div>
+  </div>
+  
+<div style="background:#f9fafb;border-radius:12px;border:0.5px solid #e5e7eb;padding:16px 18px;margin-bottom:20px;">
+  <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:12px;">Model record · Moneyline</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px;">
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">All time</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">197-108</div>
+      <div style="font-size:11px;color:#d97706;">64.6%</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">This month</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">—</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">This week</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">31-14</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Yesterday</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">6-1</div>
+    </div>
+  </div>
+  <div style="height:5px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-bottom:4px;">
+    <div style="width:64.6%;height:100%;background:#d97706;border-radius:99px;"></div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;">
+    <span>Hit rate</span><span>Target 65% · Break-even 52.4%</span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:12px;">
+    <div style="background:#fff;border-radius:8px;padding:8px 10px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;">ML</div><div style="font-size:14px;font-weight:500;">184-103</div></div><div style="background:#fff;border-radius:8px;padding:8px 10px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;">TOTAL</div><div style="font-size:14px;font-weight:500;">13-5</div></div><div style="background:#fff;border-radius:8px;padding:8px 10px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;">PROP</div><div style="font-size:14px;font-weight:500;">0-0</div></div>
+  </div>
+  <div style="margin-top:12px;">
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:8px;">ML record by confidence</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;">
+      <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">50-59%</div><div style="font-size:13px;font-weight:500;">46-44</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">51%</div><div style="font-size:11px;font-weight:600;color:#dc2626;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: -$20.97</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">60-69%</div><div style="font-size:13px;font-weight:500;">44-37</div><div style="font-size:10px;color:#d97706;margin-top:1px;">54%</div><div style="font-size:11px;font-weight:600;color:#dc2626;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: -$113.36</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">70-79%</div><div style="font-size:13px;font-weight:500;">43-10</div><div style="font-size:10px;color:#16a34a;margin-top:1px;">81%</div><div style="font-size:11px;font-weight:600;color:#16a34a;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: +$26.77</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">80+%</div><div style="font-size:13px;font-weight:500;">51-12</div><div style="font-size:10px;color:#16a34a;margin-top:1px;">81%</div><div style="font-size:11px;font-weight:600;color:#16a34a;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: +$11.25</div></div>
+    </div>
+  </div>
+</div>
+  <div style="overflow-x:auto;white-space:nowrap;margin-bottom:16px;padding-bottom:4px;"><a href="app.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Today · Nov 01</a><a href="history_2026-10-31.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#111;color:#fff;border:none;">Oct 31<span style="font-size:11px;color:#aaa;"> 6-1</span></a><a href="history_2026-10-30.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 30<span style="font-size:11px;color:#dc2626;"> 5-5</span></a><a href="history_2026-10-29.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 29<span style="font-size:11px;color:#16a34a;"> 2-1</span></a><a href="history_2026-10-28.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 28<span style="font-size:11px;color:#16a34a;"> 9-3</span></a><a href="history_2026-10-27.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 27<span style="font-size:11px;color:#16a34a;"> 3-1</span></a><a href="history_2026-10-26.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 26<span style="font-size:11px;color:#16a34a;"> 6-3</span></a><a href="history_2026-10-25.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 25<span style="font-size:11px;color:#16a34a;"> 5-2</span></a><a href="history_2026-10-24.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 24<span style="font-size:11px;color:#16a34a;"> 5-3</span></a><a href="history_2026-10-23.html" style="display:inline-block;padding:7px 14px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;margin-right:6px;background:#f3f4f6;color:#374151;border:none;">Oct 23<span style="font-size:11px;color:#dc2626;"> 7-5</span></a></div>
+
+  <div style="display:flex;gap:6px;margin-bottom:16px;">
+    <button onclick="showTab('ml')" id="tab-ml"
+      style="flex:1;padding:9px 0;border-radius:10px;border:none;cursor:pointer;font-size:13px;font-weight:600;background:#111;color:#fff;">
+      📊 ML
+    </button>
+    <button onclick="showTab('ou')" id="tab-ou"
+      style="flex:1;padding:9px 0;border-radius:10px;border:none;cursor:pointer;font-size:13px;font-weight:600;background:#f3f4f6;color:#374151;">
+      📈 O/U
+    </button>
+    <button onclick="showTab('props')" id="tab-props"
+      style="flex:1;padding:9px 0;border-radius:10px;border:none;cursor:pointer;font-size:13px;font-weight:600;background:#f3f4f6;color:#374151;">
+      🎯 Props
+    </button>
+  </div>
+
+  <div id="section-ml">
+    <div style="display:flex;justify-content:flex-end;margin-bottom:12px;font-size:11px;color:#9ca3af;gap:5px;">
+      EV: <span style="color:#16a34a;">+8 excellent</span> ·
+      <span style="color:#65a30d;">+3 good</span> ·
+      <span style="color:#d97706;">marginal</span> ·
+      <span style="color:#dc2626;">neg = skip</span>
+    </div>
+    
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(0)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">3:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#16a34a;">78% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · POR 112–90 UTAH</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Portland Trail Blazers</div>
+        <div style="font-size:11px;color:#9ca3af;">3-1 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-450</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">122</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">110</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Utah Jazz</div>
+        <div style="font-size:11px;color:#9ca3af;">1-4 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">+333</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:78%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:22%;background:#16a34a;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>POR 78%</span>
+        <span style="color:#374151;font-weight:500;">Proj: POR wins</span>
+        <span>UTAH 22%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Portland Trail Blazers</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">-450</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.7</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint0">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body0" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Portland Trail Blazers</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">-450</span>
+      <span style="font-size:12px;color:#9ca3af;">book 78% → model 78%</span>
+      <span style="font-size:13px;font-weight:500;color:#dc2626;">EV -4.7</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">POR ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-450</div>
+        <div style="font-size:12px;color:#dc2626;">EV -4.7</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">UTAH ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">+333</div>
+        <div style="font-size:12px;color:#dc2626;">EV -4.7</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">UTAH: Jaren Jackson Jr. Out - Not Specified</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">UTAH: Trey Alexander Out - Bruise</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">UTAH: Jusuf Nurkic Out - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">POR: Ja Morant Out - Not Specified</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">POR: Shaedon Sharpe Out - Surgery</div></div>
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Top props</div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Scoot Henderson</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 2.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-105</span><span style="font-size:12px;font-weight:500;color:#65a30d;">EV +3.0</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Keyonte George</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+120</span><span style="font-size:12px;font-weight:500;color:#d97706;">EV +1.3</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jrue Holiday</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 4.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-110</span><span style="font-size:12px;font-weight:500;color:#d97706;">EV +0.9</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jaxson Hayes</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-125</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.2</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Ace Bailey</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 3.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-125</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.2</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Robert Williams</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+100</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.8</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Damian Lillard</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 28.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+106</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.0</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Lauri Markkanen</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 16.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-102</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.8</span></div></div></div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(0)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(1)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">6:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#6b7280;">50% confidence</span>
+        <span style="font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;background:#fef3c7;color:#92400e;margin-left:6px;">⚠️ Tight line</span>
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · PHI 109–104 CHA</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Philadelphia 76ers</div>
+        <div style="font-size:11px;color:#9ca3af;">5-1 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-110</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#bbb;">106</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#111;">106</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Charlotte Hornets</div>
+        <div style="font-size:11px;color:#9ca3af;">3-3 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-106</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:50%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:50%;background:#6b7280;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>PHI 50%</span>
+        <span style="color:#374151;font-weight:500;">Proj: CHA wins</span>
+        <span>CHA 50%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">VALUE BET — UNDERDOG</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Philadelphia 76ers</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#fef3c7;color:#92400e;">-110</span>
+            <span style='font-size:11px;color:#d97706;'>Proj. loser — book has them too cheap</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.7</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint1">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body1" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Philadelphia 76ers</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">-110</span>
+      <span style="font-size:12px;color:#9ca3af;">book 50% → model 50%</span>
+      <span style="font-size:13px;font-weight:500;color:#dc2626;">EV -3.7</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">PHI ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-110</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.7</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">CHA ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-106</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.7</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHA: Kon Knueppel Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHA: Coby White Out - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHA: Grant Williams Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CHA: Kylan Boswell Out - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHI: Jabari Walker Out - Soreness</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHI: LeBron James Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHI: Tacko Fall Out - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">PHI: Joel Embiid Out</div></div>
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Top props</div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Adem Bona</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 6.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-113</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.0</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jaylen Brown</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 6.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+118</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.7</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Dean Wade</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 4.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-130</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.7</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Naz Reid</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 8.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+114</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.8</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Dennis Schroder</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-127</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.4</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Sion James</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-122</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.6</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Brandon Miller</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-125</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.9</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jaylen Brown</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 4.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+111</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.1</span></div></div></div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(1)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(2)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">7:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#d97706;">62% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#fee2e2;color:#991b1b;margin-left:8px;">✗ LOSS · ATL 99–121 NO</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Atlanta Hawks</div>
+        <div style="font-size:11px;color:#9ca3af;">3-3 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-184</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">124</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">117</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">New Orleans Pelicans</div>
+        <div style="font-size:11px;color:#9ca3af;">1-4 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">+154</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:62%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:38%;background:#d97706;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>ATL 62%</span>
+        <span style="color:#374151;font-weight:500;">Proj: ATL wins</span>
+        <span>NO 38%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Atlanta Hawks</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">-184</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.0</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint2">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body2" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Atlanta Hawks</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">-184</span>
+      <span style="font-size:12px;color:#9ca3af;">book 62% → model 62%</span>
+      <span style="font-size:13px;font-weight:500;color:#dc2626;">EV -4.0</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">ATL ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-184</div>
+        <div style="font-size:12px;color:#dc2626;">EV -4.0</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">NO ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">+154</div>
+        <div style="font-size:12px;color:#dc2626;">EV -4.0</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">NO: Yves Missi Out - Bruise</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">NO: Jordan Poole Out - Sprain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">ATL: Mouhamed Gueye Out - Fracture</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">ATL: Henri Veesaar Out</div></div>
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Top props</div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Trey Murphy III</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 16.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+100</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.1</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jalen Johnson</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 22.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-106</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.6</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Herb Jones</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 2.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+112</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.7</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Dyson Daniels</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-120</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.8</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Onyeka Okongwu</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 2.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-102</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.0</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Derik Queen</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 2.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+114</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.1</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Dejounte Murray</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-115</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.1</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">C.J. McCollum</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 3.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+142</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.3</span></div></div></div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(2)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(3)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">8:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#16a34a;">75% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · SAC 105–136 MEM</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Sacramento Kings</div>
+        <div style="font-size:11px;color:#9ca3af;">0-5 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">+290</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#bbb;">110</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#111;">121</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Memphis Grizzlies</div>
+        <div style="font-size:11px;color:#9ca3af;">5-0 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-350</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:25%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:75%;background:#16a34a;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>SAC 25%</span>
+        <span style="color:#374151;font-weight:500;">Proj: MEM wins</span>
+        <span>MEM 75%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Memphis Grizzlies</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">-350</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.3</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint3">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body3" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Memphis Grizzlies</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">-350</span>
+      <span style="font-size:12px;color:#9ca3af;">book 75% → model 75%</span>
+      <span style="font-size:13px;font-weight:500;color:#dc2626;">EV -3.3</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">SAC ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">+290</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.3</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">MEM ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-350</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.3</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MEM: Scotty Pippen Jr. Day-To-Day - Soreness</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MEM: Ty Jerome Day-To-Day - Soreness</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MEM: Quinten Post Day-To-Day - Not Specified</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SAC: Dylan Cardwell Out - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SAC: Maxime Raynaud Out - Dislocated</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SAC: Keegan Murray Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SAC: Ben Simmons Out - Surgery</div></div>
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Top props</div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Zach LaVine</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 3.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+136</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.3</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Darius Acuff Jr.</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 3.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+106</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.4</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Zach Edey</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 8.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-114</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.2</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Zach LaVine</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 3.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+146</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.0</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Precious Achiuwa</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 12.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-106</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.1</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Cameron Boozer</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 8.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+114</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.2</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Darius Acuff Jr.</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-138</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.3</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jaylen Wells</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 3.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+140</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.4</span></div></div></div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(3)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(4)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">8:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#16a34a;">76% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · CLE 136–111 MIL</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Cleveland Cavaliers</div>
+        <div style="font-size:11px;color:#9ca3af;">3-2 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-375</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#111;">124</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#bbb;">112</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Milwaukee Bucks</div>
+        <div style="font-size:11px;color:#9ca3af;">1-4 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">+310</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:76%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:24%;background:#16a34a;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>CLE 76%</span>
+        <span style="color:#374151;font-weight:500;">Proj: CLE wins</span>
+        <span>MIL 24%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Cleveland Cavaliers</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">-375</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.2</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint4">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body4" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Cleveland Cavaliers</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">-375</span>
+      <span style="font-size:12px;color:#9ca3af;">book 76% → model 76%</span>
+      <span style="font-size:13px;font-weight:500;color:#dc2626;">EV -3.2</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">CLE ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-375</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.2</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">MIL ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">+310</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.2</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CLE: Meleek Thomas Day-To-Day</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">CLE: Jaylon Tyson Out - Sprain</div></div>
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Top props</div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Ryan Rollins</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 4.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+134</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -0.5</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Kyle Kuzma</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+118</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -1.0</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Ryan Rollins</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 4.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-124</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -1.6</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Kasparas Jakucionis</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 2.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-138</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.3</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Kasparas Jakucionis</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 7.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-104</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.7</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">James Harden</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 18.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-112</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.7</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jaime Jaquez Jr</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+102</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.7</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Donovan Mitchell</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 4.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-135</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.0</span></div></div></div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(4)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(5)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">8:00 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#16a34a;">82% confidence</span>
+        
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · MIN 111–121 SA</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Minnesota Timberwolves</div>
+        <div style="font-size:11px;color:#9ca3af;">4-2 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">+440</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#bbb;">106</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#111;">122</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">San Antonio Spurs</div>
+        <div style="font-size:11px;color:#9ca3af;">3-2 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-590</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:18%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:82%;background:#16a34a;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>MIN 18%</span>
+        <span style="color:#374151;font-weight:500;">Proj: SA wins</span>
+        <span>SA 82%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">San Antonio Spurs</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">-590</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.9</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint5">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body5" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">San Antonio Spurs</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">-590</span>
+      <span style="font-size:12px;color:#9ca3af;">book 82% → model 82%</span>
+      <span style="font-size:13px;font-weight:500;color:#dc2626;">EV -3.9</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">MIN ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">+440</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.9</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">SA ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-590</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.9</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SA: Stephon Castle Day-To-Day - Mild</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SA: Tobias Harris Out - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">SA: Jayden Quaintance Out - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIN: Rudy Gobert Day-To-Day - Spasms</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIN: Anthony Edwards Out - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">MIN: Donte DiVincenzo Out - Surgery</div></div>
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Top props</div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Victor Wembanyama</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 24.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-102</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -1.5</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Julian Champagnie</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 11.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-106</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -1.9</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">De'Aaron Fox</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 15.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-102</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.6</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Bones Hyland</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 2.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+118</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.7</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Stephon Castle</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 16.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-106</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.8</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jaden McDaniels</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 2.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-130</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.9</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jonathan Kuminga</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+106</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.2</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Terrence Shannon Jr.</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 12.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-114</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.4</span></div></div></div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(5)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+<div style="background:#fff;border-radius:12px;border:0.5px solid #e5e7eb;margin-bottom:12px;overflow:hidden;">
+  <div onclick="toggle(6)" style="padding:16px 18px;cursor:pointer;user-select:none;">
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+      <span style="font-size:11px;color:#9ca3af;">8:30 PM ET</span>
+      <div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;">
+        <span style="font-size:13px;font-weight:500;color:#6b7280;">57% confidence</span>
+        <span style="font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;background:#fef3c7;color:#92400e;margin-left:6px;">⚠️ Tight line</span>
+        
+        <span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;background:#dcfce7;color:#166534;margin-left:8px;">✓ WIN · OKC 98–119 HOU</span>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:6px;">
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Oklahoma City Thunder</div>
+        <div style="font-size:11px;color:#9ca3af;">4-1 · Away</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">+122</div>
+      </div>
+      <div style="text-align:center;padding:0 10px;flex-shrink:0;">
+        <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Projected</div>
+        <div style="display:flex;align-items:center;gap:5px;">
+          <span style="font-size:28px;font-weight:500;color:#bbb;">108</span>
+          <span style="font-size:14px;color:#d1d5db;">–</span>
+          <span style="font-size:28px;font-weight:500;color:#111;">111</span>
+        </div>
+      </div>
+      <div style="flex:1;min-width:0;text-align:right;">
+        <div style="font-size:15px;font-weight:500;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Houston Rockets</div>
+        <div style="font-size:11px;color:#9ca3af;">5-1 · Home</div>
+        <div style="font-size:12px;font-weight:500;color:#374151;margin-top:2px;">-142</div>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;">
+      <div style="height:5px;background:#f3f4f6;border-radius:99px;overflow:hidden;display:flex;">
+        <div style="width:43%;background:#93c5fd;border-radius:99px 0 0 99px;"></div>
+        <div style="width:57%;background:#6b7280;border-radius:0 99px 99px 0;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-top:3px;">
+        <span>OKC 43%</span>
+        <span style="color:#374151;font-weight:500;">Proj: HOU wins</span>
+        <span>HOU 57%</span>
+      </div>
+    </div>
+
+    <div style="margin-top:10px;border-top:0.5px solid #f3f4f6;padding-top:10px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div>
+          <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">MODEL PICK</div>
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:15px;font-weight:600;color:#111;">Houston Rockets</span>
+            <span style="font-size:14px;font-weight:500;padding:2px 10px;border-radius:20px;background:#f0fdf4;color:#166534;">-142</span>
+            <span style='font-size:11px;color:#16a34a;'>Proj. winner</span>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.6</div>
+          <div style="font-size:11px;color:#d1d5db;margin-top:4px;" id="hint6">details ▾</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="body6" style="display:none;border-top:0.5px solid #f3f4f6;padding:16px 18px;">
+
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Moneyline pick</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px;">
+      <span style="font-size:19px;font-weight:500;color:#111;">Houston Rockets</span>
+      <span style="font-size:14px;font-weight:500;color:#374151;">-142</span>
+      <span style="font-size:12px;color:#9ca3af;">book 57% → model 57%</span>
+      <span style="font-size:13px;font-weight:500;color:#dc2626;">EV -3.6</span>
+    </div>
+    <div style="font-size:12px;color:#9ca3af;margin-bottom:8px;">EV = expected value per $100 using model probability vs book price</div>
+    <div style="font-size:13px;color:#374151;line-height:1.65;background:#f9fafb;border-radius:8px;padding:10px 12px;">Model pick (OpenRouter unavailable).</div>
+    
+
+    <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">OKC ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">+122</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.6</div>
+      </div>
+      <div style="background:#f9fafb;border-radius:8px;padding:10px;text-align:center;">
+        <div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">HOU ML</div>
+        <div style="font-size:14px;font-weight:500;color:#111;">-142</div>
+        <div style="font-size:12px;color:#dc2626;">EV -3.6</div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Injury report</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">HOU: Reed Sheppard Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">HOU: Fred VanVleet Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">HOU: Steven Adams Out - Strain</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">OKC: Cason Wallace Out - Surgery</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">OKC: Chet Holmgren Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">OKC: Jalen Williams Out - Fracture</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">OKC: Alex Caruso Out</div><div style="font-size:12px;color:#374151;padding:3px 0;border-bottom:0.5px solid #f9fafb;">OKC: Thomas Sorber Out</div></div>
+    <div style="margin-top:14px;"><div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:6px;">Top props</div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Alperen Sengun</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 5.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-104</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -1.9</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Isaiah Hartenstein</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 9.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-118</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -2.6</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Ajay Mitchell</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 4.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+125</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.3</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Alperen Sengun</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 18.5 Points</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-113</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.4</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Marcus Smart</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 3.5 Assists</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-111</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.5</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Isaiah Hartenstein</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 9.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-122</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.8</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Shai Gilgeous-Alexander</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 4.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">+130</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -3.8</span></div></div><div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:0.5px solid #f9fafb;"><div><span style="font-size:13px;font-weight:500;color:#111;">Jared McCain</span><span style="font-size:11px;color:#9ca3af;margin-left:6px;">OVER 2.5 Rebounds</span></div><div style="display:flex;gap:8px;align-items:center;"><span style="font-size:12px;color:#374151;">-159</span><span style="font-size:12px;font-weight:500;color:#dc2626;">EV -4.0</span></div></div></div>
+
+    <div style="text-align:center;margin-top:14px;">
+      <span onclick="toggle(6)" style="font-size:11px;color:#d1d5db;cursor:pointer;">collapse ▴</span>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div id="section-ou" style="display:none;">
+    
+<div style="background:#f9fafb;border-radius:12px;border:0.5px solid #e5e7eb;padding:16px 18px;margin-bottom:20px;">
+  <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:12px;">Model record · Over/Under</div>
+  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:14px;">
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">All time O/U</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">13-5</div>
+      <div style="font-size:11px;color:#16a34a;">72.2%</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Target</div>
+      <div style="font-size:14px;font-weight:500;color:#111;">55%+</div>
+      <div style="font-size:11px;color:#9ca3af;">Break-even 52.4%</div>
+    </div>
+  </div>
+  <div style="height:5px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-bottom:4px;">
+    <div style="width:72.2%;height:100%;background:#16a34a;border-radius:99px;"></div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-bottom:12px;">
+    <span>Hit rate</span><span>Overs vs Unders breakdown below</span>
+  </div>
+  <div style="display:flex;gap:8px;">
+    <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;flex:1;"><div style="font-size:11px;font-weight:600;color:#2563eb;margin-bottom:3px;">⬆ OVER</div><div style="font-size:20px;font-weight:500;color:#111;">5-1</div><div style="font-size:10px;color:#16a34a;margin-top:1px;">83%</div><div style="font-size:11px;font-weight:600;color:#16a34a;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: +$26.70</div></div>
+    <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;flex:1;"><div style="font-size:11px;font-weight:600;color:#7c3aed;margin-bottom:3px;">⬇ UNDER</div><div style="font-size:20px;font-weight:500;color:#111;">8-4</div><div style="font-size:10px;color:#16a34a;margin-top:1px;">67%</div><div style="font-size:11px;font-weight:600;color:#16a34a;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: +$30.70</div></div>
+  </div>
+  <div style="margin-top:12px;">
+    <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.07em;color:#9ca3af;margin-bottom:8px;">O/U record by confidence</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;">
+      <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">50-59%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">60-69%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">70-79%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">80+%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div>
+    </div>
+  </div>
+</div>
+    
+<div style="text-align:center;padding:60px 20px;">
+  <div style="font-size:40px;margin-bottom:12px;">🏀</div>
+  <div style="font-size:16px;font-weight:500;color:#374151;">No games for this date</div>
+</div>
+  </div>
+
+  <div id="section-props" style="display:none;">
+    
+<div style="background:#f9fafb;border-radius:12px;border:0.5px solid #e5e7eb;padding:16px 18px;margin-bottom:20px;">
+  <div style="font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:12px;">Model record · Player Props</div>
+  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:14px;">
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">All time props</div>
+      <div style="font-size:22px;font-weight:500;color:#111;">0-0</div>
+      <div style="font-size:11px;color:#6b7280;">—</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">Target</div>
+      <div style="font-size:14px;font-weight:500;color:#111;">65%+</div>
+      <div style="font-size:11px;color:#9ca3af;">Break-even 52.4%</div>
+    </div>
+  </div>
+  <div style="height:5px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-bottom:4px;">
+    <div style="width:0%;height:100%;background:#6b7280;border-radius:99px;"></div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:10px;color:#9ca3af;margin-bottom:12px;">
+    <span>Hit rate</span><span>Sorted by confidence below</span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;">
+    <div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">50-59%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">60-69%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">70-79%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div><div style="background:#fff;border-radius:8px;padding:10px 6px;text-align:center;border:0.5px solid #e5e7eb;"><div style="font-size:10px;color:#9ca3af;margin-bottom:3px;">80+%</div><div style="font-size:13px;font-weight:500;">0-0</div><div style="font-size:10px;color:#6b7280;margin-top:1px;">—</div><div style="font-size:11px;font-weight:600;color:#9ca3af;margin-top:4px;border-top:0.5px solid #f3f4f6;padding-top:4px;">$10 flat: —</div></div>
+  </div>
+</div>
+    
+<div style="text-align:center;padding:60px 20px;">
+  <div style="font-size:40px;margin-bottom:12px;">🏀</div>
+  <div style="font-size:16px;font-weight:500;color:#374151;">No games for this date</div>
+</div>
+  </div>
+  <div style="margin-top:20px;padding:12px 14px;background:#fffbeb;border-radius:8px;border:0.5px solid #fde68a;">
+    <p style="font-size:11px;color:#92400e;line-height:1.6;">AI-generated picks for informational purposes only. Always gamble responsibly.</p>
+  </div>
+</div>
+<script>
+function toggle(i){
+  var b=document.getElementById('body'+i);
+  var h=document.getElementById('hint'+i);
+  var o=b.style.display!=='none';
+  b.style.display=o?'none':'block';
+  h.innerHTML=o?'tap for details &#9662;':'collapse &#9652;';
+}
+function showTab(t){
+  ['ml','ou','props'].forEach(function(id){
+    var active = t===id;
+    document.getElementById('section-'+id).style.display = active?'block':'none';
+    document.getElementById('tab-'+id).style.background  = active?'#111':'#f3f4f6';
+    document.getElementById('tab-'+id).style.color       = active?'#fff':'#374151';
+  });
+}
+</script>
+</body>
+</html>
