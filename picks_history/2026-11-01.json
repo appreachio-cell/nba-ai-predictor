@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909903",
@@ -140,8 +140,8 @@
         "BOS: Devin Carter Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 108\u201397 ORL",
       "tot_result": null
     },
     {
@@ -283,8 +283,8 @@
         "BKN: Tyler Bilodeau Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "BKN 98\u201390 IND",
       "tot_result": null
     },
     {
@@ -345,8 +345,8 @@
         "LAC: Jordan Miller Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAC 112\u2013124 GS",
       "tot_result": null
     },
     {
@@ -484,8 +484,8 @@
         "TOR: Nate Bittle Out - Fracture"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "TOR 125\u2013131 LAL",
       "tot_result": null
     }
   ]
