@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909907",
@@ -140,8 +140,8 @@
         "OKC: Alex Caruso Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "OKC 117\u2013112 CLE",
       "tot_result": null
     },
     {
@@ -279,8 +279,8 @@
         "DET: Jalen Duren Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DET 124\u201391 CHA",
       "tot_result": null
     },
     {
@@ -424,8 +424,8 @@
         "ATL: Henri Veesaar Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ATL 108\u2013104 IND",
       "tot_result": null
     },
     {
@@ -561,8 +561,8 @@
         "BKN: Tyler Bilodeau Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BKN 90\u2013103 NY",
       "tot_result": null
     },
     {
@@ -706,8 +706,8 @@
         "WSH: Justin Champagnie Out - Not Specified"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "WSH 103\u201394 ORL",
       "tot_result": null
     },
     {
@@ -845,8 +845,8 @@
         "CHI: Nic Claxton Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHI 107\u2013126 PHI",
       "tot_result": null
     },
     {
@@ -990,8 +990,8 @@
         "SAC: Ben Simmons Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "SAC 115\u2013100 DAL",
       "tot_result": null
     },
     {
@@ -1130,8 +1130,8 @@
         "NO: Yves Missi Out - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "NO 135\u2013134 MEM",
       "tot_result": null
     },
     {
@@ -1269,8 +1269,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIL 100\u2013112 MIN",
       "tot_result": null
     },
     {
@@ -1409,8 +1409,8 @@
         "BOS: Devin Carter Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 93\u2013109 HOU",
       "tot_result": null
     },
     {
@@ -1549,8 +1549,8 @@
         "UTAH: Jusuf Nurkic Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "UTAH 97\u2013119 SA",
       "tot_result": null
     },
     {
@@ -1689,8 +1689,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "POR 118\u2013110 DEN",
       "tot_result": null
     },
     {
@@ -1830,8 +1830,8 @@
         "PHX: Mark Williams Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHX 113\u2013116 GS",
       "tot_result": null
     },
     {
@@ -1893,8 +1893,8 @@
         "TOR: Kawhi Leonard Out - Inflammation"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "TOR 125\u2013118 LAC",
       "tot_result": null
     },
     {
@@ -2029,8 +2029,8 @@
         "LAL: Adou Thiero Out - Inflammation"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIA 117\u2013138 LAL",
       "tot_result": null
     }
   ]
