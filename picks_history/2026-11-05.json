@@ -1,0 +1,288 @@
+{
+  "date": "2026-11-05",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401909936",
+      "homeAbbr": "PHX",
+      "awayAbbr": "ORL",
+      "homeTeam": "Phoenix Suns",
+      "awayTeam": "Orlando Magic",
+      "homeRec": {
+        "wins": 1,
+        "losses": 5,
+        "pct": 0.16666666666666666,
+        "summary": "1-5"
+      },
+      "awayRec": {
+        "wins": 2,
+        "losses": 5,
+        "pct": 0.2857142857142857,
+        "summary": "2-5"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.5082,
+        "a_prob": 0.4918,
+        "h_odds": -108,
+        "a_odds": -101,
+        "h_ev": -2.1,
+        "a_ev": -2.1,
+        "h_proj": 111,
+        "a_proj": 112,
+        "total_line": 222.5,
+        "over_odds": -114,
+        "under_odds": -106,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Phoenix Suns",
+        "my_prob": 0.5082,
+        "confidence": 51,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Desmond Bane",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 114,
+          "UNDER": -121,
+          "dir": "OVER",
+          "odds": 114,
+          "ev": -1.5
+        },
+        {
+          "player": "Jalen Green",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -110,
+          "UNDER": 101,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -2.1
+        },
+        {
+          "player": "Collin Gillespie",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -105,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -105,
+          "ev": -2.6
+        },
+        {
+          "player": "Devin Booker",
+          "stat": "Assists",
+          "line": 5.5,
+          "OVER": 112,
+          "UNDER": -130,
+          "dir": "OVER",
+          "odds": 112,
+          "ev": -3.6
+        },
+        {
+          "player": "Jamal Cain",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": 106,
+          "UNDER": -126,
+          "dir": "OVER",
+          "odds": 106,
+          "ev": -4.1
+        },
+        {
+          "player": "Jase Richardson",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": -104,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -4.1
+        },
+        {
+          "player": "Oso Ighodaro",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -106,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -4.1
+        },
+        {
+          "player": "Franz Wagner",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -138,
+          "UNDER": 116,
+          "dir": "OVER",
+          "odds": -138,
+          "ev": -4.1
+        }
+      ],
+      "injuries": [
+        "PHX: Rasheer Fleming Out - Sprain",
+        "PHX: Jordan Goodwin Out - Not Specified",
+        "PHX: Mark Williams Out - Surgery",
+        "ORL: Jonathan Isaac Out - Not Specified",
+        "ORL: Jalen Suggs Out",
+        "ORL: Paolo Banchero Out - Sprain",
+        "ORL: Noah Penda Out - Strain",
+        "ORL: Izaiyah Nelson Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909937",
+      "homeAbbr": "GS",
+      "awayAbbr": "MIA",
+      "homeTeam": "Golden State Warriors",
+      "awayTeam": "Miami Heat",
+      "homeRec": {
+        "wins": 5,
+        "losses": 3,
+        "pct": 0.625,
+        "summary": "5-3"
+      },
+      "awayRec": {
+        "wins": 3,
+        "losses": 5,
+        "pct": 0.375,
+        "summary": "3-5"
+      },
+      "startTime": "11:00 PM ET",
+      "pred": {
+        "h_prob": 0.5886,
+        "a_prob": 0.4114,
+        "h_odds": -154,
+        "a_odds": 136,
+        "h_ev": -2.9,
+        "a_ev": -2.9,
+        "h_proj": 120,
+        "a_proj": 116,
+        "total_line": 235.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "Golden State Warriors",
+        "my_prob": 0.5886,
+        "confidence": 59,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Klay Thompson",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": 100,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -1.2
+        },
+        {
+          "player": "Davion Mitchell",
+          "stat": "Assists",
+          "line": 7.5,
+          "OVER": 120,
+          "UNDER": -137,
+          "dir": "OVER",
+          "odds": 120,
+          "ev": -3.2
+        },
+        {
+          "player": "Brandin Podziemski",
+          "stat": "Points",
+          "line": 16.5,
+          "OVER": -108,
+          "UNDER": -108,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -3.7
+        },
+        {
+          "player": "Stephen Curry",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": -128,
+          "UNDER": 108,
+          "dir": "OVER",
+          "odds": -128,
+          "ev": -4.0
+        },
+        {
+          "player": "Draymond Green",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 124,
+          "UNDER": -148,
+          "dir": "OVER",
+          "odds": 124,
+          "ev": -4.1
+        },
+        {
+          "player": "Georges Niang",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -112,
+          "UNDER": -107,
+          "dir": "OVER",
+          "odds": -112,
+          "ev": -4.3
+        },
+        {
+          "player": "Yaxel Lendeborg",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -124,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -124,
+          "ev": -4.6
+        },
+        {
+          "player": "Bobby Portis",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": -102,
+          "UNDER": -120,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -4.8
+        }
+      ],
+      "injuries": [
+        "GS: Gui Santos Out",
+        "GS: Kristaps Porzingis Out",
+        "GS: Moses Moody Out - Surgery",
+        "GS: Jimmy Butler III Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
