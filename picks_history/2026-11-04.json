@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909922",
@@ -137,8 +137,8 @@
         "PHI: Ariel Hukporti Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "PHI 112\u2013106 DET",
       "tot_result": null
     },
     {
@@ -281,8 +281,8 @@
         "ATL: Henri Veesaar Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ATL 120\u2013105 WSH",
       "tot_result": null
     },
     {
@@ -420,8 +420,8 @@
         "MIL: Kam Jones Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIL 102\u2013109 BOS",
       "tot_result": null
     },
     {
@@ -559,8 +559,8 @@
         "CHA: Coby White Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHA 104\u2013114 BKN",
       "tot_result": null
     },
     {
@@ -697,8 +697,8 @@
         "CHI: Jalen Smith Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHI 105\u2013135 NY",
       "tot_result": null
     },
     {
@@ -839,8 +839,8 @@
         "IND: Johnny Furphy Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "IND 107\u2013103 MEM",
       "tot_result": null
     },
     {
@@ -981,8 +981,8 @@
         "UTAH: Trey Alexander Out - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "UTAH 113\u2013120 NO",
       "tot_result": null
     },
     {
@@ -1123,8 +1123,8 @@
         "CLE: Peyton Watson Out - Soreness"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CLE 116\u2013124 OKC",
       "tot_result": null
     },
     {
@@ -1263,8 +1263,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "MIN 117\u2013107 HOU",
       "tot_result": null
     },
     {
@@ -1405,8 +1405,8 @@
         "TOR: Nate Bittle Out - Fracture"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "TOR 109\u2013128 DEN",
       "tot_result": null
     },
     {
@@ -1545,8 +1545,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "POR 132\u2013119 PHX",
       "tot_result": null
     },
     {
@@ -1687,8 +1687,8 @@
         "DAL: Sergio de Larrea Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DAL 111\u2013112 SA",
       "tot_result": null
     },
     {
@@ -1827,8 +1827,8 @@
         "LAL: Adou Thiero Out - Inflammation"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAL 116\u2013103 SAC",
       "tot_result": null
     },
     {
@@ -1887,8 +1887,8 @@
         "MIA: Giannis Antetokounmpo Day-To-Day - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIA 117\u2013116 LAC",
       "tot_result": null
     }
   ]
