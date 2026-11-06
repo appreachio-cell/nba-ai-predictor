@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909936",
@@ -141,8 +141,8 @@
         "ORL: Izaiyah Nelson Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ORL 104\u2013117 PHX",
       "tot_result": null
     },
     {
@@ -280,8 +280,8 @@
         "GS: Jimmy Butler III Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIA 100\u2013120 GS",
       "tot_result": null
     }
   ]
