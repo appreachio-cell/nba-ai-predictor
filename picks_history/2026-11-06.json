@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909287",
@@ -143,8 +143,8 @@
         "WSH: Jamir Watkins Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "WSH 132\u2013139 ATL",
       "tot_result": null
     },
     {
@@ -283,8 +283,8 @@
         "BOS: Devin Carter Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 119\u201380 CHA",
       "tot_result": null
     },
     {
@@ -425,8 +425,8 @@
         "PHI: Ariel Hukporti Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "PHI 95\u2013119 CLE",
       "tot_result": null
     },
     {
@@ -568,8 +568,8 @@
         "UTAH: Trey Alexander Out - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "UTAH 100\u2013112 DAL",
       "tot_result": null
     },
     {
@@ -710,8 +710,8 @@
         "OKC: Chet Holmgren Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "OKC 128\u201397 MEM",
       "tot_result": null
     },
     {
@@ -851,8 +851,8 @@
         "TOR: Kawhi Leonard Out - Inflammation"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "TOR 121\u2013107 MIL",
       "tot_result": null
     },
     {
@@ -990,8 +990,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIN 115\u2013109 NO",
       "tot_result": null
     },
     {
@@ -1129,8 +1129,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "POR 118\u2013124 LAL",
       "tot_result": null
     },
     {
@@ -1269,8 +1269,8 @@
         "SA: Jayden Quaintance Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 124\u2013109 SAC",
       "tot_result": null
     }
   ]
