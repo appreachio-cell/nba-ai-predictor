@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909945",
@@ -139,8 +139,8 @@
         "PHI: Ariel Hukporti Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHI 127\u2013121 CHI",
       "tot_result": null
     },
     {
@@ -277,8 +277,8 @@
         "LAL: Luka Doncic Out - Soreness"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "LAL 121\u2013116 DET",
       "tot_result": null
     },
     {
@@ -418,8 +418,8 @@
         "UTAH: Jaren Jackson Jr. Out - Not Specified"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "UTAH 100\u2013115 MIN",
       "tot_result": null
     },
     {
@@ -559,8 +559,8 @@
         "BKN: Egor Demin Out - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BKN 93\u2013130 DAL",
       "tot_result": null
     },
     {
@@ -696,8 +696,8 @@
         "BOS: Mitchell Robinson Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 117\u201397 MIL",
       "tot_result": null
     },
     {
@@ -756,8 +756,8 @@
         "NO: Yves Missi Out - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "NO 123\u2013139 LAC",
       "tot_result": null
     },
     {
@@ -894,8 +894,8 @@
         "SAC: Ben Simmons Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIA 114\u2013108 SAC",
       "tot_result": null
     }
   ]
