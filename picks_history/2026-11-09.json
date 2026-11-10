@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909952",
@@ -139,8 +139,8 @@
         "LAL: Quentin Grimes Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "LAL 124\u2013114 ATL",
       "tot_result": null
     },
     {
@@ -281,8 +281,8 @@
         "CLE: Jaylon Tyson Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "CLE 112\u2013124 CHA",
       "tot_result": null
     },
     {
@@ -423,8 +423,8 @@
         "WSH: Jamir Watkins Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "WSH 111\u2013122 DET",
       "tot_result": null
     },
     {
@@ -566,8 +566,8 @@
         "MEM: Richie Saunders Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MEM 118\u2013102 TOR",
       "tot_result": null
     },
     {
@@ -708,8 +708,8 @@
         "IND: Ben Sheppard Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "IND 122\u2013125 DAL",
       "tot_result": null
     },
     {
@@ -851,8 +851,8 @@
         "DEN: DeMar DeRozan Day-To-Day - Spasms"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DEN 100\u2013110 HOU",
       "tot_result": null
     },
     {
@@ -991,8 +991,8 @@
         "SA: Jayden Quaintance Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 122\u201396 PHX",
       "tot_result": null
     },
     {
@@ -1135,8 +1135,8 @@
         "NO: Yves Missi Out - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NO 87\u2013138 GS",
       "tot_result": null
     }
   ]
