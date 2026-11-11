@@ -1,0 +1,1420 @@
+{
+  "date": "2026-11-11",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401909966",
+      "homeAbbr": "IND",
+      "awayAbbr": "WSH",
+      "homeTeam": "Indiana Pacers",
+      "awayTeam": "Washington Wizards",
+      "homeRec": {
+        "wins": 3,
+        "losses": 8,
+        "pct": 0.2727272727272727,
+        "summary": "3-8"
+      },
+      "awayRec": {
+        "wins": 4,
+        "losses": 7,
+        "pct": 0.36363636363636365,
+        "summary": "4-7"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.5772,
+        "a_prob": 0.4228,
+        "h_odds": -146,
+        "a_odds": 130,
+        "h_ev": -2.7,
+        "a_ev": -2.8,
+        "h_proj": 116,
+        "a_proj": 112,
+        "total_line": 227.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "home",
+        "pick_team": "Indiana Pacers",
+        "my_prob": 0.5772,
+        "confidence": 58,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Alex Sarr",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": -122,
+          "UNDER": 112,
+          "dir": "OVER",
+          "odds": -122,
+          "ev": -2.1
+        },
+        {
+          "player": "Aaron Nesmith",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 109,
+          "UNDER": -120,
+          "dir": "OVER",
+          "odds": 109,
+          "ev": -2.3
+        },
+        {
+          "player": "Andrew Nembhard",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -109,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -109,
+          "ev": -2.6
+        },
+        {
+          "player": "Alex Sarr",
+          "stat": "Points",
+          "line": 10.5,
+          "OVER": 100,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.0
+        },
+        {
+          "player": "Ivica Zubac",
+          "stat": "Rebounds",
+          "line": 10.5,
+          "OVER": 114,
+          "UNDER": -130,
+          "dir": "OVER",
+          "odds": 114,
+          "ev": -3.1
+        },
+        {
+          "player": "AJ Dybantsa",
+          "stat": "Points",
+          "line": 17.5,
+          "OVER": -115,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -115,
+          "ev": -3.4
+        },
+        {
+          "player": "Tre Johnson",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": 100,
+          "UNDER": -115,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.4
+        },
+        {
+          "player": "Aaron Nesmith",
+          "stat": "Points",
+          "line": 13.5,
+          "OVER": -104,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -3.5
+        }
+      ],
+      "injuries": [
+        "IND: T.J. McConnell Day-To-Day",
+        "IND: Tyrese Haliburton Out - Strain",
+        "IND: Johnny Furphy Out - Surgery",
+        "IND: Ben Sheppard Out",
+        "WSH: Tristan Vukcevic Out - Pinched Nerve",
+        "WSH: Reece Beekman Out",
+        "WSH: Justin Champagnie Out - Not Specified",
+        "WSH: Jamir Watkins Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909967",
+      "homeAbbr": "NY",
+      "awayAbbr": "CLE",
+      "homeTeam": "New York Knicks",
+      "awayTeam": "Cleveland Cavaliers",
+      "homeRec": {
+        "wins": 6,
+        "losses": 4,
+        "pct": 0.6,
+        "summary": "6-4"
+      },
+      "awayRec": {
+        "wins": 5,
+        "losses": 6,
+        "pct": 0.45454545454545453,
+        "summary": "5-6"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.6301,
+        "a_prob": 0.3699,
+        "h_odds": -190,
+        "a_odds": 160,
+        "h_ev": -3.8,
+        "a_ev": -3.8,
+        "h_proj": 114,
+        "a_proj": 108,
+        "total_line": 221.5,
+        "over_odds": -110,
+        "under_odds": -106,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "home",
+        "pick_team": "New York Knicks",
+        "my_prob": 0.6301,
+        "confidence": 63,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Jalen Brunson",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": -105,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -105,
+          "ev": -2.2
+        },
+        {
+          "player": "Jarrett Allen",
+          "stat": "Rebounds",
+          "line": 7.5,
+          "OVER": 108,
+          "UNDER": -118,
+          "dir": "OVER",
+          "odds": 108,
+          "ev": -2.2
+        },
+        {
+          "player": "Karl-Anthony Towns",
+          "stat": "Rebounds",
+          "line": 12.5,
+          "OVER": 105,
+          "UNDER": -115,
+          "dir": "OVER",
+          "odds": 105,
+          "ev": -2.2
+        },
+        {
+          "player": "OG Anunoby",
+          "stat": "Points",
+          "line": 18.5,
+          "OVER": -104,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -2.4
+        },
+        {
+          "player": "Evan Mobley",
+          "stat": "Rebounds",
+          "line": 8.5,
+          "OVER": 122,
+          "UNDER": -135,
+          "dir": "OVER",
+          "odds": 122,
+          "ev": -2.4
+        },
+        {
+          "player": "Karl-Anthony Towns",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -140,
+          "UNDER": 126,
+          "dir": "OVER",
+          "odds": -140,
+          "ev": -2.5
+        },
+        {
+          "player": "Donovan Mitchell",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": 112,
+          "UNDER": -125,
+          "dir": "OVER",
+          "odds": 112,
+          "ev": -2.7
+        },
+        {
+          "player": "Karl-Anthony Towns",
+          "stat": "Points",
+          "line": 20.5,
+          "OVER": 100,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.0
+        }
+      ],
+      "injuries": [
+        "NY: Karl-Anthony Towns Day-To-Day - Soreness",
+        "NY: Josh Hart Out",
+        "CLE: Sam Merrill Out",
+        "CLE: Jaylon Tyson Out - Sprain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909968",
+      "homeAbbr": "TOR",
+      "awayAbbr": "BOS",
+      "homeTeam": "Toronto Raptors",
+      "awayTeam": "Boston Celtics",
+      "homeRec": {
+        "wins": 5,
+        "losses": 5,
+        "pct": 0.5,
+        "summary": "5-5"
+      },
+      "awayRec": {
+        "wins": 9,
+        "losses": 2,
+        "pct": 0.8181818181818182,
+        "summary": "9-2"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.3479,
+        "a_prob": 0.6521,
+        "h_odds": 184,
+        "a_odds": -194,
+        "h_ev": -1.2,
+        "a_ev": -1.2,
+        "h_proj": 104,
+        "a_proj": 112,
+        "total_line": 215.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "away",
+        "pick_team": "Boston Celtics",
+        "my_prob": 0.6521,
+        "confidence": 65,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Jayson Tatum",
+          "stat": "Rebounds",
+          "line": 7.5,
+          "OVER": 112,
+          "UNDER": -119,
+          "dir": "OVER",
+          "odds": 112,
+          "ev": -1.5
+        },
+        {
+          "player": "Baylor Scheierman",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -113,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -2.5
+        },
+        {
+          "player": "Collin Murray-Boyles",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": -105,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -105,
+          "ev": -2.6
+        },
+        {
+          "player": "Jordan Walsh",
+          "stat": "Points",
+          "line": 4.5,
+          "OVER": -120,
+          "UNDER": 107,
+          "dir": "OVER",
+          "odds": -120,
+          "ev": -2.8
+        },
+        {
+          "player": "Ja'Kobe Walter",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -146,
+          "UNDER": 130,
+          "dir": "OVER",
+          "odds": -146,
+          "ev": -2.8
+        },
+        {
+          "player": "Immanuel Quickley",
+          "stat": "Points",
+          "line": 17.5,
+          "OVER": -104,
+          "UNDER": -109,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -3.0
+        },
+        {
+          "player": "R.J. Barrett",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -103,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -103,
+          "ev": -3.2
+        },
+        {
+          "player": "Payton Pritchard",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": 118,
+          "UNDER": -135,
+          "dir": "OVER",
+          "odds": 118,
+          "ev": -3.2
+        }
+      ],
+      "injuries": [
+        "TOR: Trayce Jackson-Davis Out",
+        "TOR: Collin Murray-Boyles Day-To-Day",
+        "TOR: Immanuel Quickley Day-To-Day",
+        "TOR: Scottie Barnes Out - Soreness",
+        "TOR: Kawhi Leonard Out - Inflammation",
+        "BOS: Paul George Out"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909969",
+      "homeAbbr": "CHI",
+      "awayAbbr": "SA",
+      "homeTeam": "Chicago Bulls",
+      "awayTeam": "San Antonio Spurs",
+      "homeRec": {
+        "wins": 1,
+        "losses": 8,
+        "pct": 0.1111111111111111,
+        "summary": "1-8"
+      },
+      "awayRec": {
+        "wins": 9,
+        "losses": 2,
+        "pct": 0.8181818181818182,
+        "summary": "9-2"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.1137,
+        "a_prob": 0.8863,
+        "h_odds": 750,
+        "a_odds": -1100,
+        "h_ev": -3.4,
+        "a_ev": -3.3,
+        "h_proj": 110,
+        "a_proj": 128,
+        "total_line": 237.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 4,
+        "pick": "away",
+        "pick_team": "San Antonio Spurs",
+        "my_prob": 0.8863,
+        "confidence": 89,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Caleb Wilson",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 154,
+          "UNDER": -161,
+          "dir": "OVER",
+          "odds": 154,
+          "ev": -1.0
+        },
+        {
+          "player": "De'Aaron Fox",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -115,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -115,
+          "ev": -2.9
+        },
+        {
+          "player": "Caleb Wilson",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -113,
+          "UNDER": -101,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -3.2
+        },
+        {
+          "player": "Josh Giddey",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": 112,
+          "UNDER": -130,
+          "dir": "OVER",
+          "odds": 112,
+          "ev": -3.6
+        },
+        {
+          "player": "Norman Powell",
+          "stat": "Points",
+          "line": 19.5,
+          "OVER": 104,
+          "UNDER": -122,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -3.8
+        },
+        {
+          "player": "Josh Giddey",
+          "stat": "Assists",
+          "line": 8.5,
+          "OVER": 112,
+          "UNDER": -132,
+          "dir": "OVER",
+          "odds": 112,
+          "ev": -3.9
+        },
+        {
+          "player": "Norman Powell",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -105,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": -105,
+          "ev": -4.1
+        },
+        {
+          "player": "Stephon Castle",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 128,
+          "UNDER": -154,
+          "dir": "OVER",
+          "odds": 128,
+          "ev": -4.3
+        }
+      ],
+      "injuries": [
+        "CHI: Tobe Awaka Out",
+        "CHI: Caleb Wilson Day-To-Day - Soreness",
+        "CHI: Norman Powell Day-To-Day - Inflammation",
+        "CHI: Zach Collins Day-To-Day",
+        "SA: Devin Vassell Day-To-Day",
+        "SA: Tobias Harris Out - Strain",
+        "SA: Jayden Quaintance Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909970",
+      "homeAbbr": "MEM",
+      "awayAbbr": "DEN",
+      "homeTeam": "Memphis Grizzlies",
+      "awayTeam": "Denver Nuggets",
+      "homeRec": {
+        "wins": 7,
+        "losses": 3,
+        "pct": 0.7,
+        "summary": "7-3"
+      },
+      "awayRec": {
+        "wins": 5,
+        "losses": 4,
+        "pct": 0.5555555555555556,
+        "summary": "5-4"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.3943,
+        "a_prob": 0.6057,
+        "h_odds": 145,
+        "a_odds": -168,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 113,
+        "a_proj": 118,
+        "total_line": 230.5,
+        "over_odds": -105,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 5,
+        "pick": "away",
+        "pick_team": "Denver Nuggets",
+        "my_prob": 0.6057,
+        "confidence": 61,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Aaron Gordon",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": -105,
+          "UNDER": -106,
+          "dir": "OVER",
+          "odds": -105,
+          "ev": -2.6
+        },
+        {
+          "player": "Jamal Murray",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": 120,
+          "UNDER": -136,
+          "dir": "OVER",
+          "odds": 120,
+          "ev": -3.0
+        },
+        {
+          "player": "Cam Spencer",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": 106,
+          "UNDER": -121,
+          "dir": "OVER",
+          "odds": 106,
+          "ev": -3.2
+        },
+        {
+          "player": "Jerami Grant",
+          "stat": "Points",
+          "line": 10.5,
+          "OVER": -113,
+          "UNDER": -105,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -4.1
+        },
+        {
+          "player": "Jaylen Wells",
+          "stat": "Rebounds",
+          "line": 2.5,
+          "OVER": -156,
+          "UNDER": 130,
+          "dir": "OVER",
+          "odds": -156,
+          "ev": -4.2
+        },
+        {
+          "player": "Nikola Jokic",
+          "stat": "Assists",
+          "line": 9.5,
+          "OVER": 106,
+          "UNDER": -127,
+          "dir": "OVER",
+          "odds": 106,
+          "ev": -4.3
+        },
+        {
+          "player": "Christian Braun",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": -106,
+          "UNDER": -113,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -4.3
+        },
+        {
+          "player": "Cameron Johnson",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": -116,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -116,
+          "ev": -4.5
+        }
+      ],
+      "injuries": [
+        "MEM: Isaiah Stewart Day-To-Day - Bruise",
+        "MEM: Scotty Pippen Jr. Out - Soreness",
+        "MEM: Quinten Post Out",
+        "MEM: Richie Saunders Out - Surgery",
+        "DEN: Julian Strawther Out - Sprain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909971",
+      "homeAbbr": "MIL",
+      "awayAbbr": "LAL",
+      "homeTeam": "Milwaukee Bucks",
+      "awayTeam": "Los Angeles Lakers",
+      "homeRec": {
+        "wins": 1,
+        "losses": 10,
+        "pct": 0.09090909090909091,
+        "summary": "1-10"
+      },
+      "awayRec": {
+        "wins": 10,
+        "losses": 2,
+        "pct": 0.8333333333333334,
+        "summary": "10-2"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.1429,
+        "a_prob": 0.8571,
+        "h_odds": 580,
+        "a_odds": -750,
+        "h_ev": -2.8,
+        "a_ev": -2.9,
+        "h_proj": 107,
+        "a_proj": 122,
+        "total_line": 229.5,
+        "over_odds": -105,
+        "under_odds": -115,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 6,
+        "pick": "away",
+        "pick_team": "Los Angeles Lakers",
+        "my_prob": 0.8571,
+        "confidence": 86,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Kel'el Ware",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": 104,
+          "UNDER": -115,
+          "dir": "OVER",
+          "odds": 104,
+          "ev": -2.4
+        },
+        {
+          "player": "Kyle Kuzma",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -102,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -2.8
+        },
+        {
+          "player": "Austin Reaves",
+          "stat": "Points",
+          "line": 22.5,
+          "OVER": -104,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": -104,
+          "ev": -3.3
+        },
+        {
+          "player": "Jake LaRavia",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 106,
+          "UNDER": -123,
+          "dir": "OVER",
+          "odds": 106,
+          "ev": -3.6
+        },
+        {
+          "player": "Brayden Burries",
+          "stat": "Points",
+          "line": 12.5,
+          "OVER": -119,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -119,
+          "ev": -3.7
+        },
+        {
+          "player": "Austin Reaves",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -122,
+          "UNDER": 104,
+          "dir": "OVER",
+          "odds": -122,
+          "ev": -3.8
+        },
+        {
+          "player": "Sandro Mamukelashvili",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -106,
+          "UNDER": -111,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.9
+        },
+        {
+          "player": "Jaime Jaquez Jr",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -120,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -120,
+          "ev": -3.9
+        }
+      ],
+      "injuries": [
+        "MIL: Tyler Herro Day-To-Day - Bruise",
+        "MIL: Myles Turner Out",
+        "LAL: Quentin Grimes Out"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909972",
+      "homeAbbr": "NO",
+      "awayAbbr": "BKN",
+      "homeTeam": "New Orleans Pelicans",
+      "awayTeam": "Brooklyn Nets",
+      "homeRec": {
+        "wins": 4,
+        "losses": 7,
+        "pct": 0.36363636363636365,
+        "summary": "4-7"
+      },
+      "awayRec": {
+        "wins": 2,
+        "losses": 8,
+        "pct": 0.2,
+        "summary": "2-8"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.5892,
+        "a_prob": 0.4108,
+        "h_odds": -155,
+        "a_odds": 136,
+        "h_ev": -3.1,
+        "a_ev": -3.1,
+        "h_proj": 116,
+        "a_proj": 112,
+        "total_line": 228.5,
+        "over_odds": -118,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 7,
+        "pick": "home",
+        "pick_team": "New Orleans Pelicans",
+        "my_prob": 0.5892,
+        "confidence": 59,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Michael Porter Jr",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": 142,
+          "UNDER": -157,
+          "dir": "OVER",
+          "odds": 142,
+          "ev": -2.4
+        },
+        {
+          "player": "Dejounte Murray",
+          "stat": "Assists",
+          "line": 5.5,
+          "OVER": 130,
+          "UNDER": -145,
+          "dir": "OVER",
+          "odds": 130,
+          "ev": -2.6
+        },
+        {
+          "player": "Karlo Matkovic",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -118,
+          "UNDER": 106,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -2.6
+        },
+        {
+          "player": "Day'Ron Sharpe",
+          "stat": "Rebounds",
+          "line": 7.5,
+          "OVER": -132,
+          "UNDER": 116,
+          "dir": "OVER",
+          "odds": -132,
+          "ev": -3.1
+        },
+        {
+          "player": "Dejounte Murray",
+          "stat": "Points",
+          "line": 15.5,
+          "OVER": -120,
+          "UNDER": 104,
+          "dir": "OVER",
+          "odds": -120,
+          "ev": -3.4
+        },
+        {
+          "player": "Jeremiah Fears",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -111,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -111,
+          "ev": -3.5
+        },
+        {
+          "player": "Zion Williamson",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -116,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -116,
+          "ev": -3.6
+        },
+        {
+          "player": "Julius Randle",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": -113,
+          "UNDER": -104,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -3.9
+        }
+      ],
+      "injuries": [
+        "NO: Bennedict Mathurin Out - Sprain",
+        "NO: Trey Murphy III Day-To-Day - Tendinitis",
+        "NO: Trendon Watford Out - Sprain",
+        "NO: Yves Missi Out - Bruise",
+        "BKN: Nolan Traore Out - Soreness",
+        "BKN: Mikel Brown Jr. Out - Not Specified"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909973",
+      "homeAbbr": "UTAH",
+      "awayAbbr": "ORL",
+      "homeTeam": "Utah Jazz",
+      "awayTeam": "Orlando Magic",
+      "homeRec": {
+        "wins": 1,
+        "losses": 10,
+        "pct": 0.09090909090909091,
+        "summary": "1-10"
+      },
+      "awayRec": {
+        "wins": 3,
+        "losses": 7,
+        "pct": 0.3,
+        "summary": "3-7"
+      },
+      "startTime": "10:00 PM ET",
+      "pred": {
+        "h_prob": 0.3865,
+        "a_prob": 0.6135,
+        "h_odds": 150,
+        "a_odds": -174,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 105,
+        "a_proj": 110,
+        "total_line": 214.5,
+        "over_odds": -110,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 8,
+        "pick": "away",
+        "pick_team": "Orlando Magic",
+        "my_prob": 0.6135,
+        "confidence": 61,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Anthony Black",
+          "stat": "Assists",
+          "line": 5.5,
+          "OVER": 134,
+          "UNDER": -156,
+          "dir": "OVER",
+          "odds": 134,
+          "ev": -3.5
+        },
+        {
+          "player": "Josh Green",
+          "stat": "Points",
+          "line": 6.5,
+          "OVER": -113,
+          "UNDER": -103,
+          "dir": "OVER",
+          "odds": -113,
+          "ev": -3.7
+        },
+        {
+          "player": "Franz Wagner",
+          "stat": "Points",
+          "line": 24.5,
+          "OVER": 102,
+          "UNDER": -119,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -3.7
+        },
+        {
+          "player": "Wendell Carter Jr",
+          "stat": "Rebounds",
+          "line": 8.5,
+          "OVER": -125,
+          "UNDER": 103,
+          "dir": "OVER",
+          "odds": -125,
+          "ev": -4.6
+        },
+        {
+          "player": "Ace Bailey",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -129,
+          "UNDER": 106,
+          "dir": "OVER",
+          "odds": -129,
+          "ev": -4.6
+        },
+        {
+          "player": "Jaxson Hayes",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": -124,
+          "UNDER": 102,
+          "dir": "OVER",
+          "odds": -124,
+          "ev": -4.6
+        },
+        {
+          "player": "Franz Wagner",
+          "stat": "Rebounds",
+          "line": 6.5,
+          "OVER": 118,
+          "UNDER": -144,
+          "dir": "OVER",
+          "odds": 118,
+          "ev": -4.7
+        },
+        {
+          "player": "Anthony Black",
+          "stat": "Points",
+          "line": 16.5,
+          "OVER": -111,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": -111,
+          "ev": -4.8
+        }
+      ],
+      "injuries": [
+        "UTAH: Keyonte George Day-To-Day - Sprain",
+        "UTAH: Lauri Markkanen Out - Fracture",
+        "UTAH: Jusuf Nurkic Out - Strain",
+        "UTAH: Jaren Jackson Jr. Out - Not Specified",
+        "ORL: Jamal Cain Day-To-Day - Bruise",
+        "ORL: Tristan da Silva Day-To-Day - Strain",
+        "ORL: Jalen Suggs Out",
+        "ORL: Jonathan Isaac Out - Not Specified",
+        "ORL: Paolo Banchero Out - Sprain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909974",
+      "homeAbbr": "HOU",
+      "awayAbbr": "GS",
+      "homeTeam": "Houston Rockets",
+      "awayTeam": "Golden State Warriors",
+      "homeRec": {
+        "wins": 8,
+        "losses": 3,
+        "pct": 0.7272727272727273,
+        "summary": "8-3"
+      },
+      "awayRec": {
+        "wins": 8,
+        "losses": 3,
+        "pct": 0.7272727272727273,
+        "summary": "8-3"
+      },
+      "startTime": "10:30 PM ET",
+      "pred": {
+        "h_prob": 0.698,
+        "a_prob": 0.302,
+        "h_odds": -260,
+        "a_odds": 220,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 114,
+        "a_proj": 106,
+        "total_line": 219.5,
+        "over_odds": -105,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 9,
+        "pick": "home",
+        "pick_team": "Houston Rockets",
+        "my_prob": 0.698,
+        "confidence": 70,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Kevin Durant",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": 102,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": 102,
+          "ev": -2.7
+        },
+        {
+          "player": "Alperen Sengun",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": -111,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -111,
+          "ev": -3.0
+        },
+        {
+          "player": "Jabari Smith Jr",
+          "stat": "Points",
+          "line": 14.5,
+          "OVER": 100,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": 100,
+          "ev": -3.2
+        },
+        {
+          "player": "Gui Santos",
+          "stat": "Points",
+          "line": 7.5,
+          "OVER": -102,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -3.2
+        },
+        {
+          "player": "Amen Thompson",
+          "stat": "Points",
+          "line": 15.5,
+          "OVER": -101,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -101,
+          "ev": -3.4
+        },
+        {
+          "player": "Fred VanVleet",
+          "stat": "Points",
+          "line": 11.5,
+          "OVER": -106,
+          "UNDER": -110,
+          "dir": "OVER",
+          "odds": -106,
+          "ev": -3.7
+        },
+        {
+          "player": "Yaxel Lendeborg",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -105,
+          "UNDER": -112,
+          "dir": "OVER",
+          "odds": -105,
+          "ev": -3.9
+        },
+        {
+          "player": "Tari Eason",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": -102,
+          "UNDER": -116,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -4.0
+        }
+      ],
+      "injuries": [
+        "HOU: Clint Capela Out - Sprain",
+        "HOU: Steven Adams Out - Strain",
+        "GS: Will Richard Day-To-Day",
+        "GS: Gary Payton II Out - Inflammation",
+        "GS: Brandon Williams Out - Not Specified",
+        "GS: Kristaps Porzingis Out",
+        "GS: Moses Moody Out - Surgery"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909975",
+      "homeAbbr": "POR",
+      "awayAbbr": "OKC",
+      "homeTeam": "Portland Trail Blazers",
+      "awayTeam": "Oklahoma City Thunder",
+      "homeRec": {
+        "wins": 7,
+        "losses": 3,
+        "pct": 0.7,
+        "summary": "7-3"
+      },
+      "awayRec": {
+        "wins": 8,
+        "losses": 3,
+        "pct": 0.7272727272727273,
+        "summary": "8-3"
+      },
+      "startTime": "11:00 PM ET",
+      "pred": {
+        "h_prob": 0.5679,
+        "a_prob": 0.4321,
+        "h_odds": -142,
+        "a_odds": 124,
+        "h_ev": -3.2,
+        "a_ev": -3.2,
+        "h_proj": 114,
+        "a_proj": 110,
+        "total_line": 224.5,
+        "over_odds": -108,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 10,
+        "pick": "home",
+        "pick_team": "Portland Trail Blazers",
+        "my_prob": 0.5679,
+        "confidence": 57,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Sidy Cissoko",
+          "stat": "Points",
+          "line": 8.5,
+          "OVER": -102,
+          "UNDER": 100,
+          "dir": "OVER",
+          "odds": -102,
+          "ev": -0.5
+        },
+        {
+          "player": "Kenrich Williams",
+          "stat": "Rebounds",
+          "line": 4.5,
+          "OVER": -118,
+          "UNDER": 106,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -2.6
+        },
+        {
+          "player": "Jared McCain",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": 134,
+          "UNDER": -150,
+          "dir": "OVER",
+          "odds": 134,
+          "ev": -2.7
+        },
+        {
+          "player": "Jared McCain",
+          "stat": "Points",
+          "line": 15.5,
+          "OVER": -110,
+          "UNDER": -102,
+          "dir": "OVER",
+          "odds": -110,
+          "ev": -2.8
+        },
+        {
+          "player": "Jrue Holiday",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": 112,
+          "UNDER": -127,
+          "dir": "OVER",
+          "odds": 112,
+          "ev": -3.0
+        },
+        {
+          "player": "Isaiah Hartenstein",
+          "stat": "Rebounds",
+          "line": 9.5,
+          "OVER": -118,
+          "UNDER": 101,
+          "dir": "OVER",
+          "odds": -118,
+          "ev": -3.7
+        },
+        {
+          "player": "Deni Avdija",
+          "stat": "Assists",
+          "line": 6.5,
+          "OVER": -114,
+          "UNDER": -103,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -3.9
+        },
+        {
+          "player": "Isaiah Hartenstein",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": 122,
+          "UNDER": -144,
+          "dir": "OVER",
+          "odds": 122,
+          "ev": -3.9
+        }
+      ],
+      "injuries": [
+        "POR: Chris Youngblood Out - Bruise",
+        "POR: Vit Krejci Out",
+        "POR: Ja Morant Out - Not Specified",
+        "POR: Shaedon Sharpe Out - Surgery",
+        "OKC: Jaylin Williams Out - Spasms",
+        "OKC: Ajay Mitchell Out",
+        "OKC: Thomas Sorber Out",
+        "OKC: Cason Wallace Out - Surgery",
+        "OKC: Chet Holmgren Out"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
