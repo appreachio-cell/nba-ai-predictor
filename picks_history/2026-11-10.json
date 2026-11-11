@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909960",
@@ -136,8 +136,8 @@
         "MIL: Tyler Herro Day-To-Day - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIL 85\u2013117 NY",
       "tot_result": null
     },
     {
@@ -274,8 +274,8 @@
         "PHI: Ariel Hukporti Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 123\u2013101 PHI",
       "tot_result": null
     },
     {
@@ -334,8 +334,8 @@
         "LAC: Jordan Miller Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAC 110\u2013133 PHX",
       "tot_result": null
     },
     {
@@ -474,8 +474,8 @@
         "MIA: Giannis Antetokounmpo Day-To-Day - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIA 115\u2013109 UTAH",
       "tot_result": null
     },
     {
@@ -616,8 +616,8 @@
         "ORL: Noah Penda Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ORL 107\u2013100 SAC",
       "tot_result": null
     },
     {
@@ -759,8 +759,8 @@
         "OKC: Jalen Williams Out - Fracture"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "OKC 103\u2013123 POR",
       "tot_result": null
     }
   ]
