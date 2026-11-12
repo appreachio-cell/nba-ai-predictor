@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909966",
@@ -141,8 +141,8 @@
         "WSH: Jamir Watkins Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "WSH 101\u2013114 IND",
       "tot_result": null
     },
     {
@@ -280,8 +280,8 @@
         "CLE: Jaylon Tyson Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "CLE 115\u2013107 NY",
       "tot_result": null
     },
     {
@@ -421,8 +421,8 @@
         "BOS: Paul George Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 98\u201393 TOR",
       "tot_result": null
     },
     {
@@ -563,8 +563,8 @@
         "SA: Jayden Quaintance Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SA 124\u2013119 CHI",
       "tot_result": null
     },
     {
@@ -703,8 +703,8 @@
         "DEN: Julian Strawther Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DEN 123\u2013118 MEM",
       "tot_result": null
     },
     {
@@ -841,8 +841,8 @@
         "LAL: Quentin Grimes Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAL 123\u2013112 MIL",
       "tot_result": null
     },
     {
@@ -982,8 +982,8 @@
         "BKN: Mikel Brown Jr. Out - Not Specified"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "BKN 145\u2013111 NO",
       "tot_result": null
     },
     {
@@ -1126,8 +1126,8 @@
         "ORL: Paolo Banchero Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ORL 123\u2013108 UTAH",
       "tot_result": null
     },
     {
@@ -1268,8 +1268,8 @@
         "GS: Moses Moody Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "GS 108\u2013115 HOU",
       "tot_result": null
     },
     {
@@ -1412,8 +1412,8 @@
         "OKC: Chet Holmgren Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "OKC 108\u2013118 POR",
       "tot_result": null
     }
   ]
