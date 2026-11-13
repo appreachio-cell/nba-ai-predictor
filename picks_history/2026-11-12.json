@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909976",
@@ -142,8 +142,8 @@
         "TOR: Nate Bittle Out - Fracture"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "TOR 112\u2013123 PHI",
       "tot_result": null
     },
     {
@@ -284,8 +284,8 @@
         "DET: Jalen Duren Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DET 144\u2013140 WSH",
       "tot_result": null
     },
     {
@@ -425,8 +425,8 @@
         "DAL: Morez Johnson Jr. Day-To-Day - Bruise"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DAL 94\u2013133 MIN",
       "tot_result": null
     },
     {
@@ -564,8 +564,8 @@
         "CHA: Dennis Schroder Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHA 96\u2013101 PHX",
       "tot_result": null
     }
   ]
