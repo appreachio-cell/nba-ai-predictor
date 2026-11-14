@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909296",
@@ -138,8 +138,8 @@
         "IND: Ben Sheppard Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "NY 104\u2013106 IND",
       "tot_result": null
     },
     {
@@ -278,8 +278,8 @@
         "ORL: Paolo Banchero Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MIL 99\u2013107 ORL",
       "tot_result": null
     },
     {
@@ -417,8 +417,8 @@
         "CLE: Sam Merrill Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CLE 121\u2013133 MIA",
       "tot_result": null
     },
     {
@@ -561,8 +561,8 @@
         "ATL: Henri Veesaar Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "ATL 117\u2013125 CHI",
       "tot_result": null
     },
     {
@@ -705,8 +705,8 @@
         "MEM: Richie Saunders Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MEM 142\u2013111 NO",
       "tot_result": null
     },
     {
@@ -847,8 +847,8 @@
         "UTAH: Jaren Jackson Jr. Out - Not Specified"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "UTAH 118\u2013125 HOU",
       "tot_result": null
     },
     {
@@ -991,8 +991,8 @@
         "GS: Moses Moody Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "GS 85\u2013123 SA",
       "tot_result": null
     },
     {
@@ -1133,8 +1133,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "POR 120\u2013107 SAC",
       "tot_result": null
     },
     {
@@ -1196,8 +1196,8 @@
         "OKC: Chet Holmgren Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "OKC 112\u2013113 LAC",
       "tot_result": null
     }
   ]
