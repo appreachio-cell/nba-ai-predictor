@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909980",
@@ -139,8 +139,8 @@
         "DEN: Julian Strawther Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DEN 116\u2013108 NO",
       "tot_result": null
     },
     {
@@ -284,8 +284,8 @@
         "DAL: Sergio de Larrea Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DAL 117\u2013127 CLE",
       "tot_result": null
     },
     {
@@ -425,8 +425,8 @@
         "DET: Jalen Duren Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DET 117\u2013137 MIA",
       "tot_result": null
     },
     {
@@ -567,8 +567,8 @@
         "BKN: Nolan Traore Day-To-Day - Soreness"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BKN 110\u2013129 MEM",
       "tot_result": null
     },
     {
@@ -709,8 +709,8 @@
         "CHI: Caleb Wilson Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "CHI 117\u2013106 MIN",
       "tot_result": null
     }
   ]
