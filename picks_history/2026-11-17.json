@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401910002",
@@ -136,8 +136,8 @@
         "TOR: Kevin McCullar Jr. Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NY 111\u2013102 TOR",
       "tot_result": null
     },
     {
@@ -281,8 +281,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "POR 105\u2013106 MIN",
       "tot_result": null
     },
     {
@@ -423,8 +423,8 @@
         "DET: Jalen Duren Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DET 105\u201393 SA",
       "tot_result": null
     },
     {
@@ -485,8 +485,8 @@
         "UTAH: Jaren Jackson Jr. Out - Not Specified"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "UTAH 132\u2013107 LAC",
       "tot_result": null
     },
     {
@@ -624,8 +624,8 @@
         "CHA: Dennis Schroder Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHA 114\u2013118 LAL",
       "tot_result": null
     }
   ]
