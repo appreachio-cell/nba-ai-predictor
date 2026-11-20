@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401910019",
@@ -143,8 +143,8 @@
         "GS: Kristaps Porzingis Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "GS 98\u2013126 MEM",
       "tot_result": null
     },
     {
@@ -286,8 +286,8 @@
         "POR: Vit Krejci Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "POR 124\u2013114 MIL",
       "tot_result": null
     },
     {
@@ -425,8 +425,8 @@
         "MIN: Donte DiVincenzo Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NY 102\u201399 MIN",
       "tot_result": null
     },
     {
@@ -485,8 +485,8 @@
         "LAC: Jordan Miller Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAC 112\u2013124 SA",
       "tot_result": null
     }
   ]
