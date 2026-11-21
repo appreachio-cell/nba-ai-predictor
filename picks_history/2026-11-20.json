@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909305",
@@ -142,8 +142,8 @@
         "CHA: Dennis Schroder Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "CHA 97\u2013111 ATL",
       "tot_result": null
     },
     {
@@ -282,8 +282,8 @@
         "ORL: Paolo Banchero Out - Sprain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "ORL 113\u2013111 BKN",
       "tot_result": null
     },
     {
@@ -426,8 +426,8 @@
         "IND: Johnny Furphy Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "IND 119\u2013128 CLE",
       "tot_result": null
     },
     {
@@ -570,8 +570,8 @@
         "TOR: Nate Bittle Out - Fracture"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "TOR 105\u2013102 DET",
       "tot_result": null
     },
     {
@@ -714,8 +714,8 @@
         "WSH: Jamir Watkins Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "WSH 98\u201394 CHI",
       "tot_result": null
     },
     {
@@ -859,8 +859,8 @@
         "NO: Dejounte Murray Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NO 120\u2013126 OKC",
       "tot_result": null
     },
     {
@@ -998,8 +998,8 @@
         "PHX: Mark Williams Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "PHX 111\u2013101 UTAH",
       "tot_result": null
     },
     {
@@ -1137,8 +1137,8 @@
         "HOU: Alperen Sengun Day-To-Day"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "HOU 124\u2013133 DEN",
       "tot_result": null
     },
     {
@@ -1277,8 +1277,8 @@
         "SAC: Ben Simmons Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "SAC 104\u2013106 LAL",
       "tot_result": null
     }
   ]
