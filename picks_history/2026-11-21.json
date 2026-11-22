@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401910024",
@@ -141,8 +141,8 @@
         "POR: Shaedon Sharpe Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "POR 96\u201397 NY",
       "tot_result": null
     },
     {
@@ -203,8 +203,8 @@
         "LAC: Jordan Miller Out - Surgery"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "LAC 100\u2013110 DAL",
       "tot_result": null
     },
     {
@@ -346,8 +346,8 @@
         "MEM: Scotty Pippen Jr. Out - Soreness"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "MEM 95\u2013104 MIN",
       "tot_result": null
     },
     {
@@ -489,8 +489,8 @@
         "NO: Dejounte Murray Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "NO 91\u2013114 SA",
       "tot_result": null
     },
     {
@@ -630,8 +630,8 @@
         "BOS: Jayson Tatum Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "BOS 96\u201397 SAC",
       "tot_result": null
     }
   ]
