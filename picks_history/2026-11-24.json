@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-24",
+  "graded": false,
+  "games": [
+    {
+      "espn_id": "401909314",
+      "homeAbbr": "ORL",
+      "awayAbbr": "DET",
+      "homeTeam": "Orlando Magic",
+      "awayTeam": "Detroit Pistons",
+      "homeRec": {
+        "wins": 7,
+        "losses": 9,
+        "pct": 0.4375,
+        "summary": "7-9"
+      },
+      "awayRec": {
+        "wins": 10,
+        "losses": 6,
+        "pct": 0.625,
+        "summary": "10-6"
+      },
+      "startTime": "8:00 PM ET",
+      "pred": {
+        "h_prob": 0.4639,
+        "a_prob": 0.5361,
+        "h_odds": 108,
+        "a_odds": -125,
+        "h_ev": -3.5,
+        "a_ev": -3.5,
+        "h_proj": 106,
+        "a_proj": 108,
+        "total_line": 213.5,
+        "over_odds": -110,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 1,
+        "pick": "away",
+        "pick_team": "Detroit Pistons",
+        "my_prob": 0.5361,
+        "confidence": 54,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [
+        {
+          "player": "Desmond Bane",
+          "stat": "Points",
+          "line": 17.5,
+          "OVER": -114,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -6.1
+        },
+        {
+          "player": "Kevin Huerter",
+          "stat": "Rebounds",
+          "line": 3.5,
+          "OVER": -114,
+          "UNDER": -114,
+          "dir": "OVER",
+          "odds": -114,
+          "ev": -6.1
+        },
+        {
+          "player": "Jalen Suggs",
+          "stat": "Assists",
+          "line": 3.5,
+          "OVER": -140,
+          "UNDER": 106,
+          "dir": "OVER",
+          "odds": -140,
+          "ev": -6.4
+        },
+        {
+          "player": "Ausar Thompson",
+          "stat": "Assists",
+          "line": 4.5,
+          "OVER": 122,
+          "UNDER": -162,
+          "dir": "OVER",
+          "odds": 122,
+          "ev": -6.4
+        },
+        {
+          "player": "Desmond Bane",
+          "stat": "Assists",
+          "line": 2.5,
+          "OVER": -140,
+          "UNDER": 106,
+          "dir": "OVER",
+          "odds": -140,
+          "ev": -6.4
+        },
+        {
+          "player": "Anthony Black",
+          "stat": "Points",
+          "line": 14.5,
+          "OVER": -108,
+          "UNDER": -122,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -6.4
+        },
+        {
+          "player": "Daniss Jenkins",
+          "stat": "Points",
+          "line": 15.5,
+          "OVER": -108,
+          "UNDER": -122,
+          "dir": "OVER",
+          "odds": -108,
+          "ev": -6.4
+        },
+        {
+          "player": "Cade Cunningham",
+          "stat": "Rebounds",
+          "line": 5.5,
+          "OVER": 112,
+          "UNDER": -148,
+          "dir": "OVER",
+          "odds": 112,
+          "ev": -6.4
+        }
+      ],
+      "injuries": [
+        "ORL: Jonathan Isaac Out - Not Specified",
+        "ORL: Izaiyah Nelson Out - Surgery",
+        "ORL: Noah Penda Out - Strain",
+        "ORL: Paolo Banchero Out - Sprain",
+        "DET: Ebuka Okorie Out - Strain",
+        "DET: Jalen Duren Out - Strain",
+        "DET: Cade Cunningham Day-To-Day",
+        "DET: Taurean Prince Out - Surgery",
+        "DET: Duncan Robinson Out - Strain"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909315",
+      "homeAbbr": "WSH",
+      "awayAbbr": "BOS",
+      "homeTeam": "Washington Wizards",
+      "awayTeam": "Boston Celtics",
+      "homeRec": {
+        "wins": 7,
+        "losses": 11,
+        "pct": 0.3888888888888889,
+        "summary": "7-11"
+      },
+      "awayRec": {
+        "wins": 11,
+        "losses": 6,
+        "pct": 0.6470588235294118,
+        "summary": "11-6"
+      },
+      "startTime": "9:00 PM ET",
+      "pred": {
+        "h_prob": 0.2099,
+        "a_prob": 0.7901,
+        "h_odds": 360,
+        "a_odds": -450,
+        "h_ev": -3.4,
+        "a_ev": -3.4,
+        "h_proj": 102,
+        "a_proj": 114,
+        "total_line": 216.5,
+        "over_odds": -105,
+        "under_odds": -110,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 2,
+        "pick": "away",
+        "pick_team": "Boston Celtics",
+        "my_prob": 0.7901,
+        "confidence": 79,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "WSH: Tristan Vukcevic Out - Pinched Nerve",
+        "WSH: Reece Beekman Out",
+        "WSH: Justin Champagnie Out - Not Specified",
+        "WSH: Jamir Watkins Out - Surgery",
+        "BOS: Mitchell Robinson Out"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    },
+    {
+      "espn_id": "401909316",
+      "homeAbbr": "DEN",
+      "awayAbbr": "DAL",
+      "homeTeam": "Denver Nuggets",
+      "awayTeam": "Dallas Mavericks",
+      "homeRec": {
+        "wins": 10,
+        "losses": 5,
+        "pct": 0.6666666666666666,
+        "summary": "10-5"
+      },
+      "awayRec": {
+        "wins": 10,
+        "losses": 7,
+        "pct": 0.5882352941176471,
+        "summary": "10-7"
+      },
+      "startTime": "11:00 PM ET",
+      "pred": {
+        "h_prob": 0.7358,
+        "a_prob": 0.2642,
+        "h_odds": -322,
+        "a_odds": 265,
+        "h_ev": -3.6,
+        "a_ev": -3.6,
+        "h_proj": 121,
+        "a_proj": 110,
+        "total_line": 231.5,
+        "over_odds": -110,
+        "under_odds": -105,
+        "prob_source": "odds"
+      },
+      "ai": {
+        "game": 3,
+        "pick": "home",
+        "pick_team": "Denver Nuggets",
+        "my_prob": 0.7358,
+        "confidence": 74,
+        "reasoning": "Model pick (OpenRouter unavailable).",
+        "edge_found": false,
+        "total_lean": null,
+        "total_confidence": null,
+        "total_reason": "",
+        "prop_picks": []
+      },
+      "props": [],
+      "injuries": [
+        "DAL: Tobi Lawal Out",
+        "DAL: P.J. Washington Day-To-Day",
+        "DAL: Dereck Lively II Out - Surgery",
+        "DAL: Sergio de Larrea Out - Strain",
+        "DAL: Tarik Biberovic Out - Inflammation"
+      ],
+      "prop_picks": [],
+      "result": null,
+      "result_score": null,
+      "tot_result": null
+    }
+  ]
+}
