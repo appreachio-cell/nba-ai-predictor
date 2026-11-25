@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "graded": false,
+  "graded": true,
   "games": [
     {
       "espn_id": "401909314",
@@ -142,8 +142,8 @@
         "DET: Duncan Robinson Out - Strain"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "DET 104\u201386 ORL",
       "tot_result": null
     },
     {
@@ -201,8 +201,8 @@
         "BOS: Mitchell Robinson Out"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "W",
+      "result_score": "BOS 131\u2013116 WSH",
       "tot_result": null
     },
     {
@@ -260,8 +260,8 @@
         "DAL: Tarik Biberovic Out - Inflammation"
       ],
       "prop_picks": [],
-      "result": null,
-      "result_score": null,
+      "result": "L",
+      "result_score": "DAL 120\u2013101 DEN",
       "tot_result": null
     }
   ]
